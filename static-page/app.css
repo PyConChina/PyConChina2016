@@ -67,8 +67,25 @@
       margin-left: auto;
       margin-right: auto;
     }
+
     .ui.center.aligned.header.speakers {
       margin-bottom: 1.5em;
+    }
+
+    .ui.center.aligned.header.sponsors {
+        margin-top: 1.0em;
+        margin-bottom: 1.0em;
+    }
+
+    .ui.images.sponsors img {
+        filter: gray;
+        -webkit-filter: grayscale(100%);
+        -webkit-backface-visibility: hidden;
+    }
+    .ui.images.sponsors img:hover {
+        filter: none;
+        -webkit-filter: none;
+        -webkit-backface-visibility: hidden;
     }
 
     @media only screen and (max-width: 700px) {
