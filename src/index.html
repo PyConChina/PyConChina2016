@@ -1,11 +1,170 @@
-{% extends "_base.html" %}
-{% block body %}
-<h1>Hello world!</h1>
-<p>This is an example web page.</p>
-<h3>Knights of the Round Table</h3>
-<ul>
-	{% for knight in knights %}
-	<li>{{ knight }}</li>
-	{% endfor %}
-</ul>
+{% extends "base/_base.html" %}
+
+{% import 'base/_nav_macro.html' as nav_macro %}
+
+{% set page_title = message.page_title_index %}
+
+{% block content %}
+
+<div class="ui inverted vertical masthead center aligned segment">
+
+  <div class="ui container">
+    <div class="ui large secondary inverted pointing menu">
+      <a class="toc item">
+        <i class="sidebar icon"></i>
+      </a>
+      {% for nav_item in nav %}
+        {{ nav_macro.nav_a(site, nav_item) }}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="ui text container">
+    <h1 class="ui inverted header">
+      PyCon 2016 China
+    </h1>
+    <h2>人生苦短, 我用Python</h2>
+  </div>
+
+</div>
+
+<div class="ui vertical stripe segment">
+  <div class="ui center aligned stackable grid container">
+    <div class="row">
+      <div class="eight wide column">
+        <h3 class="ui header">PyCon是什么</h3>
+        <p>
+          PyCon大会就是现在相当火的开源编程语言Python的全球性的盛会，PyConChina 是由 CPyUG(华蠎用户组)获得授权举办的中国PyCon年会. 迄今已是第五届, 由PyChina.org发起,CPyUG/TopGeek 等社区协同,在2015年 9月12日（上海），9月13日（广州），9月19日（北京）分别举办; 无论您偏好哪种编程语言, 都欢迎来参加这场完全由Python中国社区组织的欢乐集会！
+        </p>
+      </div>
+      {% macro agenda_link(city) %}
+        <div class="step">
+          <i class="{{ 'remove from calendar' if city.completed else 'in cart' }} icon"></i>
+          <div class="content">
+            <div class="title">{{ city.name }}</div>
+            <div class="description">{{ city.date }}</div>
+          </div>
+        </div>
+      {% endmacro %}
+
+      <div class="six wide right floated column">
+        <div class="ui vertical steps">
+          {% for city_name in agenda.city_list %}
+            {{ agenda_link(agenda[city_name]) }}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="center aligned column">
+        <a class="ui huge button">{{ message.home_booking }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui vertical stripe quote segment" style="background-color: #f2f3f4;">
+  <div class="ui equal width stackable internally celled grid">
+    <div class="center aligned row">
+      <div class="column">
+        <h3>"What a Company"</h3>
+        <p>That is what they all say about us</p>
+      </div>
+      <div class="column">
+        <h3>"I shouldn't have gone with their competitor."</h3>
+        <p>
+          <img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 赞助商 -->
+<div class="ui vertical stripe center aligned segment">
+
+  {% macro sponsor_block(sponsor_meta, sponsor_list) %}
+    <div class="ui text container">
+      <h3 class="ui center aligned header sponsors">{{ sponsor_meta.name }}</h3>
+    </div>
+    <div class="ui container">
+      <div class="ui small images sponsors">
+        {% for sponsor_info in sponsor_list %}
+          <a href="{{ sponsor_info.link }}" target="_blank">
+            <img class="ui image" src="{{ sponsor_info.logo }}">
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endmacro %}
+
+  {% for sponsor_meta in sponsors.meta %}
+    {{ sponsor_block(sponsor_meta, sponsors[sponsor_meta.level]) }}
+  {% endfor %}
+
+</div>
+
+
+{% macro speaker_block(city, speaker_list) %}
+  <div class="ui vertical stripe center aligned segment">
+    <div class="ui text container">
+      <h3 class="ui center aligned header speakers">{{ city }}</h3>
+    </div>
+
+    <div class="ui container">
+      {% set speaker_list_len = speaker_list | length %}
+      {% for i in range(0, speaker_list_len, 3) %}
+        <div class="ui link cards speakers">
+
+          <!-- 每行显示3个讲师 -->
+          {% for j in range(0, 3 if speaker_list_len - i > 3 else speaker_list_len - i) %}
+            {% set cur_speaker = speaker_list[i + j] %}
+            <div class="ui centered card">
+              <div class="image">
+                <img src="{{ cur_speaker.avatar }}">
+              </div>
+              <div class="content">
+                <div class="header">{{ cur_speaker.name }}</div>
+                <div class="meta">
+                  <a>Friends</a>
+                </div>
+                <div class="description">
+                  {{ cur_speaker.intro }}
+                </div>
+              </div>
+            </div> <!-- ./演讲嘉宾 -->
+          {% endfor %}
+
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endmacro %}
+
+{{ speaker_block('北京', selectspeakers(speakers, 'beijing')) }}
+{{ speaker_block('北京', selectspeakers(speakers, 'shanghai')) }}
+
+
+<!-- 蠎人赞助 -->
+<div class="ui vertical stripe center aligned segment" style="background-color: #f2f3f4;">
+
+  <div class="ui text container">
+    <h3 class="ui center aligned header pythoners">蠎人赞助</h3>
+  </div>
+
+  <!-- TODO: 头像放到CDN -->
+
+  <div class="ui container pythoners">
+    {% for donator in donators %}
+      <a class="ui image label">
+        <img src="/asset/images/avatar/small/{{ loop.cycle('1', '2', '3') }}.jpg">
+        {{ donator}}
+      </a>
+    {% endfor %}
+  </div>
+
+</div>
+
+
 {% endblock %}

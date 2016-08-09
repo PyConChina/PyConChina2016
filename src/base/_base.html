@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}" class="browser-modern">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% if page_description %}<meta name="description" content="{{ page_description }}">{% endif %}
+  {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
+  {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
+
+  <link rel="shortcut icon" href="{{ site.base_url }}/asset/img/favicon.ico{{ cachebuster_qs }}">
+
+  <link rel="stylesheet" type="text/css" href="http://cdn.staticfile.org/semantic-ui/2.1.6/semantic.min.css" />
+  {% assets "app_css" %}
+  <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}" />
+  {% endassets %}
+
+  <title>{{ page_title }} - PyCon 2015 China</title>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+{% include "base/_nav.html" %}
+
+<div class="pusher header">
+  {% block content %}{% endblock %}
+  {% include "base/_footer.html" %}
+</div>
+
+<script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/semantic-ui/2.1.6/semantic.min.js"></script>
+
+{% assets "app_js" %}
+<script type="text/javascript" src="{{ ASSET_URL }}"></script>
+{% endassets %}
+
+{% block js_block %}{% endblock %}
+
+{% include "base/_ga.html" %}
+</body>
+</html>

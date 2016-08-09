@@ -92,3 +92,4 @@ ENV/
 # js/css 采用工具生成, 不加入版本控制
 src/asset/js/
 src/asset/css/
+src/asset/webassets-external/

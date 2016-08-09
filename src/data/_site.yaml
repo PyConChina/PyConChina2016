@@ -1,0 +1,9 @@
+name: PyConChina2016
+description: Python中国2016大会官方网站
+description_en: The official site for PyCon China 2016
+author: support@PyChina.org
+url: http://cn.pycon.org/2016/
+home_url: "./"
+home_url_en: "./en/"
+base_url: "."
+base_url_en: ".."
