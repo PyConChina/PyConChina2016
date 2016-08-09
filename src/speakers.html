@@ -1,0 +1,15 @@
+{% extends "base/_base.html" %}
+
+{% import 'base/_speaker_macro.html' as speaker_macro %}
+
+{% set page_title = message.page_title_speakers %}
+
+{% block content %}
+
+
+{% for city in agenda.city_list %}
+  {{ speaker_macro.speaker_block(agenda[city].name, selectspeakers(speakers, city)) }}
+{% endfor %}
+
+
+{% endblock %}

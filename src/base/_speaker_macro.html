@@ -1,0 +1,32 @@
+{% macro speaker_block(city, speaker_list) %}
+<div class="ui vertical stripe center aligned segment">
+  <div class="ui text container">
+    <h3 class="ui center aligned header speakers">{{ city }}讲师</h3>
+  </div>
+
+  <div class="ui container">
+    {% set speaker_list_len = speaker_list | length %}
+    {% for i in range(0, speaker_list_len, 3) %}
+    <div class="ui link cards speakers">
+
+      <!-- 每行显示3个讲师 -->
+      {% for j in range(0, 3 if speaker_list_len - i > 3 else speaker_list_len - i) %}
+      {% set cur_speaker = speaker_list[i + j] %}
+      <div class="ui centered card">
+        <div class="image">
+          <img src="{{ cur_speaker.avatar }}">
+        </div>
+        <div class="content">
+          <div class="header">{{ cur_speaker.name }}</div>
+          <div class="description">
+            {{ cur_speaker.intro }}
+          </div>
+        </div>
+      </div> <!-- ./演讲嘉宾 -->
+      {% endfor %}
+
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endmacro %}

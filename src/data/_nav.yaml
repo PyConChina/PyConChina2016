@@ -1,7 +1,11 @@
+- title: PyConChina2016
+  title_en: PyConChina2015
+  url: "index.html"
+  url_en: "en/index.html"
 - title: 讲师
   title_en: SPEECH
-  url: "speechmaker.html"
-  url_en: "en/speechmaker.html"
+  url: "speakers.html"
+  url_en: "en/speakers.html"
 - title: 赞助
   title_en: SUPPORT
   url: "support.html"

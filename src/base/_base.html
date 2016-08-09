@@ -28,7 +28,32 @@
 
 {% include "base/_nav.html" %}
 
+{% import 'base/_nav_macro.html' as nav_macro %}
+
 <div class="pusher header">
+
+  <div class="ui inverted vertical masthead center aligned segment">
+
+    <div class="ui container">
+      <div class="ui large secondary inverted pointing menu">
+        <a class="toc item">
+          <i class="sidebar icon"></i>
+        </a>
+        {% for nav_item in nav %}
+        {{ nav_macro.nav_a(site, nav_item) }}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="ui text container">
+      <h1 class="ui inverted header">
+        PyCon 2016 China
+      </h1>
+      <h2>人生苦短, 我用Python</h2>
+    </div>
+
+  </div>
+
   {% block content %}{% endblock %}
   {% include "base/_footer.html" %}
 </div>
