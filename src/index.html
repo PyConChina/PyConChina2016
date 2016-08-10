@@ -85,6 +85,7 @@
 
 
 <!-- 讲师 -->
+<!-- FIXME: DRY -->
 {% for city in agenda.city_list %}
   {% set speaker_city = agenda[city].name + message.speakers %}
   {{ speaker_macro.speaker_block(speaker_city, selectspeakers(speakers, city)) }}
@@ -92,6 +93,7 @@
 
 
 <!-- 蠎人赞助 -->
+<!-- FIXME: DRY -->
 <div class="ui vertical stripe center aligned segment" style="background-color: #f2f3f4;">
 
   <div class="ui text container">

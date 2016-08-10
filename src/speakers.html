@@ -7,6 +7,7 @@
 {% block content %}
 
 
+<!-- FIXME: DRY -->
 {% for city in agenda.city_list %}
   {% set speaker_city = agenda[city].name + message.speakers %}
   {{ speaker_macro.speaker_block(speaker_city, selectspeakers(speakers, city)) }}
