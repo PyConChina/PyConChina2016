@@ -24,6 +24,14 @@ from .utils import mkdirp, prompt_invalid_attr, prompt_render_html
 log = logging.getLogger('webassets')
 
 
+data_mtimes = {}
+data_pattern = re.compile("_(\w+)\.yaml")
+data_contexts = {
+    'cn': {'lang': 'cn', 'lang_suffix': '_cn', 'lang_dir': ''},
+    'en': {'lang': 'en', 'lang_suffix': '_en', 'lang_dir': 'en'},
+}
+
+
 # HACK: 当 js/css 变化时, 强制重新渲染
 def event_handler(self, event_type, src_path):
     filename = relpath(src_path, self.searchpath)
@@ -33,6 +41,9 @@ def event_handler(self, event_type, src_path):
             files = self.site.get_dependencies(filename)
             self.site.copy_static(files)
             # js/css变化时, 强制重新渲染
+            self.site.render_templates(self.site.templates)
+        elif data_pattern.match(filename):
+            # 数据文件变动时, 重新渲染
             self.site.render_templates(self.site.templates)
         else:
             templates = self.site.get_dependencies(filename)
@@ -57,14 +68,6 @@ SITE_DIR = join(PROJECT_ROOT_DIR, 'public')
 # webassets 输出根目录, 要输出到 SITE_SRC_DIR, 以便 staticjinja 监控文件变化
 SITE_ASSET_DIR = join(SITE_SRC_DIR, 'asset')
 REL_SITE_ASSET_DIR = 'asset'
-
-
-data_mtimes = {}
-data_pattern = re.compile("_(\w+)\.yaml")
-data_contexts = {
-    'cn': {'lang': 'cn', 'lang_suffix': '_cn', 'lang_dir': ''},
-    'en': {'lang': 'en', 'lang_suffix': '_en', 'lang_dir': 'en'},
-}
 
 
 def _sp_printlog(msg):

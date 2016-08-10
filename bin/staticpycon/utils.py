@@ -2,7 +2,9 @@
 
 from __future__ import unicode_literals, print_function
 
+import datetime
 import errno
+import itertools
 import logging
 import os
 
@@ -23,6 +25,7 @@ _PROMPT_FMT_INVALID_ATTR = (
 _PROMPT_FMT_HTML = (
     colorama.Style.DIM +
     colorama.Fore.CYAN +
+    '[%s] ' +
     'html ' +
     colorama.Fore.GREEN +
     '[%s] ' +
@@ -30,6 +33,10 @@ _PROMPT_FMT_HTML = (
     colorama.Style.RESET_ALL +
     '%s'
 )
+
+
+def now_str():
+    return datetime.datetime.now().strftime('%H:%M:%S')
 
 
 # http://stackoverflow.com/a/600612/596531
@@ -55,4 +62,6 @@ def prompt_invalid_attr(fmts):
 
 
 def prompt_render_html(fmts):
+    assert isinstance(fmts, list) or isinstance(fmts, tuple)
+    fmts = tuple(itertools.chain([now_str()], fmts))
     print(_PROMPT_FMT_HTML % fmts)

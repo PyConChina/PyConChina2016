@@ -35,6 +35,11 @@ home_sponsors_en: Sponsors
 home_booking: 立即预定
 home_booking_en: Booking Now
 #########################################
+# speakers
+#########################################
+speakers: 讲师
+speakers_en: ' Speakers'
+#########################################
 # schedule
 #########################################
 ipynb: IP[y]:Nb

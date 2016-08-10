@@ -84,8 +84,10 @@
 </div>
 
 
+<!-- 讲师 -->
 {% for city in agenda.city_list %}
-  {{ speaker_macro.speaker_block(agenda[city].name, selectspeakers(speakers, city)) }}
+  {% set speaker_city = agenda[city].name + message.speakers %}
+  {{ speaker_macro.speaker_block(speaker_city, selectspeakers(speakers, city)) }}
 {% endfor %}
 
 
