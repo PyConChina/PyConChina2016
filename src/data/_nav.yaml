@@ -31,6 +31,27 @@
   url_en: "en/volunteers.html"
 - title: 往届
   title_en: HISTORY
+  children:
+  - title: 2011
+    title_en: 2011
+    url: "http://cn.pycon.org/2011/"
+    url_en: "http://cn.pycon.org/2011/"
+  - title: 2012
+    title_en: 2012
+    url: "http://cn.pycon.org/2012/"
+    url_en: "http://cn.pycon.org/2012/"
+  - title: 2013
+    title_en: 2013
+    url: "http://cn.pycon.org/2013/"
+    url_en: "http://cn.pycon.org/2013/"
+  - title: 2014
+    title_en: 2014
+    url: "http://cn.pycon.org/2014/"
+    url_en: "http://cn.pycon.org/2014/en/index.html"
+  - title: 2015
+    title_en: 2015
+    url: "http://cn.pycon.org/2015/"
+    url_en: "http://cn.pycon.org/2015/en/index.html"
 - title: EN
   title_en: 中文
   url: "en/index.html"
