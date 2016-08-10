@@ -40,7 +40,19 @@
           <i class="sidebar icon"></i>
         </a>
         {% for nav_item in nav %}
+        {% if nav_item.children %}
+        <div class="ui dropdown item">
+          {{ nav_item.title }}
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            {% for sub_nav_item in nav_item.children %}
+            {{ nav_macro.nav_a(site, sub_nav_item) }}
+            {% endfor %}
+          </div>
+        </div>
+        {% else %}
         {{ nav_macro.nav_a(site, nav_item) }}
+        {% endif %}
         {% endfor %}
       </div>
     </div>

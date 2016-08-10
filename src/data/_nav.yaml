@@ -8,8 +8,19 @@
   url_en: "en/speakers.html"
 - title: 赞助
   title_en: SUPPORT
-  url: "support.html"
-  url_en: "en/support.html"
+  children:
+  - title: 厂商
+    title_en: SPONSORS
+    url: "sponsor_com.html"
+    url_en: "en/sponsor_com.html"
+  - title: T裇
+    title_en: TEE
+    url: "tshirt.html"
+    url_en: "en/tshirt.html"
+  - title: 私人
+    title_en: DONATOR
+    url: "donators.html"
+    url_en: "en/donators.html"
 - title: 日程
   title_en: SCHEDULE
   url: "schedule.html"

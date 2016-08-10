@@ -5,3 +5,34 @@
     <a class="item" href="{{ site.base_url }}/{{ nav_item.url }}">{{ nav_item.title }}</a>
   {% endif %}
 {% endmacro %}
+
+
+{% macro nav_menu(site, nav) %}
+  {% for nav_item in nav %}
+    {% if nav_item.children %}
+      <div class="ui dropdown item">
+        {{ nav_item.title }}
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          {% for sub_nav_item in nav_item.children %}
+            {{ nav_a(site, sub_nav_item) }}
+          {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      {{ nav_a(site, nav_item) }}
+    {% endif %}
+  {% endfor %}
+{% endmacro %}
+
+{% macro sidebar_nav_menu(site, nav) %}
+  {% for nav_item in nav %}
+    {% if nav_item.children %}
+        {% for sub_nav_item in nav_item.children %}
+          {{ nav_a(site, sub_nav_item) }}
+        {% endfor %}
+    {% else %}
+      {{ nav_a(site, nav_item) }}
+    {% endif %}
+  {% endfor %}
+{% endmacro %}

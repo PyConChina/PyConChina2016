@@ -3,15 +3,11 @@
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
   <div class="ui container">
-    {% for nav_item in nav %}
-      {{ nav_macro.nav_a(site, nav_item) }}
-    {% endfor %}
+    {{ nav_macro.nav_menu(site, nav) }}
   </div>
 </div>
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-  {% for nav_item in nav %}
-    {{ nav_macro.nav_a(site, nav_item) }}
-  {% endfor %}
+  {{ nav_macro.sidebar_nav_menu(site, nav) }}
 </div>
