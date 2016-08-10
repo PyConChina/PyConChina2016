@@ -10,3 +10,10 @@ virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+开发模式(监控变化):
+
+```
+source venv/bin/activate
+./bin/app.py -s
+```
