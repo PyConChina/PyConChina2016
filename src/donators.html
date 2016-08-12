@@ -1,0 +1,31 @@
+{% extends "base/_base.html" %}
+
+{% set page_title = message.page_title_donators %}
+
+{% block content %}
+
+
+<!-- 蠎人赞助 -->
+<div class="ui vertical stripe center aligned segment"
+     style="background-color: #f2f3f4;">
+
+  <div class="ui text container">
+    <h3 class="ui center aligned header pythoners">蠎人赞助</h3>
+  </div>
+
+  <!-- TODO: 头像放到CDN -->
+
+  <div class="ui container pythoners">
+    {% for donator in donators %}
+    <a class="ui image label">
+      <img
+        src="/asset/images/avatar/small/{{ loop.cycle('1', '2', '3') }}.jpg">
+      {{ donator}}
+    </a>
+    {% endfor %}
+  </div>
+
+</div>
+
+
+{% endblock %}

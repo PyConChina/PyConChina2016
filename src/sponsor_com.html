@@ -1,0 +1,37 @@
+{% extends "base/_base.html" %}
+
+{% set page_title = message.page_title_sponsors %}
+
+{% block content %}
+
+
+<div class="ui vertical stripe center aligned segment">
+
+  {% macro sponsor_info_block(sponsor_meta, sponsor_list) %}
+  <div class="ui container">
+    <div class="ui text container">
+      <h3 class="ui center aligned header sponsors">{{ sponsor_meta.name
+        }}</h3>
+    </div>
+    <div class="ui items">
+      {% for sponsor_info in sponsor_list %}
+      <div class="item">
+        <div class="ui small image">
+          <img src="{{ sponsor_info.logo }}">
+        </div>
+        <div class="middle aligned content">
+          {{ sponsor_info.intro }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endmacro %}
+
+  {% for sponsor_meta in sponsors.meta %}
+  {{ sponsor_info_block(sponsor_meta, sponsors[sponsor_meta.level]) }}
+  {% endfor %}
+
+</div>
+
+{% endblock %}

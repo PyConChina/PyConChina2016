@@ -7,8 +7,6 @@ page_title_support: 赞助
 page_title_support_en: SUPPORT
 page_title_proposals: 主题
 page_title_proposals_en: Proposals
-page_title_tshirt: T裇
-page_title_tshirt_en: TEE
 page_title_schedule: 日程
 page_title_schedule_en: Schedule
 page_title_beijing: 北京日程
@@ -29,6 +27,8 @@ page_title_suzhou: 苏州日程
 page_title_suzhou_en: Schedule in Suzhou
 page_title_hangzhou: 杭州日程
 page_title_hangzhou_en: Schedule in Hangzhou
+page_title_donators: 蠎人赞助
+page_title_donators_en: Personal Sponsorship
 #########################################
 # home
 #########################################
