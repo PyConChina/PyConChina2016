@@ -91,5 +91,54 @@ guangzhou:
 beijing:
   name: 北京
   name_en: Peking
-  completed: true
-  date: 2015-09-19 09:00~18:00
+  completed: false
+  address: "北京市东城区美术馆后街77号"
+  address_en: "No.77 MEISHUGUANHOU Street, Dongcheng, Beijing"
+  venue: 77剧场
+  venue_en: '77 Hall'
+  traffic: "公交108，104，127路大佛寺站"
+  traffic_en: "DAFOSI Stop on Bus 108, 104, 127"
+  maplink: 'http://f.amap.com/0FFE0i'
+  date: 2015-09-12 09:00~18:00
+  notices: ""
+  morning:
+    - time: "08:30"
+      topic: "签到"
+      topic_en: "Check-in"
+    - time: "09:00"
+      topic: "开场 Guido"
+      topic_en: "Opening"
+    - { time: "09:10", speaker: id_yankaibj }
+    - { time: "09:35", speaker: id_wuke }
+    - { time: "09:55", speaker: id_meituan }
+    - time: "10:30"
+      topic: 茶歇·抽奖
+      topic_en: Intermission
+    - { time: "10:40", speaker: id_liepin2bj }
+    - { time: "11:00", speaker: id_dinglaiqiang }
+    - { time: "11:30", speaker: id_xiutao }
+    - { time: "12:00", speaker: id_fb_rosieli }
+  noon:
+    - time: "12:10"
+      topic: 午餐 · 合照 · 交流 · 短片
+      topic_en: Lunch + Photo
+  afternoon:
+    - { time: "13:00", speaker: id_liepin1bj }
+    - { time: "13:30", speaker: id_Bouriez }
+    - { time: "14:00", speaker: id_zhengk }
+    - { time: "14:30", speaker: id_liaoxinxi }
+    - time: "15:00"
+      topic: 茶歇·抽奖
+      topic_en: Intermission
+    - { time: "15:10", speaker: id_liuchang }
+    - { time: "15:40", speaker: id_linpan }
+    - { time: "16:10", speaker: id_SpeedyCloud }
+    - { time: "16:40", speaker: id_dinglaiqiang2bj }
+  lightening_talks:
+    - { time: "17:10", speaker: id_ZhiliWang }
+    - { time: "17:20", speaker: id_chifeng }
+    - { time: "17:40", speaker: id_zhongww }
+    - { time: "17:45", speaker: id_yuzhanyong }
+    - { time: "17:50", speaker: id_huangjin }
+  cancel_talks:
+    - { time: "(ー`´ー)", speaker: id_dujun }

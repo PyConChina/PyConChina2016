@@ -1,0 +1,100 @@
+<div class="ui vertical stripe center aligned segment">
+
+  <div class="ui text container">
+    <h3 class="ui center aligned header schedule">{{ message.address }}</h3>
+
+    <div class="ui centered grid">
+      <div class="ui center aligned list">
+        <div class="item">
+          <i class="users icon"></i>
+          <div class="content">
+            {{ schedule.address }}
+          </div>
+        </div>
+        <div class="item">
+          <i class="marker icon"></i>
+          <div class="content">
+            {{ schedule.venue }}
+          </div>
+        </div>
+        <div class="item">
+          <i class="mail icon"></i>
+          <div class="content">
+            {{ schedule.traffic }}
+          </div>
+        </div>
+        <div class="item">
+          <i class="linkify icon"></i>
+          <div class="content">
+            {{ schedule.date }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+{% macro speech_block(speech) %}
+ {% if speech %}
+    <div class="item">
+      <div class="content">
+
+        {% if speech.speaker %}
+          {% set a_speaker = speakers[speech.speaker] %}
+          {% set topic = a_speaker.topic %}
+          <a class="header">{{ topic.title }}</a>
+          <div class="meta">
+            <span class="price">{{ speech.time }}</span>
+            <span class="stay">{{ a_speaker.name }}</span>
+          </div>
+          <div class="description">
+            {{ topic.preview }}
+          </div>
+          {% if topic.slide or topic.video %}
+            <div class="extra">
+              {% if topic.slide %}
+                <div class="ui label"><a href="{{ topic.slide }}" target="_blank">{{ message.slide }}</a></div>
+              {% endif %}
+              {% if topic.video %}
+                <div class="ui label"><a href="{{ topic.video }}" target="_blank">{{ message.video }}</a></div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% else %}
+          <a class="header">{{ speech.topic }}</a>
+          <div class="meta">
+            <span class="price">{{ speech.time }}</span>
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+  {% endif %}
+{% endmacro %}
+
+{% macro schedule_block(schedule, time, style) %}
+<div class="ui vertical stripe segment" style="{{ style }}">
+
+  <div class="ui text container">
+    <h3 class="ui center aligned header schedule">{{ time }}</h3>
+
+    <div class="ui divided items">
+      {% for speech in schedule %}
+        {{ speech_block(speech) }}
+      {% endfor %}
+    </div>
+
+  </div>
+
+</div>
+{% endmacro %}
+
+
+{{ schedule_block(schedule.morning, message.morning, "background-color: #f2f3f4;") }}
+{{ schedule_block(schedule.noon, message.noon, "") }}
+{{ schedule_block(schedule.afternoon, message.afternoon, "background-color: #f2f3f4;") }}
+{{ schedule_block(schedule.lightening_talks, message.lightening_talks, "") }}
+{{ schedule_block(schedule.cancel_talks, message.cancel_talks, "background-color: #f2f3f4;") }}

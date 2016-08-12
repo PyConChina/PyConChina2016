@@ -21,6 +21,15 @@
   title_en: SCHEDULE
   url: "schedule.html"
   url_en: "en/schedule.html"
+  children:
+  - title: 上海
+    title_en: Shanghai
+    url: "shanghai.html"
+    url_en: "en/shanghai.html"
+  - title: 北京
+    title_en: Beijing
+    url: "beijing.html"
+    url_en: "en/beijing.html"
 - title: 志愿者
   title_en: VOLUNTEERS
   url: "volunteers.html"

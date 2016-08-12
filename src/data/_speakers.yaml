@@ -57,7 +57,8 @@ id_yankaish:
                 Docker Client
                 Docker Compose
             Python helps DaoCloud do rapid iterations
-    slide: #
+    slide: http://zoomq.qiniucdn.com/pychina/PyCon2015China/slides/sh/pycon15sh_DaoCloud_intro.pdf
+    video: http://zoomq.qiniucdn.com/pychina/PyCon2015China/slides/sh/pycon15sh_DaoCloud_intro.mp4
 
 id_shenweish:
   name: 沈崴
