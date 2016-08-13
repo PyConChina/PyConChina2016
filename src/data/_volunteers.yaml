@@ -1,18 +1,28 @@
--
-  name: StingChen(陈世欣)
-  role: organizer
-  role_organizer: 1
-  intro: 永泰红磡养老产业投资集团的信息技术总监;在14年的互联网生涯后,投身到到永泰红磡养老产业投资集团做夕阳事业,跨界发展. 他是TopGeek技术社区的创办人也是上海GDG的负责人,并参与CPyUG社区的管理. 还发起PMCamp产品经理社区,儿童社区乐创园等
-  avatar: http://dn-pyconcn.qbox.me/images/volunteer/chenshixin_2013.png?imageView2/2/h/80
-  blog: http://sting.topgeek.org/
-  weibo: http://weibo.com/stingchen
--
-  name: Zoom.Quiet (大妈)
-  name_en: Zoom.Quiet (大妈)
-  role: organizer
-  role_organizer: 1
-  avatar: http://dn-pyconcn.qbox.me/images/volunteer/zhouqi.png?imageView2/2/h/80
-  intro: Python 中文社区创始人 / 管理员,热心于python社区的公益事业,大家熟知的社区"大妈";OBP及蟒营工程设计者 /主持人;参与并主持各种线上 / 线下活动,主持编撰了 "可爱的Python";坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造!目前就职于猎豹移动.
-  intro_en: One of originator for CPyUG(China Python User Group) / administrator; Enthusiastic python community welfare, well-known community "DAMA"; OBP and PythoniCamp project designer / manager; attend and originator all kinds of  online / offline tech evnets, presided compiled "lovely Python"; keeping usage Pythonic to reclaim people entering the FLOSS world learning / sharing / innovate! currently work for CMCM.
-  blog: http://zoomquiet.io/
-  weibo: http://weibo.com/zoomquiet
+role_list:
+ - organizers
+ - technicians
+ - conference
+
+organizers:
+  -
+    name: StingChen(陈世欣)
+    role: organizer
+    role_organizer: 1
+    intro: 永泰红磡养老产业投资集团的信息技术总监;在14年的互联网生涯后,投身到到永泰红磡养老产业投资集团做夕阳事业,跨界发展. 他是TopGeek技术社区的创办人也是上海GDG的负责人,并参与CPyUG社区的管理. 还发起PMCamp产品经理社区,儿童社区乐创园等
+    avatar: http://dn-pyconcn.qbox.me/images/volunteer/chenshixin_2013.png?imageView2/2/h/80
+    blog: http://sting.topgeek.org/
+    weibo: http://weibo.com/stingchen
+  -
+    name: Zoom.Quiet (大妈)
+    name_en: Zoom.Quiet (大妈)
+    role: organizer
+    role_organizer: 1
+    avatar: http://dn-pyconcn.qbox.me/images/volunteer/zhouqi.png?imageView2/2/h/80
+    intro: Python 中文社区创始人 / 管理员,热心于python社区的公益事业,大家熟知的社区"大妈";OBP及蟒营工程设计者 /主持人;参与并主持各种线上 / 线下活动,主持编撰了 "可爱的Python";坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造!目前就职于猎豹移动.
+    intro_en: One of originator for CPyUG(China Python User Group) / administrator; Enthusiastic python community welfare, well-known community "DAMA"; OBP and PythoniCamp project designer / manager; attend and originator all kinds of  online / offline tech evnets, presided compiled "lovely Python"; keeping usage Pythonic to reclaim people entering the FLOSS world learning / sharing / innovate! currently work for CMCM.
+    blog: http://zoomquiet.io/
+    weibo: http://weibo.com/zoomquiet
+
+technicians:
+
+conference:
