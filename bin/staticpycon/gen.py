@@ -159,7 +159,7 @@ def _init_dirs():
     shutil.rmtree(join(SITE_ASSET_DIR, 'css'), ignore_errors=True)
 
 
-def _init_webassets(debug=False):
+def _init_webassets(debug=False, generate=False):
     assets_env = Environment(directory=SITE_ASSET_DIR,
                              url=SITE_ASSET_URL_PREFIX,
                              cache=WEBASSETS_CACHE_DIR,
@@ -174,24 +174,18 @@ def _init_webassets(debug=False):
 
     cmd = CommandLineEnvironment(assets_env, log)
 
-    p = Process(target=lambda: cmd.watch())
+    if generate:
+        cmd.build()
+        return assets_env
 
-    def signal_handler(sig, frame):
-        try:
-            p.terminate()
-        except Exception:
-            pass
-        sys.exit(0)
-
-    signal.signal(signal.SIGINT, signal_handler)
-    p.start()
+    Process(target=lambda: cmd.watch()).start()
 
     return assets_env
 
 
-def create_site(debug=False, use_reloader=False):
+def create_site(debug=False, use_reloader=False, generate=False):
     _init_dirs()
-    assets_env = _init_webassets(debug=debug)
+    assets_env = _init_webassets(debug=debug, generate=generate)
 
     for lang, context in data_contexts.iteritems():
         context['printlog'] = _sp_printlog
