@@ -4,34 +4,31 @@
 
 {% block content %}
 
-
-<div class="ui vertical stripe center aligned segment">
-
-  {% macro sponsor_info_block(sponsor_meta, sponsor_list) %}
+{% macro sponsor_info_block(sponsor_meta, sponsor_list) %}
   <div class="ui container">
     <div class="ui text container">
-      <h3 class="ui center aligned header sponsors">{{ sponsor_meta.name
-        }}</h3>
+      <h3 class="ui center aligned header">{{ sponsor_meta.name }}</h3>
     </div>
     <div class="ui items">
       {% for sponsor_info in sponsor_list %}
-      <div class="item">
-        <div class="ui small image">
-          <img src="{{ sponsor_info.logo }}">
+        <div class="item">
+          <div class="ui small image">
+            <img src="{{ sponsor_info.logo }}">
+          </div>
+          <div class="middle aligned content">
+            {{ sponsor_info.intro }}
+          </div>
         </div>
-        <div class="middle aligned content">
-          {{ sponsor_info.intro }}
-        </div>
-      </div>
       {% endfor %}
     </div>
   </div>
-  {% endmacro %}
+{% endmacro %}
 
-  {% for sponsor_meta in sponsors.meta %}
-  {{ sponsor_info_block(sponsor_meta, sponsors[sponsor_meta.level]) }}
-  {% endfor %}
 
-</div>
+{% for sponsor_meta in sponsors.meta %}
+  <div class="ui vertical stripe center aligned segment {{ loop.cycle('pycon-odd-seg', 'pycon-even-seg') }}">
+    {{ sponsor_info_block(sponsor_meta, sponsors[sponsor_meta.level]) }}
+  </div>
+{% endfor %}
 
 {% endblock %}

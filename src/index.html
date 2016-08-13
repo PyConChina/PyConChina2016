@@ -88,13 +88,19 @@
 <!-- FIXME: DRY -->
 {% for city in agenda.city_list %}
   {% set speaker_city = agenda[city].name + message.speakers %}
-  {{ speaker_macro.speaker_block(speaker_city, selectspeakers(speakers, city)) }}
+  {% set extra_class = loop.cycle('pycon-even-seg', 'pycon-odd-seg') %}
+  {{ speaker_macro.speaker_block(speaker_city, selectspeakers(speakers, city), extra_class) }}
 {% endfor %}
 
 
 <!-- 蠎人赞助 -->
 <!-- FIXME: DRY -->
-<div class="ui vertical stripe center aligned segment" style="background-color: #f2f3f4;">
+{% if agenda.city_list|length % 2 == 0 %}
+  {% set extra_class = "pycon-even-seg" %}
+{% else %}
+  {% set extra_class = "pycon-odd-seg" %}
+{% endif %}
+<div class="ui vertical stripe center aligned segment {{ extra_class }}">
 
   <div class="ui text container">
     <h3 class="ui center aligned header pythoners">{{ message.donators }}</h3>

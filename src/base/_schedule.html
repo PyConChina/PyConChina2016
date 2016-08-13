@@ -1,7 +1,7 @@
 <div class="ui vertical stripe center aligned segment">
 
   <div class="ui text container">
-    <h3 class="ui center aligned header schedule">{{ message.address }}</h3>
+    <h3 class="ui center aligned header">{{ message.address }}</h3>
 
     <div class="ui centered grid">
       <div class="ui center aligned list">
@@ -78,8 +78,8 @@
   {% endif %}
 {% endmacro %}
 
-{% macro schedule_block(schedule, time, style) %}
-<div class="ui vertical stripe segment" style="{{ style }}">
+{% macro schedule_block(schedule, time, extra_class) %}
+<div class="ui vertical stripe segment {{ extra_class }}">
 
   <div class="ui text container">
     <h3 class="ui center aligned header schedule">{{ time }}</h3>
@@ -96,8 +96,8 @@
 {% endmacro %}
 
 
-{{ schedule_block(schedule.morning, message.morning, "background-color: #f2f3f4;") }}
-{{ schedule_block(schedule.noon, message.noon, "") }}
-{{ schedule_block(schedule.afternoon, message.afternoon, "background-color: #f2f3f4;") }}
-{{ schedule_block(schedule.lightening_talks, message.lightening_talks, "") }}
-{{ schedule_block(schedule.cancel_talks, message.cancel_talks, "background-color: #f2f3f4;") }}
+{{ schedule_block(schedule.morning, message.morning, "pycon-even-seg") }}
+{{ schedule_block(schedule.noon, message.noon, "pycon-odd-seg") }}
+{{ schedule_block(schedule.afternoon, message.afternoon, "pycon-even-seg") }}
+{{ schedule_block(schedule.lightening_talks, message.lightening_talks, "pycon-odd-seg") }}
+{{ schedule_block(schedule.cancel_talks, message.cancel_talks, "pycon-even-seg") }}

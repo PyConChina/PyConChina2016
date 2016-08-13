@@ -1,5 +1,5 @@
-{% macro speaker_block(speaker_city, speaker_list) %}
-<div class="ui vertical stripe center aligned segment">
+{% macro speaker_block(speaker_city, speaker_list, extra_class) %}
+<div class="ui vertical stripe center aligned segment {{ extra_class }}">
   <div class="ui text container">
     <h3 class="ui center aligned header speakers">{{ speaker_city }}</h3>
   </div>
