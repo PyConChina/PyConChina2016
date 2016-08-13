@@ -6,7 +6,7 @@
     <div class="ui centered grid">
       <div class="ui center aligned list">
         <div class="item">
-          <i class="users icon"></i>
+          <i class="building icon"></i>
           <div class="content">
             {{ schedule.address }}
           </div>
@@ -15,16 +15,19 @@
           <i class="marker icon"></i>
           <div class="content">
             {{ schedule.venue }}
+            {% if schedule.maplink %}
+              <a href="{{ schedule.maplink }}" target="_blank">({{ message.map }})</a>
+            {% endif %}
           </div>
         </div>
         <div class="item">
-          <i class="mail icon"></i>
+          <i class="bus icon"></i>
           <div class="content">
             {{ schedule.traffic }}
           </div>
         </div>
         <div class="item">
-          <i class="linkify icon"></i>
+          <i class="calendar icon"></i>
           <div class="content">
             {{ schedule.date }}
           </div>

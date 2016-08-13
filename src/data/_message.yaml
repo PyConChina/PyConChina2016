@@ -46,6 +46,8 @@ speakers_en: ' Speakers'
 #########################################
 # schedule
 #########################################
+map: 地图
+map_en: Map
 ipynb: IP[y]:Nb
 ipynb_en: IP[y]:Nb
 slide: 幻灯
