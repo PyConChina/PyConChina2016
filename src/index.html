@@ -6,14 +6,12 @@
 
 {% block content %}
 
-<div class="ui vertical stripe segment">
+<div class="ui vertical stripe segment pycon-odd-seg">
   <div class="ui center aligned stackable grid container">
     <div class="row">
       <div class="eight wide column">
-        <h3 class="ui header">PyCon是什么</h3>
-        <p>
-          PyCon大会就是现在相当火的开源编程语言Python的全球性的盛会，PyConChina 是由 CPyUG(华蠎用户组)获得授权举办的中国PyCon年会. 迄今已是第五届, 由PyChina.org发起,CPyUG/TopGeek 等社区协同,在2015年 9月12日（上海），9月13日（广州），9月19日（北京）分别举办; 无论您偏好哪种编程语言, 都欢迎来参加这场完全由Python中国社区组织的欢乐集会！
-        </p>
+        <h3 class="ui header">{{ message.pycon_intro_title }}</h3>
+        <p>{{ message.pycon_intro }}</p>
       </div>
       {% macro agenda_link(city) %}
         <div class="step">
@@ -35,24 +33,20 @@
     </div>
     <div class="row">
       <div class="center aligned column">
-        <a class="ui huge button">{{ message.home_booking }}</a>
+        <a class="ui huge button" href="{{ site.booking_url }}" target="_blank">{{ message.booking_now }}</a>
       </div>
     </div>
   </div>
 </div>
 
-<div class="ui vertical stripe quote segment" style="background-color: #f2f3f4;">
+<div class="ui vertical stripe quote segment pycon-even-seg">
   <div class="ui equal width stackable internally celled grid">
     <div class="center aligned row">
       <div class="column">
-        <h3>"What a Company"</h3>
-        <p>That is what they all say about us</p>
+        <p>{{ message.user_evaluation_left }}</p>
       </div>
       <div class="column">
-        <h3>"I shouldn't have gone with their competitor."</h3>
-        <p>
-          <img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
-        </p>
+        <p>{{ message.user_evaluation_right }}</p>
       </div>
     </div>
   </div>
@@ -60,7 +54,7 @@
 
 
 <!-- 赞助商 -->
-<div class="ui vertical stripe center aligned segment">
+<div class="ui vertical stripe center aligned segment pycon-odd-seg">
 
   {% macro sponsor_block(sponsor_meta, sponsor_list) %}
     <div class="ui text container">
@@ -88,13 +82,19 @@
 <!-- FIXME: DRY -->
 {% for city in agenda.city_list %}
   {% set speaker_city = agenda[city].name + message.speakers %}
-  {{ speaker_macro.speaker_block(speaker_city, selectspeakers(speakers, city)) }}
+  {% set extra_class = loop.cycle('pycon-even-seg', 'pycon-odd-seg') %}
+  {{ speaker_macro.speaker_block(speaker_city, selectspeakers(speakers, city), extra_class) }}
 {% endfor %}
 
 
 <!-- 蠎人赞助 -->
 <!-- FIXME: DRY -->
-<div class="ui vertical stripe center aligned segment" style="background-color: #f2f3f4;">
+{% if agenda.city_list|length % 2 == 0 %}
+  {% set extra_class = "pycon-even-seg" %}
+{% else %}
+  {% set extra_class = "pycon-odd-seg" %}
+{% endif %}
+<div class="ui vertical stripe center aligned segment {{ extra_class }}">
 
   <div class="ui text container">
     <h3 class="ui center aligned header pythoners">{{ message.donators }}</h3>

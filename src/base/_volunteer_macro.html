@@ -4,6 +4,8 @@
     <h3 class="ui center aligned header speakers">{{ volunteer_role }}</h3>
   </div>
 
+  {% if volunteer_list %}
+
   <div class="ui container">
     {% set volunteer_list_len = volunteer_list | length %}
     {% for i in range(0, volunteer_list_len, 2) %}
@@ -36,5 +38,6 @@
     </div>
     {% endfor %}
   </div>
+  {% endif %}
 </div>
 {% endmacro %}

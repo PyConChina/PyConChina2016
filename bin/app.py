@@ -38,19 +38,9 @@ def run(debug, generate, serve):
         sys.exit(1)
 
     if serve:
-        p = Process(target=do_serve)
+        Process(target=do_serve).start()
 
-        def signal_handler(sig, frame):
-            try:
-                p.terminate()
-            except Exception:
-                pass
-            sys.exit(0)
-
-        signal.signal(signal.SIGINT, signal_handler)
-        p.start()
-
-    gen.create_site(debug=debug, use_reloader=serve)
+    gen.create_site(debug=debug, use_reloader=serve, generate=generate)
 
 
 if __name__ == '__main__':
