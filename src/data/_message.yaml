@@ -3,12 +3,6 @@
 #########################################
 page_title_index: 首页
 page_title_index_en: HOME
-page_title_support: 赞助
-page_title_support_en: SUPPORT
-page_title_proposals: 主题
-page_title_proposals_en: Proposals
-page_title_schedule: 日程
-page_title_schedule_en: Schedule
 page_title_beijing: 北京日程
 page_title_beijing_en: Schedule in Beijing
 page_title_shanghai: 上海日程
@@ -30,14 +24,25 @@ page_title_hangzhou_en: Schedule in Hangzhou
 page_title_donators: 蠎人赞助
 page_title_donators_en: Personal Sponsorship
 #########################################
-# home
+# index
 #########################################
-home_title: <img src="http://pyconcn.qiniucdn.com/zoomquiet/res/logo/150801-cnpycon-barnner-h80.png" /> 来了!
-home_title_en: PyCon 2015 China coming soon!
-home_sponsors: 大会赞助
-home_sponsors_en: Sponsors
-home_booking: 立即预定
-home_booking_en: Booking Now
+pycon_intro_title: PyCon China 2016
+pycon_intro_title_en: PyCon China 2016
+pycon_intro: "TODO: PyCon China 2016 简介"
+pycon_intro_en: "TODO: PyCon China 2016 Intro"
+booking_now: 立即预定
+booking_now_en: Booking Now
+user_evaluation_left: 用户评价left
+user_evaluation_left_en: User evaluation left
+user_evaluation_right: 用户评价right
+user_evaluation_right_en: User evaluation right
+#########################################
+# Nav
+#########################################
+slogan_title: PyCon China 2016
+slogan_title_en: PyCon China 2016
+slogan: 人生苦短, 我用Python
+slogan_en: Life is short. You need Python.
 #########################################
 # speakers
 #########################################
@@ -48,18 +53,10 @@ speakers_en: ' Speakers'
 #########################################
 map: 地图
 map_en: Map
-ipynb: IP[y]:Nb
-ipynb_en: IP[y]:Nb
 slide: 幻灯
 slide_en: slides
-slide1: 幻灯2
-slide1_en: presentations
-audio: 录音
-audio_en: audio
 video: 录像
 video_en: video
-schedule: 议程
-schedule_en: Schedule
 address: 地址
 address_en: Address
 venue: 会场
@@ -78,26 +75,6 @@ lightening_talks: 闪电演讲
 lightening_talks_en: Lighting Talks
 cancel_talks: 协商取消
 cancel_talks_en: Canceled Talks
-notices: 注意
-notices_en: Notices
-video_and_slides: 视频及幻灯
-video_and_slides_en: Video and Slides
-speechmaker: 讲师
-speechmaker_en: Speechmaker
-global: 全球
-global_en: Online
-beijing: 北京
-beijing_en: Beijing
-shanghai: 上海
-shanghai_en: Shanghai
-guangzhou: 广州
-guangzhou_en: GuangZhou
-zhuhai: 珠海
-zhuhai_en: Zhuhai
-hangzhou: 杭州
-hangzhou_en: Hangzhou
-suzhou: 苏州
-suzhou_en: Suzhou
 donators: 蠎人赞助
 donators_en: Personal Sponsorship
 donators_orderby: (按捐助达成时间排序)
@@ -105,41 +82,9 @@ donators_orderby_en: (sorted by time of sponsorship)
 #########################################
 # sponsor
 #########################################
-sponsors: 赞助商
-sponsors_en: SPONSORS
-sponsors_hint: >
-  赞助商为PyCon大会的成功举办提供了必不可少的支持.
-  如果您和您的公司愿意支持中国Python社区的交流事业,请参考以下文档联系我们:
-    <ul><li>赞助商权益说明书, 下载: <a href="http://pyconcn.qiniucdn.com/zoomquiet/stuff15/PyCon15China_sponsor_info.pdf">PyCon15China_sponsor_info.pdf</a>
-    </li><li>特别的,个人赞助权益说明书参考: <a href="http://pyconcn.qiniucdn.com/zoomquiet/stuff15/PyCon15China_personal_sponsor.pdf">PyCon15China_personal_sponsor.pdf</a>
-    </li></ul>
-  赞助商在大会官网的首页及"赞助商"页面展示您的公司Logo及简介.
-sponsors_hint_en: >
-  Supports from sponors are necessary for the success of PyCon.
-  If you or your organization is willing to help the Python
-  community of China, please contact PyCon committee
-  (<a href="mailto:stingchen@topgeek.org">stingchen@topgeek.org</a>).
-  We will show the logo and introduction of all sponsors on the home page
-  of our official website
-sponsors_customization: 独家招聘合作伙伴
-sponsors_customization_en: Diamond
-sponsors_diamond: 钻石
-sponsors_diamond_en: Diamond
-sponsors_platinum: 白金
-sponsors_platinum_en: Platinum
-sponsors_gold: 黄金
-sponsors_gold_en: Gold
-sponsors_silver: 白银
-sponsors_silver_en: Silver
-sponsors_bronze: 青铜
-sponsors_bronze_en: Bronze
-sponsors_partner: 合作伙伴
-sponsors_partner_en: Partner
 #########################################
 # volunteers
 #########################################
-volunteers: 志愿者们
-volunteers_en: Volunteers
 pythoneer: <b><A NAME="anchor">pythoneer</a></b> ~ <sub>"A pioneer within the Python programming language community."</sub> 即 Pythoneer 是更加专业的 Pythonista. Pythoner 是最基础的 Python 用户.
 pythoneer_en: <b><A NAME="anchor">pythoneer</a></b> ~ "A pioneer within the Python programming language community." means Pythoneer COOL than Pythonista. btw Pythoner just Python beginner.
 organizers: 组织者

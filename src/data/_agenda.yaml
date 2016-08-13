@@ -1,3 +1,4 @@
+# 城市列表
 city_list:
  - shanghai
  - beijing
@@ -90,7 +91,7 @@ guangzhou:
 ####################################################################
 beijing:
   name: 北京
-  name_en: Peking
+  name_en: Beijing
   completed: false
   address: "北京市东城区美术馆后街77号"
   address_en: "No.77 MEISHUGUANHOU Street, Dongcheng, Beijing"
