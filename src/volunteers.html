@@ -9,7 +9,8 @@
 
 {% for role in volunteers.role_list %}
   {% set volunteer_role = message[role] %}
-  {{ volunteer_macro.volunteer_block(volunteer_role, volunteers[role]) }}
+  {% set extra_class = loop.cycle('pycon-odd-seg', 'pycon-even-seg') %}
+  {{ volunteer_macro.volunteer_block(volunteer_role, volunteers[role], extra_class) }}
 {% endfor %}
 
 

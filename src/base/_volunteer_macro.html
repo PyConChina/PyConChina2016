@@ -1,43 +1,56 @@
-{% macro volunteer_block(volunteer_role, volunteer_list) %}
-<div class="ui vertical stripe center aligned segment">
-  <div class="ui text container">
-    <h3 class="ui center aligned header speakers">{{ volunteer_role }}</h3>
-  </div>
+{% macro volunteer_block(volunteer_role, volunteer_list, extra_class) %}
+  <div class="ui vertical stripe center aligned segment {{ extra_class }}">
 
-  {% if volunteer_list %}
-
-  <div class="ui container">
-    {% set volunteer_list_len = volunteer_list | length %}
-    {% for i in range(0, volunteer_list_len, 2) %}
-    <div class="ui link cards volunteers">
-
-      <!-- 每行显示2个志愿者 -->
-      {% for j in range(0, 2 if volunteer_list_len - i > 2 else volunteer_list_len - i) %}
-      {% set cur_volunteer = volunteer_list[i + j] %}
-      <div class="ui centered card volunteer">
-        <a href="javascript:void(0);" class="volunteer-avatar">
-          <img src="{{ cur_volunteer.avatar }}">
-        </a>
-        <div class="volunteer-intro">
-          <h3 class="header">{{ cur_volunteer.name }}</h3>
-          <p class="description">
-            {{ cur_volunteer.intro }}
-          </p>
-          <div class="volunteer-social">
-            <i class="tiny rss icon"></i>
-            <a href="{{ cur_volunteer.weibo }}">{{ cur_volunteer.weibo }}</a>
-          </div>
-          <div class="volunteer-social">
-            <i class="tiny home icon"></i>
-            <a href="{{ cur_volunteer.blog }}">{{ cur_volunteer.blog }}</a>
-          </div>
-        </div>
-      </div> <!-- ./志愿者 -->
-      {% endfor %}
-
+    <div class="ui text container">
+      <h3 class="ui center aligned header volunteers">{{ volunteer_role }}</h3>
     </div>
-    {% endfor %}
+
+    {% if volunteer_list %}
+      <div class="ui container">
+        {% set volunteer_list_len = volunteer_list | length %}
+        {% for i in range(0, volunteer_list_len, 2) %}
+          <div class="ui cards volunteers">
+
+          <!-- 每行显示3个志愿者 -->
+          {% for j in range(0, 3 if volunteer_list_len - i > 2 else volunteer_list_len - i) %}
+          {% set cur_volunteer = volunteer_list[i + j] %}
+            <div class="ui centered card">
+
+              <div class="image">
+                <img src="{{ cur_volunteer.avatar }}">
+              </div>
+
+              <div class="content">
+                <div class="header">{{ cur_volunteer.name }}</div>
+                <div class="description">
+                  {{ cur_volunteer.intro }}
+                </div>
+              </div>
+
+              <div class="extra content">
+                <div class="ui center aligned list">
+                  <div class="item">
+                    <i class="weibo icon"></i>
+                    <div class="content">
+                      <a href="{{ cur_volunteer.weibo }}">{{ cur_volunteer.weibo }}</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <i class="home icon"></i>
+                    <div class="content">
+                      <a href="{{ cur_volunteer.blog }}">{{ cur_volunteer.blog }}</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- ./志愿者 -->
+          {% endfor %}
+
+        </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
   </div>
-  {% endif %}
-</div>
 {% endmacro %}

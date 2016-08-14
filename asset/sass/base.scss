@@ -135,6 +135,10 @@
   }
 }
 
+.ui.header.volunteers {
+  margin-bottom: 1.0em;
+}
+
 .ui.link.cards.volunteers {
   margin-left: auto;
   margin-right: auto;
@@ -144,33 +148,6 @@
   }
 }
 
-.ui.centered.card.volunteer {
-
-  display:inline-block;
-  width: 42% !important;
-
-  .volunteer-social {
-    display: block;
-    clear: both;
-    float: left;
-    margin-left: 1em;
-    margin-bottom: 6px;
-  }
-
-  .volunteer-avatar {
-    float: left;
-    margin-right: 1em;
-    height: 80px !important;
-    width: 80px !important;
-  }
-
-  img {
-    display: inline-block;
-    border-radius: .5em;
-    height: 80px !important;
-    width: 80px !important;
-  }
-}
 .pycon-odd-seg {
 
 }
