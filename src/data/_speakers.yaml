@@ -923,6 +923,85 @@ id_SpeedyCloud:
     preview_en: ...
     slide: #
 
+id_hongqiangning:
+  name: 洪强宁 
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  intro:  爱因互动CTO，创业中。前豆瓣首席架构师，前宜信大数据创新中心首席架构师。2002年开始使用Python，中国Python用户组（CPUG）的早期活跃者和创立者之一，有较深厚的大规模网站架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 
+  intro_en: CTO...
+  topic:
+    title: "思考中..."
+    title_en: "..."
+    preview: "..."
+    preview_en: ...
+    slide: #
+
+
+id_tiantaotao:
+  name:  田涛涛
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  intro: 阿里巴巴 阿里云高级技术专家，加入阿里云之前曾任职IBM中国开发中心DB2的管理和监控。目前负责阿里云管控系统和资源编排(ROS)开发。 
+  intro_en: CTO...
+  topic:
+    title: "Infrastructure as Code In Aliyun"
+    title_en: "Infrastructure as Code In Aliyun"
+    preview: "随着越来越多的IT基础设施迁移进入云端，需要更方便的方案降低用户入云的门槛，有序的实现资源的配置管理和生命周期管理，并且通过可复用的方式快速的创建资源和运行环境。社区中已有的很多自动化的管理工具例如Ansible可以实现一部分的自动化工作，我们将结合Ansible与阿里云的云服务资源编排(ROS)通过一种标准化的方式完成云资源的创建和应用交付，实现云端的Infrastructure as Code(基础设施即代码)。"
+    preview_en: ...
+    slide: #
+
+
+id_dinglaiqiang:
+  name:  丁来强
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  intro: 盛庞卡(Splunk)上海实验室    从业10+年, Splunk(美国纳斯达克第一家纯大数据的上市公司)在中国实验室的高级技术经理, 负责大数据平台相关的采集转换和数据可视化等相关的工作. 技术兴趣广泛. 擅长C++/Python与JS。曾在PyCon 2015大会上做过关于大数据分析处理可视化以及高效函数式编程的演讲，深受好评。 
+  intro_en: ...
+  topic:
+    title: "使用Python进行高效大数据工作流与任务调度"
+    title_en: "..."
+    preview: "大数据技术的百花齐放，工作流与任务调度是其中不可或缺的一环，本议题重点介绍了基于纯Python的Apache Airflow与Spotify Luigi方案，覆盖问题调整、原理技术、工具扩展、最佳实践与未来发展等。也涉及了其他非Python的解决方案如Linkedin Azkaban，Mesos下的Marathon和Aurora等。"
+    preview_en: ...
+    slide: #
+
+
+id_wangchen:
+  name: 王琛
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  intro: 百纳信息科技有限公司人工智能方向负责人，英国爱丁堡大学人工智能专业硕士。曾任职百度基础架构部，负责百度数据仓库的研发和建设。目前从事人工智能领域项目的研发工作，对TensorFlow框架有一些研究和应用经验。
+  intro_en: ...
+  topic:
+    title: "TensorFlow框架剖析及应用"
+    title_en: "..."
+    preview: "人工智能是目前计算机科学界最热门的研究方向之一，AlphaGo战胜李世石，Prisma席卷各大社交网络，都显示着这波浪潮的来临。Google作为人工智能方向的引领者之一，在2015年开源了机器学习框架TensorFlow。一经发布，迅速成为了github上被关注最多的项目之一，同时也成为了机器学习领域的最常用的标准框架。
+        本次演讲希望能与大家分享我们对TensorFlow框架的研究和剖析，并希望通过对框架本身更深的理解，促进更多应用项目能更快更好的落地实践。"
+    preview_en: ...
+    slide: #
+
+
+id_zhanghuayi:
+  name: 张华翼
+  city_beijing: 1
+  city: 北京
+  city_en: Beijing
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  intro: 豆瓣网高级系统工程师
+  intro_en: ...
+  topic:
+    title: "使用 Python 构建服务化架构中的基础设施"
+    title_en: "..."
+    preview: "1. 分布式追踪系统：服务化架构中调用链可能非常复杂，利用 Python 动态语言的特性可以实现一个简洁透明的分布式追踪系统，帮助收集调用信息，定位系统性能瓶颈。 2. 动态接口查询引擎：在向服务化架构迁移的过程中会遇到性能以及接口设计粒度的问题。利用数据流抽象和 Python 的闭包序列化，实现将多次服务调用打包为一次，或者组合多个已有接口动态生成新接口。"
+    preview_en: ...
+    slide: #
 
 
 ####################################################################
