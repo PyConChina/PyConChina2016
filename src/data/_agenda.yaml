@@ -2,7 +2,7 @@
 city_list:
  - shanghai
  - beijing
- - guangzhou
+ - shenzhen
 
 ####################################################################
 #    ____  _   _
@@ -22,7 +22,7 @@ shanghai:
   traffic: 地铁2号线金科路站
   traffic_en: "Jinke Road Station at Metro Line 2"
   maplink: 'http://f.amap.com/0FFE0i'
-  date: 2015-09-12 09:00~18:00
+  date: 2016-09-10 09:00~18:00
   notices: ""
   morning:
     - time: "08:20"
@@ -75,9 +75,9 @@ shanghai:
 #    \____/____|
 #
 ####################################################################
-guangzhou:
-  name: 广州
-  name_en: Guangzhou
+shenzhen:
+  name: 深圳
+  name_en: Shenzhen
   completed: false
   date: 2015-09-13 09:00~18:00
 
@@ -100,7 +100,7 @@ beijing:
   traffic: "公交108，104，127路大佛寺站"
   traffic_en: "DAFOSI Stop on Bus 108, 104, 127"
   maplink: 'http://f.amap.com/0FFE0i'
-  date: 2015-09-12 09:00~18:00
+  date: 2016-09-17 09:00~18:00
   notices: ""
   morning:
     - time: "08:30"
