@@ -85,9 +85,11 @@
     <h3 class="ui center aligned header schedule">{{ time }}</h3>
 
     <div class="ui divided items">
-      {% for speech in schedule %}
-        {{ speech_block(speech) }}
-      {% endfor %}
+      {% if schedule %}
+        {% for speech in schedule %}
+          {{ speech_block(speech) }}
+        {% endfor %}
+      {% endif %}
     </div>
 
   </div>

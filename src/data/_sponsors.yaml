@@ -17,105 +17,27 @@ meta:
 #########################################
 diamond:
   -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/jiankongbao-logo.png?imageView2/2/w/240
-    link: http://www.jiankongbao.com/
-    intro: "云智慧(北京)科技有限公司成立于2009年,是国内领先的应用性能管理服务商. 基于大数据分析,为企业级用户提供全面,专业的端到端的应用性能管理(End To End Application Performance Management)解决方案. Cloudwise SaaS APM累计已为电子商务,移动互联网,IaaS云服务,在线游戏,教育医疗等行业的几十万用户提供了前瞻性的智慧性能管理服务,是新一代应用性能管理(APM)的领导者. "
-    intro_en: "CloudSmart (Beijing)  technology co., LTD founded in 2009 ,that is a leading domestic application performance management service providers. Based on big data analysis, for enterprise users to provide the solution of End To End Application Performance Management comprehensive. For electronic commerce, mobile Internet, cloud IaaS service, online game, education and  the medical industry users provided a forward-looking & wisdom application performance management"
-  -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/ouyeel_logo.jpg?imageView2/2/w/240
-    link: http://ouyeel.com/help/about-us.html
-    intro: "上海钢铁交易中心（SHGT.com）是隶属于欧冶云商旗下的钢铁B2B电商平台。作为“互联网+钢铁”的先驱者，致力于为上下游企业提供交易、物流、加工、金融、技术、信息等全流程一站式服务，创造超越期望的价值体验。经过两年多的发展，客户数已经超过8.５万家 ，交易量超过1，060万吨 ，结算金额超过3００亿元 ，以其高度智能化的系统、专业可靠的服务走在了同行前列，目标在3年内成为全球第一的钢铁电商网站。智慧平台，让钢铁交易更简单。"
-    intro_en: "Shanghai Steel Trading Centre (SHGT.com) is a B2B steel e-business platform invested by Baosteel Group in 2013. As a leading company, we provide one-stop service including consulting, transaction, finance, metallic processing, logistics and so forth.During the past year, we created more than 85,000 registered platform memberships. The annual business volume online is over 10.6 million tons; revenue is around 5 billion USD.With our Intelligent Platform, you will have Simpler Business. OUYEEL!"
+    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
+    link: http://www.douban.com/
+    intro: "豆瓣成立于2005年3月，目前已拥有1.3亿注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过桌面和移动应用来服务都市生活的不同领域。"
+    intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
 
 #########################################
 # 白金级
 #########################################
 platinum:
   -
-    logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/facebook_2015_logo_detail.png?imageView2/2/h/80
-    link: https://www.facebook.com/
-    intro: "公司成立于2004年，Facebook的使命是让人们更加愿意分享，并让世界更加开放和连接。人们使用Facebook保持联系与朋友和家人，共同探索世界，并分享和表达任何事物。"
-    intro_en: "Founded in 2004, Facebook’s mission is to give people the power to share and make the world more open and connected. People use Facebook to stay connected with friends and family, to discover what’s going on in the world, and to share and express what matters to them."
-  -
-    logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/GizWits_logo_y.png?imageView2/2/h/80
-    link: http://www.gizwits.com/
-    intro: "机智云（GizWits）是国内第一个智能硬件自助开发和云服务平台, 为开发者提供快捷的智能硬件开发工具，为智能硬件厂家提供一站式物联网开发和运维服务，目前服务的客户来自消费类智能硬件厂家（含智能家居、智能硬件、可穿戴产品）、工业及商业应用客户、智慧城市建设及创新创业支持等，至2015年机智云平台受到全球超过300家客户信赖，平台激活智能硬件设备全球出货总量超过 300 万台，是目前国内外最大的智能硬件集群之一。"
-    intro_en: "... "
-  -
-    logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/SpeedyCloud-logo.png?imageView2/2/h/80
-    link: http://www.speedycloud.cn/
-    intro: "SpeedyCloud是业界领先的云计算服务提供商迅达云成公司旗下品牌,专注于为企业提供互联网及企业IT相关基础设施云服务. 公司成员绝大多数来自于蓝汛,世纪互联等IT运维服务型上市企业, 利用最新的云计算及互联网技术帮助客户迅速扩展在线业务."
-    intro_en: "SpeedyCloud is the IaaS brand owned by Beijing SpeedyCloud Technology Co., Ltd.,, who is one of the leaders in cloud industry.The company was setup in 2012, with the capital of 10 million RMB invested all by ourselves.Being the general solution provider,  our focus is to provide IaaS for Internet and enterprises companies. Most of the team came from public IT operating and service companies like ChinaCache, 21ViaNet, etc. We are helping our customers with the most cutting-edge cloud computing technologies to expand their online businesses. "
-  -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/meituan.png?imageView2/2/h/80
-    link: http://mos.meituan.com/
-    intro: "美团云是美团推出的公有云平台，致力于为千万用户提供最稳定、可靠、高效的基础设施云服务以及大数据解决方案。2013年5月，美团云正式对外开放计算资源。此后，美团云依靠强大的技术团队，不断优化产品，注重用户体验、提供最优的底层架构以及稳定的网络服务。目前已服务众多企业级用户，行业覆盖O2O生活服务提供商、在线教育、知名电商、互联网金融、游戏、智能硬件、新媒体、汽车等。"
-    intro_en: "Meituan Cloud is a public cloud platform from Meituan. Its mission is to build the most stable, reliable, and highly efficient infrastructure platform and big data platform. May 2013, Meituan Cloud started to open up its computing resources to the public. After that, through its strong tech team, Meituan Cloud is continuously improving its product, focusing on the user experiences, and provide the highest quality infrastructure and most stable network service. Currently it has been serving many enterprise customers, and cover O2O service providers, online education, well-known e-commerce sites, internet financial sites, gaming, smart devices, new media, automobile, and etc...."
-  -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/qiniu-logo.png?imageView2/2/h/80
-    link: http://www.qiniu.com/
-    intro: "七牛云存储由国内存储行业的领军人物之一许式伟于2011年创立,致力于提供最适合开发者的数据在线托管,传输加速以及云端处理的服务."
-    intro_en: "qiniu cloud storage by domestic industry one of the leading Xu Shiwei was founded in 2011, Committed to providing the most suitable for developers of online hosting, transmission speed, and the cloud data processing services."
-  -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/daocloud_long-green.png?imageView2/2/w/200
-    link: http://www.daocloud.io/
-    intro: "DaoCloud 是业界领先的企业级容器云平台和解决方案提供商，致力于以Docker为代表的容器技术，为企业打造面向下一代互联网应用的交付和运维平台，帮助客户实现云端持续创新。DaoCloud采用混合云模式，以云端SaaS化容器管理平台，对接各类主机资源，构建跨云跨网的容器主机资源池，提供全流程标准化的应用持续集成、镜像构建、发布管理和容器运维服务。DaoCloud在开发运维联动、渐进式混合云构建、大规模高并发集群、微服务架构设计、分布式应用运维等场景拥有丰富经验和成功案例。DaoCloud总部位于中国上海，并在北京设有分支机构。"
-    intro_en: "DaoCloud is the leading enterprise container platform and solution provider in China, focused on container technology such as Docker. It helps enterprises building up the next generation software delivery and maintenance platform, and continuously innovate in the cloud age. DaoCloud adopts the hybrid cloud strategy, connects SaaS container management platform with server infrastructures, and builds up container pools across cloud and across network. It provides the full workflow and standardized DevOps, docker image setup, release management, and container maintenance. DaoCloud has rich experiences in DevOps development, gradual hybrid cloud construction, high volume and throughput clusters, micro service architecture design, distributed system maintenance. DaoCloud is headquatered in Shanghai, and has a branch in Beijing."
-  -
-    logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/360_logo.png?imageView2/2/h/70
-    link: http://www.360.cn
-    intro: "360企业安全集团隶属于全球最大的互联网安全公司奇虎360，是面向政府和企业提供新一代安全产品和安全服务的综合型集团公司。360企业安全集团整合了360在安全领域的技术、人才、产品、数据和服务能力，以“保护大数据时代的安全”为使命，以“数据驱动安全”为技术思想，以大数据搜集分析为支撑，推出了集杀毒、终端管理、虚拟化、准入、主机安全为一体的新一代终端安全管理系统360天擎，基于威胁情报对未知威胁进行分析、发现和回溯的新一代未知威胁感知系统360天眼，确保移动终端上企业数据和应用安全的新一代移动终端安全管理系统360天机，以及守卫企业无线网络边界的新一代无线安全防御系统360天巡等多个企业级用户急需的创新型安全产品以及安全服务，已经为包括多个中央部委和央企在内的超过百万家企业级客户提供全面的安全保护！"
-    intro_en: "..."
+    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
+    link: http://www.douban.com/
+    intro: "豆瓣成立于2005年3月，目前已拥有1.3亿注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过桌面和移动应用来服务都市生活的不同领域。"
+    intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
 
 #########################################
 # 黄金级
 #########################################
 gold:
   -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/ucloud.png?imageView2/2/w/180
-    link: http://www.douban.com/
-    intro: "上海优刻得信息科技有限公司（UCloud）是国内领先的云计算服务提供商，创立于2012年3月。依托全球10个数据中心以及全国11地线下服务站，UCloud已为超过3万家企业级客户提供服务，间接服务用户数量超过6亿，除了提供行业领先的云计算技术和服务，UCloud通过自主建立孵化器、整合互联网行业资源、设立投资基金，帮助中小企业解决初创时期面临的各种问题，降低创业风险，打造互联网行业健康、稳定、创新的创业生态圈。目前，UCloud的数据中心服务已覆盖全球，是国内首批在境外建立数据中的云计算公司。"
-    intro_en: "UCloud is one of the leading IaaS(Infrastructure as a Service) providers in China. By independent research and development, we provide a range of innovative products including high I/O performance host, key-value memory database, SDN and hybrid-cloud. Now, tens of thousands of enterprises and startups in mobile games, online education, apps, PaaS(Platform as a Service), SaaS(Software as a Service) and some other areas operate on UCloud platform. UCloud innovates according to users’ demand and integrates the best resources of strategic partners in ecosystem."
-  -
     logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
     link: http://www.douban.com/
     intro: "豆瓣成立于2005年3月，目前已拥有1.3亿注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过桌面和移动应用来服务都市生活的不同领域。"
     intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
-  -
-    logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/alicloud.png?imageView2/2/h/60
-    link: http://www.aliyun.com/
-    intro: "阿里云致力于打造公共、开放的云计算服务平台。我们将借助技术的创新，不断提升计算能力与规模效益，将云计算变成真正意义上的公共服务。与此同时，我们将通过aliyun.com，用互联网的方式使得大家可以便捷的按需获取阿里云的云计算产品与服务。"
-    intro_en: "Aliyun, the cloud computing business of Alibaba Group Holding Limited was established in September 2009. It develops highly scalable platforms for cloud computing and data management and provides a comprehensive suite of cloud computing services to support the participants of Alibaba Group's online and mobile commerce ecosystem, including sellers, and other third-party customers and businesses. "
-  -
-    logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff14/logo/coding_logo.png?imageView2/2/w/180
-    link: https://coding.net/home.html
-    intro: "Coding 是一个软件开发平台--- 提供快速的软件开发环境,包括 Web IDE,代码托管,项目协作,部署演示等,同时还有Coding 悬赏平台,帮助软件项目的需求方快速找到合适的开发者完成项目开发工作,也帮助开发者能够找到合适的项目将自己的能力变成财富."
-    intro_en: "Coding is a cloud development platform for developers, Provide code hosting, space operation, quality control, project management, etc., Coding provide social collaboration capabilities, including the SNS to provide developers with technical discussion and collaboration platform."
-  -
-    logo: http://www2.res.meizu.com/zh_cn/images/common/logo.jpg
-    link: http://www.meizu.com
-    intro: "魅族公司成立于2003年。创始人从小沉迷电子热爱科技，魅族就是电子梦想和共赢理念的结晶。从创立以来的一次次飞跃不仅是魅族人热爱追求的结果，更是梦想力量的体现。魅族因梦想而立。热爱而极致，专注和长久的追求，必将带来商业产品无与伦比的梦想之作。魅族的一切将超越常规，超乎想象。"
-    intro_en: "Meizu is founded in 2003. The founder was fantasized by electronic technology since childhood, and Meizu is the crystallization of that dream. Every leap since founding Is not only the result of passionate pursuit of Meizu people, also an embodiment of the power of dream. Meizu is born out of a dream. Passion to the extreme, long time focus and unending pursuit, will certainly produce a great product. Everything from Meizu is beyond ordinary, and beyond imagination."
-
-  -
-    logo: http://pyconcn.qiniucdn.com/zoomquiet/stuff15/logo/hzbook-word-logo_h.png?imageView2/2/w/180
-    link: http://www.hzbook.com/About/About.html
-    intro: " 北京华章图文信息有限公司是机械工业出版社与(美国)万国图文信息有限公司共同投资建立的合资企业,主要从事科技,经管,外语领域的图书出版服务业务,公司成立于1995年10月. '国际视野,教育为本,专业出版'是我们发展的重要指导思想,全球采集内容,服务中国教育,成为华章的鲜明特色. 公司出版的图书代表着计算机,经济管理,文化和英语教学领域的最新视野,能最好地满足专业人士,教师和学生不断变化的需求. '与您携手,共奏华章',华章人以澎湃的激情,崭新的视角,伴您走向成功!"
-    intro_en: "HZ Book is a joint venture set up with China Machine Press and (US)WanGuo."
-  -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/upyun-Logo-h200.png?imageView2/2/w/160
-    link: https://www.upyun.com/index.html
-    intro: "又拍云存储是杭州又拍云科技有限公司旗下项目,成立于2005年6月,前期主要为又拍网,又拍图片管家提供图片云存储／云计算服务,于2010年2月对所有用户开放使用."
-    intro_en: "upyun cloud storage is hangzhou youpai technology co., LTD's project, was founded in June 2005, the early main take yupoo.com, and v.yupoo.com , in February 2010 is open to all users to use."
-
-  -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/uqerio.png?imageView2/2/w/160
-    link: http://uqer.io
-    intro: "优矿（uqer.io）为用户提供私人金融量化分析的平台，是通联数据旗下的量化分析研究平台。旨在打破金融量化的壁垒，为广大量化爱好者提供华尔街专业量化机构的装备。个人用户免费使用。优矿通过高质量的海量金融数据与高性能的分析工具，让用户自由进行策略撰写、股票投资研究、快速回测和实盘模拟，可靠验证自己的投资想法。优矿还特别为不会编程的用户提供了可视化策略生成器，用户只需按照个人意愿修改参数，即可自动生成策略并进行回测，查看股票组合的历史收益。"
-    intro_en: "The FinTech startup, Uqer.io, is China's first and best algorithmic trading platform in your browser, our missing is to provide powerful yet simplified online tools that allow anyone, if they have the ability, to “write market-beating algorithms”. The recent explosion in data lies at the core of our business. Advances in data mining and machine learning coupled with availability of deep and diverse datasets have given trading algorithms a bigger edge than ever over their human counterparts. We believe everyone should have the tools to harness this wave of innovation and generate market beating returns. Based on cloud computing and big data technology, Uqer offers free and unlimited access to over 10 million financial datasets, quants can create and backteststrategy at anytime anywhere."
-
-  -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff15/logo/knownsec.jpg?imageView2/2/w/180
-    link: http://www.knownsec.com/
-    intro: "知道创宇由数位国际顶尖的安全专家创办，并拥有近百位国内一线安全人才作为核心安全研究团队，长期为政府及企业提供国际先进的网络安全解决方案。知道创宇擅长全新形势下的网络攻防一体技术、产品研发。利用在云计算及大数据处理方面的行业领先能力，为客户提供具备国际一流安全技术标准的可视化解决方案，提升客户网络安全监测、预警及防御能力。公司技术实力受到国家公安部、国务院中央政府采购网、工信部、CNNVD、央行、香港赛马会、微软、浙江卫视等知名客户的强烈认可。"
-    intro_en: "Beijing Knownsec Information Technology Co., Ltd. was established by a group of high-profile international security experts. It has over a hundred frontier security talents nationwide as the core security research team to provide long-term internationally advanced network security solutions for the government and enterprises. Knownsec's specialties include network attack and defense integrated technologies and product R&D under new situations. It provides visualization solutions that meet the world-class security technology standards and enhances the security monitoring, alarm and defense abilities of customer networks with its industry-leading capabilities in cloud computing and big data processing. The company's technical strength is strongly recognized by the State Ministry of Public Security, the Central Government Procurement Center, the Ministry of Industry and Information Technology (MIIT), China National Vulnerability Database of Information Security (CNNVD), the Central Bank, the Hong Kong Jockey Club, Microsoft, Zhejiang Satellite TV and other well-known clients. "
