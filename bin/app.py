@@ -5,7 +5,6 @@ from __future__ import print_function
 
 from multiprocessing import Process
 import os
-import signal
 import sys
 from SimpleHTTPServer import SimpleHTTPRequestHandler
 from SocketServer import TCPServer

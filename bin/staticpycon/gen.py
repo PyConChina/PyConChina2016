@@ -10,8 +10,6 @@ from os.path import dirname, realpath, join, getmtime, relpath
 from os import listdir
 import re
 import shutil
-import signal
-import sys
 import yaml
 
 from staticjinja import make_site, Reloader

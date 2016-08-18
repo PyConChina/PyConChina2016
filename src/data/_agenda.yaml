@@ -21,27 +21,27 @@ shanghai:
   date: 2016-09-10 09:00~18:00
   notices: ""
   morning:
-    - time: "08:20"
+    - time: "待定"
       topic: "签到 & 开场"
       topic_en: "Check-in"
-    - time: "09:00"
+    - time: "待定"
       topic: "开场"
       topic_en: "Opening"
-    - { time: "09:10", speaker: id_hongqiangning }
-    - time: "11:10"
+    - { time: "待定", speaker: id_hongqiangning }
+    - time: "待定"
       topic: 茶歇+抽奖
       topic_en: Intermission
-    - { time: "11:20", speaker: id_hongqiangning }
+    - { time: "待定", speaker: id_hongqiangning }
   noon:
-    - time: "12:10"
+    - time: "待定"
       topic: 午餐+合照
       topic_en: Lunch + Photo
   afternoon:
-    - time: "15:30"
+    - time: "待定"
       topic: 茶歇+抽奖
       topic_en: Intermission
   lightening_talks:
-    - time: "17:40"
+    - time: "待定"
       topic: 神秘大奖抽取
       topic_en: Intermission
   cancel_talks:
