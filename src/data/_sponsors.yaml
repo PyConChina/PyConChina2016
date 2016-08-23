@@ -9,7 +9,7 @@ meta:
     name_en: Platinum
   -
     level: gold
-    name: 金牌赞助
+    name: 黄金赞助
     name_en: Gold
 
 #########################################
@@ -37,7 +37,7 @@ platinum:
 #########################################
 gold:
   -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
-    link: http://www.douban.com/
-    intro: "豆瓣成立于2005年3月，目前已拥有1.3亿注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过桌面和移动应用来服务都市生活的不同领域。"
-    intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
+    logo: http://upload-images.jianshu.io/upload_images/19928-7d17969cc9247a5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
+    link: https://www.aliyun.com/
+    intro: "阿里云创立于2009年，是中国最大的云计算平台，为全球200多个国家和地区的创新创业企业、政府机构等提供服务。阿里云致力于提供最安全、可靠的计算和数据处理能力，让计算成为普惠科技和公共服务，为万物互联的DT世界，提供源源不断的新能源。阿里云在全球各地部署高效节能的绿色数据中心，利用清洁计算支持不同的互联网应用。目前，阿里云在中国（华北、华东、华南、香港）、新加坡、美西等地域设有数据中心，未来还将在美东、欧洲、中东、俄罗斯、日本等地设立新的数据中心。"
+    intro_en: "Established in September2009, AliCloud (intl.aliyun.com), Alibaba Group's cloudcomputing arm, developshighly scalable platforms forcloud computing and datamanagement. It provides acomprehensive suite of cloudcomputing services to supportthe participants of AlibabaGroup's online and mobilecommerce ecosystem, includingsellers, and other third-party customers andbusinesses. AliCloud is abusiness within Alibaba Group."
