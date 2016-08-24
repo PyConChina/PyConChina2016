@@ -1,0 +1,472 @@
+{
+  "agenda": {
+    "beijing": {
+      "address": "No.77 MEISHUGUANHOU Street, Dongcheng, Beijing", 
+      "completed": false, 
+      "date": "2016-09-17 09:00~18:00", 
+      "maplink": "http://f.amap.com/0FFE0i", 
+      "name": "Beijing", 
+      "notices": "", 
+      "traffic": "DAFOSI Stop on Bus 108, 104, 127", 
+      "venue": "77 Hall"
+    }, 
+    "city_list": [
+      "shanghai", 
+      "beijing", 
+      "shenzhen"
+    ], 
+    "shanghai": {
+      "address": "No.2 Boyun Road, Pudong, Shanghai", 
+      "afternoon": [
+        {
+          "time": "\u5f85\u5b9a", 
+          "topic": "Intermission"
+        }
+      ], 
+      "cancel_talks": null, 
+      "completed": false, 
+      "date": "2016-09-10 09:00~18:00", 
+      "lightening_talks": [
+        {
+          "time": "\u5f85\u5b9a", 
+          "topic": "Intermission"
+        }
+      ], 
+      "maplink": "http://f.amap.com/0FFE0i", 
+      "morning": [
+        {
+          "time": "\u5f85\u5b9a", 
+          "topic": "Check-in"
+        }, 
+        {
+          "time": "\u5f85\u5b9a", 
+          "topic": "Opening"
+        }, 
+        {
+          "speaker": "id_hongqiangning", 
+          "time": "\u5f85\u5b9a"
+        }, 
+        {
+          "time": "\u5f85\u5b9a", 
+          "topic": "Intermission"
+        }, 
+        {
+          "speaker": "id_hongqiangning", 
+          "time": "\u5f85\u5b9a"
+        }
+      ], 
+      "name": "Shanghai", 
+      "noon": [
+        {
+          "time": "\u5f85\u5b9a", 
+          "topic": "Lunch + Photo"
+        }
+      ], 
+      "notices": "", 
+      "traffic": "Jinke Road Station at Metro Line 2", 
+      "venue": "Meeting Hall at SPSP Building"
+    }, 
+    "shenzhen": {
+      "completed": false, 
+      "date": "2015-09-13 09:00~18:00", 
+      "name": "Shenzhen"
+    }
+  }, 
+  "donators": [
+    "(\u30fc`\u00b4\u30fc)"
+  ], 
+  "lang": "en", 
+  "lang_dir": "en", 
+  "lang_suffix": "_en", 
+  "message": {
+    "address": "Address", 
+    "afternoon": "Afternoon", 
+    "booking_now": "Booking Now", 
+    "cancel_talks": "Canceled Talks", 
+    "conference": "Conference Volunteers", 
+    "date": "Date", 
+    "donators": "Personal Sponsorship", 
+    "donators_orderby": "(sorted by time of sponsorship)", 
+    "lightening_talks": "Lighting Talks", 
+    "map": "Map", 
+    "morning": "Morning", 
+    "noon": "Noon", 
+    "organizers": "Coordinators", 
+    "page_title_beijing": "Schedule in Beijing", 
+    "page_title_donators": "Personal Sponsorship", 
+    "page_title_guangzhou": "Schedule in GuangZhou", 
+    "page_title_hangzhou": "Schedule in Hangzhou", 
+    "page_title_index": "HOME", 
+    "page_title_shanghai": "Schedule in Shanghai", 
+    "page_title_speakers": "Speakers", 
+    "page_title_sponsors": "Sponsors", 
+    "page_title_suzhou": "Schedule in Suzhou", 
+    "page_title_volunteers": "Volunteers", 
+    "page_title_zhuhai": "Schedule in Zhuhai", 
+    "pycon_intro": "TODO: PyCon China 2016 Intro", 
+    "pycon_intro_title": "PyCon China", 
+    "pythoneer": "<b><A NAME=\"anchor\">pythoneer</a></b> ~ \"A pioneer within the Python programming language community.\" means Pythoneer COOL than Pythonista. btw Pythoner just Python beginner.", 
+    "slide": "slides", 
+    "slogan": "Pythonic, C'est la vie!", 
+    "slogan_title": "PyCon China 2016", 
+    "speakers": " Speakers", 
+    "technicians": "Technical Volunteers", 
+    "traffic": "Traffic", 
+    "user_evaluation_left": "User evaluation left", 
+    "user_evaluation_right": "User evaluation right", 
+    "venue": "Venue", 
+    "video": "video"
+  }, 
+  "nav": [
+    {
+      "title": "PyConChina2015", 
+      "url": "en/index.html"
+    }, 
+    {
+      "title": "SPEECH", 
+      "url": "en/speakers.html"
+    }, 
+    {
+      "children": [
+        {
+          "title": "SPONSORS", 
+          "url": "en/sponsor_com.html"
+        }, 
+        {
+          "title": "DONATOR", 
+          "url": "en/donators.html"
+        }
+      ], 
+      "title": "SUPPORT"
+    }, 
+    {
+      "children": [
+        {
+          "title": "Shanghai", 
+          "url": "en/shanghai.html"
+        }, 
+        {
+          "title": "Beijing", 
+          "url": "en/beijing.html"
+        }
+      ], 
+      "title": "SCHEDULE", 
+      "url": "en/schedule.html"
+    }, 
+    {
+      "title": "VOLUNTEERS", 
+      "url": "en/volunteers.html"
+    }, 
+    {
+      "children": [
+        {
+          "title": 2011, 
+          "url": "http://cn.pycon.org/2011/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2012, 
+          "url": "http://cn.pycon.org/2012/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2013, 
+          "url": "http://cn.pycon.org/2013/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2014, 
+          "url": "http://cn.pycon.org/2014/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2015, 
+          "url": "http://cn.pycon.org/2015/en/index.html", 
+          "url_external": 1
+        }
+      ], 
+      "title": "HISTORY"
+    }, 
+    {
+      "title": "\u4e2d\u6587", 
+      "url": "index.html"
+    }
+  ], 
+  "site": {
+    "author": "support@PyChina.org", 
+    "base_url": "..", 
+    "booking_url": "http://event.3188.la/360382398", 
+    "description": "The official site for PyCon China 2016", 
+    "home_url": "./en/", 
+    "name": "PyConChina2016", 
+    "title": "PyCon 2016 China", 
+    "url": "http://cn.pycon.org/2016/"
+  }, 
+  "speakers": {
+    "id_chenfan": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u9648\u5e06", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_chenxiaoyou": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u9648\u6653\u4f18", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_chujinliang": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u8bf8\u91d1\u826f", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_dinglaiqiang": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Beijing", 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u4e01\u6765\u5f3a", 
+      "topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }
+    }, 
+    "id_guohaochuan": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u90ed\u6d69\u5ddd", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_hongqiangning": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Beijing", 
+      "city_beijing": 1, 
+      "intro": "CTO...", 
+      "name": "\u6d2a\u5f3a\u5b81", 
+      "topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }
+    }, 
+    "id_jackon": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "Jackon", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_lijushun": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u674e\u4ff1\u987a", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_ouyangmin": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u6b27\u9633\u654f", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_qinxuye": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u79e6\u7eed\u4e1a", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_tiantaotao": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Beijing", 
+      "city_beijing": 1, 
+      "intro": "CTO...", 
+      "name": "\u7530\u6d9b\u6d9b", 
+      "topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "Infrastructure as Code In Aliyun"
+      }
+    }, 
+    "id_wangchen": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-2940ac5653ac3b98.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240", 
+      "city": "Beijing", 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u738b\u741b", 
+      "topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }
+    }, 
+    "id_xuzhixiang": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u8bb8\u667a\u7fd4", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_yanchao": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u4e25\u8d85", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_yejunqiang": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Shanghai", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u53f6\u4fca\u5f3a", 
+      "topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_zhanghuayi": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city": "Beijing", 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u5f20\u534e\u7ffc", 
+      "topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }
+    }
+  }, 
+  "sponsors": {
+    "diamond": null, 
+    "gold": [
+      {
+        "intro": "Established\u00a0in\u00a0September2009,\u00a0AliCloud\u00a0(intl.aliyun.com),\u00a0Alibaba\u00a0Group's\u00a0cloudcomputing\u00a0arm,\u00a0developshighly\u00a0scalable\u00a0platforms\u00a0forcloud\u00a0computing\u00a0and\u00a0datamanagement.\u00a0It\u00a0provides\u00a0acomprehensive\u00a0suite\u00a0of\u00a0cloudcomputing\u00a0services\u00a0to\u00a0supportthe\u00a0participants\u00a0of\u00a0AlibabaGroup's\u00a0online\u00a0and\u00a0mobilecommerce\u00a0ecosystem,\u00a0includingsellers,\u00a0and\u00a0other\u00a0third-party\u00a0customers\u00a0andbusinesses.\u00a0AliCloud\u00a0is\u00a0abusiness\u00a0within\u00a0Alibaba\u00a0Group.", 
+        "link": "https://www.aliyun.com/", 
+        "logo": "http://upload-images.jianshu.io/upload_images/19928-7d17969cc9247a5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+      }
+    ], 
+    "meta": [
+      {
+        "level": "diamond", 
+        "name": "Diamond"
+      }, 
+      {
+        "level": "platinum", 
+        "name": "Platinum"
+      }, 
+      {
+        "level": "gold", 
+        "name": "Gold"
+      }
+    ], 
+    "platinum": null
+  }, 
+  "volunteers": {
+    "conference": null, 
+    "organizers": [
+      {
+        "avatar": "http://dn-pyconcn.qbox.me/images/volunteer/chenshixin_2013.png?imageView2/2/h/80", 
+        "blog": "http://sting.topgeek.org/", 
+        "intro": "\u6c38\u6cf0\u7ea2\u78e1\u517b\u8001\u4ea7\u4e1a\u6295\u8d44\u96c6\u56e2\u7684\u4fe1\u606f\u6280\u672f\u603b\u76d1;\u572814\u5e74\u7684\u4e92\u8054\u7f51\u751f\u6daf\u540e,\u6295\u8eab\u5230\u5230\u6c38\u6cf0\u7ea2\u78e1\u517b\u8001\u4ea7\u4e1a\u6295\u8d44\u96c6\u56e2\u505a\u5915\u9633\u4e8b\u4e1a,\u8de8\u754c\u53d1\u5c55. \u4ed6\u662fTopGeek\u6280\u672f\u793e\u533a\u7684\u521b\u529e\u4eba\u4e5f\u662f\u4e0a\u6d77GDG\u7684\u8d1f\u8d23\u4eba,\u5e76\u53c2\u4e0eCPyUG\u793e\u533a\u7684\u7ba1\u7406. \u8fd8\u53d1\u8d77PMCamp\u4ea7\u54c1\u7ecf\u7406\u793e\u533a,\u513f\u7ae5\u793e\u533a\u4e50\u521b\u56ed\u7b49", 
+        "name": "StingChen(\u9648\u4e16\u6b23)", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": "http://weibo.com/stingchen"
+      }, 
+      {
+        "avatar": "http://dn-pyconcn.qbox.me/images/volunteer/zhouqi.png?imageView2/2/h/80", 
+        "blog": "http://zoomquiet.io/", 
+        "intro": "One of originator for CPyUG(China Python User Group) / administrator; Enthusiastic python community welfare, well-known community \"DAMA\"; OBP and PythoniCamp project designer / manager; attend and originator all kinds of  online / offline tech evnets, presided compiled \"lovely Python\"; keeping usage Pythonic to reclaim people entering the FLOSS world learning / sharing / innovate! currently work for CMCM.", 
+        "name": "Zoom.Quiet (\u5927\u5988)", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": "http://weibo.com/zoomquiet"
+      }
+    ], 
+    "role_list": [
+      "organizers", 
+      "technicians", 
+      "conference"
+    ], 
+    "technicians": [
+      {
+        "avatar": "https://avatars2.githubusercontent.com/u/2672226?v=3&s=460", 
+        "blog": "http://blog.csdn.net/MDL13412", 
+        "intro": "\u5c0f\u7c73\u7f51DevOPS, \u5168\u6808\u5de5\u7a0b\u5e08. \u66fe\u5c31\u804c\u4e8e\u53bb\u54ea\u513f\u7f51.", 
+        "name": "NsLib(\u9a6c\u51ac\u4eae)", 
+        "role": "technician", 
+        "role_technician": 1, 
+        "weibo": "http://weibo.com/hackersdelight"
+      }, 
+      {
+        "avatar": "https://avatars0.githubusercontent.com/u/3264292?v=3&s=460", 
+        "blog": "http://moelove.info/", 
+        "intro": "\u5168\u6808\u5de5\u7a0b\u5e08, \u73b0\u5c31\u804c\u4e8e\u5317\u4eac\u7f8e\u56fe", 
+        "name": "TaoBeier", 
+        "role": "technician", 
+        "role_technician": 1, 
+        "weibo": "http://weibo.com/9020taobeier"
+      }
+    ]
+  }
+}
