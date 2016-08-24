@@ -57,7 +57,7 @@ SITE_SRC_DIR = join(PROJECT_ROOT_DIR, 'src')
 SITE_ASSET_SRC_DIR = join(PROJECT_ROOT_DIR, 'asset')
 DATA_SRC_DIR = join(SITE_SRC_DIR, "data")
 
-SITE_ASSET_URL_PREFIX = '/asset'
+SITE_ASSET_URL_PREFIX = './asset'
 # 不能使用默认的 Cache 目录, 否则 Cache 也会被 staticjinja 拷贝
 WEBASSETS_CACHE_DIR = join(PROJECT_ROOT_DIR, '.webassets-cache')
 
