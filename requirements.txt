@@ -3,3 +3,4 @@ webassets
 cssmin
 colorama
 click
+fabric
