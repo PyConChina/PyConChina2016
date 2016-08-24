@@ -49,11 +49,13 @@
     </div>
     <div class="ui container">
       <div class="ui small images sponsors">
-        {% for sponsor_info in sponsor_list %}
-          <a href="{{ sponsor_info.link }}" target="_blank">
-            <img class="ui image" src="{{ sponsor_info.logo }}">
-          </a>
-        {% endfor %}
+        {% if sponsor_list %}
+          {% for sponsor_info in sponsor_list %}
+            <a href="{{ sponsor_info.link }}" target="_blank">
+              <img class="ui image" src="{{ sponsor_info.logo }}">
+            </a>
+          {% endfor %}
+        {% endif %}
       </div>
     </div>
   {% endmacro %}

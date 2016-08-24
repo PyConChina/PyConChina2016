@@ -10,16 +10,18 @@
       <h3 class="ui center aligned header">{{ sponsor_meta.name }}</h3>
     </div>
     <div class="ui items">
-      {% for sponsor_info in sponsor_list %}
-        <div class="item">
-          <div class="ui small image">
-            <img src="{{ sponsor_info.logo }}">
+      {% if sponsor_list %}
+        {% for sponsor_info in sponsor_list %}
+          <div class="item">
+            <div class="ui small image">
+              <img src="{{ sponsor_info.logo }}">
+            </div>
+            <div class="middle aligned content">
+              {{ sponsor_info.intro }}
+            </div>
           </div>
-          <div class="middle aligned content">
-            {{ sponsor_info.intro }}
-          </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      {% endif %}
     </div>
   </div>
 {% endmacro %}

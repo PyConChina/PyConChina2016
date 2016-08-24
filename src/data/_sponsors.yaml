@@ -16,21 +16,21 @@ meta:
 # 钻石级
 #########################################
 diamond:
-  -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
-    link: http://www.douban.com/
-    intro: "豆瓣成立于2005年3月，目前已拥有1.3亿注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过桌面和移动应用来服务都市生活的不同领域。"
-    intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
+#  -
+#    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
+#    link: http://www.douban.com/
+#    intro: "豆瓣成立于2005年3月，目前已拥有1.3亿注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过桌面和移动应用来服务都市生活的不同领域。"
+#    intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
 
 #########################################
 # 白金级
 #########################################
 platinum:
-  -
-    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
-    link: http://www.douban.com/
-    intro: "豆瓣成立于2005年3月，目前已拥有1.3亿注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过桌面和移动应用来服务都市生活的不同领域。"
-    intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
+#  -
+#    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
+#    link: http://www.douban.com/
+#    intro: "豆瓣成立于2005年3月，目前已拥有1.3亿注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过桌面和移动应用来服务都市生活的不同领域。"
+#    intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
 
 #########################################
 # 黄金级
