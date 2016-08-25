@@ -2,6 +2,7 @@
   "agenda": {
     "beijing": {
       "address": "No.77 MEISHUGUANHOU Street, Dongcheng, Beijing", 
+      "city": "beijing", 
       "completed": false, 
       "date": "2016-09-17 09:00~18:00", 
       "maplink": "http://f.amap.com/0FFE0i", 
@@ -24,6 +25,7 @@
         }
       ], 
       "cancel_talks": null, 
+      "city": "shanghai", 
       "completed": false, 
       "date": "2016-09-10 09:00~18:00", 
       "lightening_talks": [
@@ -43,16 +45,8 @@
           "topic": "Opening"
         }, 
         {
-          "speaker": "id_hongqiangning", 
-          "time": "\u5f85\u5b9a"
-        }, 
-        {
           "time": "\u5f85\u5b9a", 
           "topic": "Intermission"
-        }, 
-        {
-          "speaker": "id_hongqiangning", 
-          "time": "\u5f85\u5b9a"
         }
       ], 
       "name": "Shanghai", 
@@ -68,6 +62,7 @@
     }, 
     "shenzhen": {
       "address": "\u6df1\u5733\u5e02\u5357\u5c71\u533a\u79d1\u53d1\u8def1\u53f7\u5bcc\u5229\u81fb\u5927\u53a63F", 
+      "city": "shenzhen", 
       "completed": false, 
       "date": "2016-09-25 09:00~18:00", 
       "maplink": "http://j.map.baidu.com/nc3B8", 
@@ -184,6 +179,10 @@
         {
           "title": "Beijing", 
           "url": "en/beijing.html"
+        }, 
+        {
+          "title": "Shenzhen", 
+          "url": "en/shenzhen.html"
         }
       ], 
       "title": "SCHEDULE", 
@@ -239,13 +238,23 @@
     "url": "http://cn.pycon.org/2016/"
   }, 
   "speakers": {
+    "id_chanshi": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city_shenzhen": 1, 
+      "intro": "...", 
+      "name": "\u998b\u5e08", 
+      "shenzhen_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }
+    }, 
     "id_chenfan": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u9648\u5e06", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
@@ -253,11 +262,10 @@
     }, 
     "id_chenxiaoyou": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u9648\u6653\u4f18", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
@@ -265,11 +273,10 @@
     }, 
     "id_chujinliang": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u8bf8\u91d1\u826f", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
@@ -277,35 +284,66 @@
     }, 
     "id_dinglaiqiang": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Beijing", 
+      "beijing_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": "Python and Design Pattern"
+      }, 
       "city_beijing": 1, 
+      "city_shanghai": 1, 
+      "city_shenzhen": 1, 
       "intro": "...", 
       "name": "\u4e01\u6765\u5f3a", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "...", 
         "slide": null, 
         "title": "..."
+      }, 
+      "shenzhen_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": "Python hooking, patching and injection"
       }
     }, 
     "id_guohaochuan": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u90ed\u6d69\u5ddd", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
       }
     }, 
+    "id_heshiyou": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city_shenzhen": 1, 
+      "intro": "...", 
+      "name": "\u4f55\u4e16\u53cb", 
+      "shenzhen_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }
+    }, 
     "id_hongqiangning": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Beijing", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
       "city_beijing": 1, 
       "intro": "CTO...", 
-      "name": "\u6d2a\u5f3a\u5b81", 
-      "topic": {
+      "name": "\u6d2a\u5f3a\u5b81"
+    }, 
+    "id_huguotao": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city_shenzhen": 1, 
+      "intro": "...", 
+      "name": "\u80e1\u56fd\u6d9b", 
+      "shenzhen_topic": {
         "preview": "...", 
         "slide": null, 
         "title": "..."
@@ -313,11 +351,10 @@
     }, 
     "id_jackon": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "Jackon", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
@@ -325,43 +362,116 @@
     }, 
     "id_lijushun": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u674e\u4ff1\u987a", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
       }
     }, 
+    "id_lili": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city_shenzhen": 1, 
+      "intro": "...", 
+      "name": "\u674e\u529b", 
+      "shenzhen_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }
+    }, 
+    "id_lvzhaogang": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u5415\u53ec\u521a"
+    }, 
+    "id_moyu": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u83ab\u745c"
+    }, 
     "id_ouyangmin": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u6b27\u9633\u654f", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
+      }
+    }, 
+    "id_panjunyong": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city_shenzhen": 1, 
+      "intro": "...", 
+      "name": "\u6f58\u4fca\u52c7", 
+      "shenzhen_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
       }
     }, 
     "id_qinxuye": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u79e6\u7eed\u4e1a", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
       }
     }, 
+    "id_river": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city_shenzhen": 1, 
+      "intro": "...", 
+      "name": "river", 
+      "shenzhen_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }
+    }, 
+    "id_shienming": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city_shenzhen": 1, 
+      "intro": "...", 
+      "name": "\u77f3\u6069\u540d", 
+      "shenzhen_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }
+    }, 
+    "id_tangyingkang": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city_shenzhen": 1, 
+      "intro": "...", 
+      "name": "\u6c64\u82f1\u5eb7", 
+      "shenzhen_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }
+    }, 
     "id_tiantaotao": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Beijing", 
       "city_beijing": 1, 
       "intro": "CTO...", 
       "name": "\u7530\u6d9b\u6d9b", 
@@ -373,11 +483,10 @@
     }, 
     "id_wangchen": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-2940ac5653ac3b98.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240", 
-      "city": "Beijing", 
       "city_beijing": 1, 
       "intro": "...", 
       "name": "\u738b\u741b", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "...", 
         "slide": null, 
         "title": "..."
@@ -385,11 +494,10 @@
     }, 
     "id_xuzhixiang": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u8bb8\u667a\u7fd4", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
@@ -397,23 +505,32 @@
     }, 
     "id_yanchao": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u4e25\u8d85", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
       }
     }, 
+    "id_yangshuguang": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u9633\u66d9\u5149"
+    }, 
     "id_yejunqiang": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Shanghai", 
       "city_shanghai": 1, 
       "intro": "", 
       "name": "\u53f6\u4fca\u5f3a", 
-      "topic": {
+      "shanghai_topic": {
         "preview": "", 
         "slide": null, 
         "title": ""
@@ -421,11 +538,21 @@
     }, 
     "id_zhanghuayi": {
       "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
-      "city": "Beijing", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
       "city_beijing": 1, 
       "intro": "...", 
-      "name": "\u5f20\u534e\u7ffc", 
-      "topic": {
+      "name": "\u5f20\u534e\u7ffc"
+    }, 
+    "id_zhangqichuan": {
+      "avatar": "http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip", 
+      "city_shenzhen": 1, 
+      "intro": "...", 
+      "name": "\u5f20\u5176\u5ddd", 
+      "shenzhen_topic": {
         "preview": "...", 
         "slide": null, 
         "title": "..."
