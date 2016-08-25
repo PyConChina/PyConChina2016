@@ -407,14 +407,6 @@
     ], 
     "meta": [
       {
-        "level": "diamond", 
-        "name": "Diamond"
-      }, 
-      {
-        "level": "platinum", 
-        "name": "Platinum"
-      }, 
-      {
         "level": "gold", 
         "name": "Gold"
       }
