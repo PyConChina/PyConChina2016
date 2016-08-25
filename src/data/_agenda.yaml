@@ -54,7 +54,13 @@ shenzhen:
   name: 深圳
   name_en: Shenzhen
   completed: false
-  date: 2015-09-13 09:00~18:00
+  address: "深圳市南山区科发路1号富利臻大厦3F"
+  address_en: "深圳市南山区科发路1号富利臻大厦3F"
+  venue: 富利臻大厦
+  traffic: ""
+  maplink: "http://j.map.baidu.com/nc3B8"
+  date: 2016-09-25 09:00~18:00
+  notices: ""
 
 ####################################################################
 # 北京
