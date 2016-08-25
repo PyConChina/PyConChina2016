@@ -40,14 +40,15 @@
 </div>
 
 
-{% macro speech_block(speech) %}
+{% macro speech_block(city, speech) %}
  {% if speech %}
     <div class="item">
       <div class="content">
 
         {% if speech.speaker %}
           {% set a_speaker = speakers[speech.speaker] %}
-          {% set topic = a_speaker.topic %}
+          {# {% set topic = a_speaker.topic %} #}
+          {% set topic = a_speaker[city + 'topic'] or a_speaker.topic %}
           <a class="header">{{ topic.title }}</a>
           <div class="meta">
             <span class="price">{{ speech.time }}</span>
@@ -78,7 +79,7 @@
   {% endif %}
 {% endmacro %}
 
-{% macro schedule_block(schedule, time, extra_class) %}
+{% macro schedule_block(city, schedule, time, extra_class) %}
 <div class="ui vertical stripe segment {{ extra_class }}">
 
   <div class="ui text container">
@@ -87,7 +88,7 @@
     <div class="ui divided items">
       {% if schedule %}
         {% for speech in schedule %}
-          {{ speech_block(speech) }}
+          {{ speech_block(city, speech) }}
         {% endfor %}
       {% endif %}
     </div>
@@ -98,8 +99,8 @@
 {% endmacro %}
 
 
-{{ schedule_block(schedule.morning, message.morning, "pycon-even-seg") }}
-{{ schedule_block(schedule.noon, message.noon, "pycon-odd-seg") }}
-{{ schedule_block(schedule.afternoon, message.afternoon, "pycon-even-seg") }}
-{{ schedule_block(schedule.lightening_talks, message.lightening_talks, "pycon-odd-seg") }}
-{{ schedule_block(schedule.cancel_talks, message.cancel_talks, "pycon-even-seg") }}
+{{ schedule_block(schedule.city, schedule.morning, message.morning, "pycon-even-seg") }}
+{{ schedule_block(schedule.city, schedule.noon, message.noon, "pycon-odd-seg") }}
+{{ schedule_block(schedule.city, schedule.afternoon, message.afternoon, "pycon-even-seg") }}
+{{ schedule_block(schedule.city, schedule.lightening_talks, message.lightening_talks, "pycon-odd-seg") }}
+{{ schedule_block(schedule.city, schedule.cancel_talks, message.cancel_talks, "pycon-even-seg") }}

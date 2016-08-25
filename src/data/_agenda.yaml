@@ -8,6 +8,7 @@ city_list:
 # 上海
 ####################################################################
 shanghai:
+  city: shanghai
   name: 上海
   name_en: Shanghai
   completed: false
@@ -51,6 +52,7 @@ shanghai:
 # 深圳
 ####################################################################
 shenzhen:
+  city: shenzhen
   name: 深圳
   name_en: Shenzhen
   completed: false
@@ -66,6 +68,7 @@ shenzhen:
 # 北京
 ####################################################################
 beijing:
+  city: beijing
   name: 北京
   name_en: Beijing
   completed: false
