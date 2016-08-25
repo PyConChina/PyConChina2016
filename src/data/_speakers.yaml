@@ -1,30 +1,13 @@
 ####################################################################
 # 魔都
 ####################################################################
-id_dinglaiqiang:
-  name: 丁来强 
-  city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
-  intro:  盛庞卡(Splunk)上海实验室    从业10+年, Splunk(美国纳斯达克第一家纯大数据的上市公司)在中国实验室的高级技术经理, 负责大数据平台相关的采集转换和数据可视化等相关的工作. 技术兴趣广泛. 擅长C++/Python与JS。曾在PyCon 2015大会上做过关于大数据分析处理可视化以及高效函数式编程的演讲，深受好评。 
-  intro_en: ""
-  topic:
-    title: "Python and Design Pattern"
-    title_en: "Python and Design Pattern"
-    preview: "模式尤其是设计模式一直是一个热门话题，尤其是OOP的语言场景下特别流行GOF的23个模式，这些设计模式在动态语言的Python的应用场景中又如何变化和应用呢？本议题结合常见的设计模式与Python来谈，并从函数式的角度来看Python与设计模式的关系以及应用常见和技术实现的变化，不仅涉及GOF的设计模式，也覆盖常见网络和并发模式。"
-    preview_en: ""
-    slide: #
-
 id_chenxiaoyou:
   name: 陈晓优 
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: "上海均直资产管理有限公司    陈晓优，金融工程学硕士，毕业于伦敦卡斯商学院，现在均直资产担任期权部门主管，多年私募基金和量化投资从业经验，期间在国内知名量化私募任职期权交易部门负责人，在实盘交易和量化系统搭建方面有丰富的经验。日常工作中每天负责期权波动率套利、CTA、价差套利等量化策略的实盘交易和研发，目前参与管理的产品规模在数亿级别。开发维护了一款针对国内市场的开源量化交易平台开发框架vn.py，目前是国内用户最多的量化金融开源项目之一（Github Star 1341），业内目前有几十家私募公司在实盘使用。" 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: "聊聊Python和量化投资"
     title_en: ""
     preview: "聊聊量化投资这个目前国内Python应用飞速发展的领域：
@@ -39,12 +22,10 @@ id_chenxiaoyou:
 id_yanchao:
   name: 严超
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: "联想上海    多年Python从业经验，熟悉Openstack，django，openERP，关注领域：云计算，机器学习。nooverfit.com 站长" 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: "不容错过的Python小贴士—技巧, 风格和最佳实践"
     title_en: ""
     preview: ""
@@ -54,12 +35,10 @@ id_yanchao:
 id_chenfan:
   name: 陈帆
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: " 自由职业   IT基础架构资深专家，开源解决方案专家，odoo资深专家，10+ IT基础架构，5+ Odoo " 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: "Odoo与 python"
     title_en: ""
     preview: "介绍Odoo技术架构、开源模式、商业模式、Python在odoo中的使用模式、演示odoo 的RAD【快速开发】，以及其他方面的信息"
@@ -69,12 +48,10 @@ id_chenfan:
 id_lijushun:
   name: 李俱顺
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: " 杭州云柚科技有限公司    先后就职于百度、支付宝等公司，现任杭州云柚科技联合创始人，负责技术架构设计与实现。" 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: "asyncio在web中的技术栈"
     title_en: ""
     preview: "在Python3.4版本中，asyncio正式作为标准库进驻，人们寄予了很多的期望。在Python3.5版本中，PEP-0492引入了async/await语法，又让asyncio的直观性更进一步。
@@ -85,12 +62,10 @@ id_lijushun:
 id_jackon:
   name: Jackon
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: "Seedlink，曾自由职业 2 年，主要帮助国内外的创业公司做 web 开发、爬虫、数据可视化。 多年的 Python 开发及开源爱好者，vim 控，熟悉 Django, redis, docker 等。 先后在多个项目中成功的实施数据可视化，熟悉 Matlab / iGraph / d3 / neo4j 等可视化工具。" 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: "Python 数据可视化的应用与价值"
     title_en: ""
     preview: "基于几个实践项目，介绍数据可视化的应用与价值。
@@ -112,12 +87,10 @@ id_jackon:
 id_xuzhixiang:
   name: 许智翔
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: " Python/Golang/C程序员，有10年以上项目经验。曾任齐治技术总监和七牛安全经理。擅长Debian，Python，网络通讯程序。在github上有多个开源项目。" 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: "程序猿训练师养成计划1.0"
     title_en: ""
     preview: "在开发速度越来越快的今天，大量靠谱的程序猿是必不可少的。如何批量的，靠谱的复制出大量的Python程序猿？"
@@ -127,12 +100,10 @@ id_xuzhixiang:
 id_guohaochuan:
   name: 郭浩川
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: "饿了么 Python 框架负责人, 前豆瓣er. 推动改善了饿了么的 Python 服务化, 框架化. 现在负责饿了么 python 框架组, 主要关注服务治理, redis 方案,业务监控等." 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: "用高魔的姿势调 python 程序"
     title_en: ""
     preview: "快速分享一下在饿了么的对 python 使用姿势下(gevent patch).在调试
@@ -145,12 +116,10 @@ id_guohaochuan:
 id_chujinliang:
   name: 诸金良 
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: "达达配送API团队负责人，曾负责达达外卖平台派乐趣系统的架构设计及主要开发，主要推动配送系统服务化拆分，改善各个服务性能。主要关注高性能、高并发系统设计、服务性能优化等" 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: "Python高性能Web服务开发实践"
     title_en: ""
     preview: "随着达达业务规模快速增长，在一年多时间从零增长到百万单，以及派乐趣在3个月时间，从零增长到百万单的过程中，后端系统不断优化演进之路，以及性能优化解决方案。"
@@ -160,12 +129,10 @@ id_chujinliang:
 id_yejunqiang:
   name: 叶俊强
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: "曾任360游戏云总监，绿岸网络运维总监，从事IT相关工作18年、互联网工作9年、网络游戏运维开发8年；国内《运维自动化平台》第一人，成功实现上千台服务器及相关游戏运营业务平台可视化维护工作；擅长系统架构，熟悉c/c++/python/php/java等主流开发技术，有大型互联网项目应用经验，熟悉Linux平台及Mysql在游戏行业内安全高效稳定运行；曾担任项目的运营管理系统支持峰值30万以上用户同时在线，并安全、高效、稳定运营8年以上。" 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: ""
     title_en: ""
     preview: ""
@@ -175,12 +142,10 @@ id_yejunqiang:
 id_ouyangmin:
   name: 欧阳敏
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: "卡斯柯信号有限公司自动化测试负责人； 主要负责测试平台开发和测试工具开发，以及采取自动化测试手段，提升测试效率。2008年硕士毕业于西南交通大学交通信息与控制专业" 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: "嵌入式软件自动化测试实践和例子"
     title_en: ""
     preview: "演讲主题简述
@@ -194,22 +159,158 @@ id_ouyangmin:
 id_qinxuye:
   name: 秦续业 
   city_shanghai: 1
-  city: 上海
-  city_en: Shanghai
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
   intro: "阿里云的大数据事业部，担任资深研发工程师，主要负责将Python的科学计算库，包括numpy、pandas、scikit-learn带到大数据即阿里云的ODPS环境，让pandas等类似代码在ODPS上并行执行，一方面能利用到pandas等成熟的Python科学计算库的API，另一方面能利用ODPS的海量计算能力。 " 
   intro_en: ""
-  topic:
+  shanghai_topic:
     title: "双剑合壁——Python和大数据计算平台的结合"
     title_en: ""
     preview: "现有的pandas库提供丰富的API尤其是DataFrame API来操作结构化数据；同时阿里云ODPS本身作为大数据处理平台，提供了海量数据的能力，其中ODPS SQL是ODPS上主要的结构化数据处理语言。然而，Pandas作为单机的库，计算能力有限；ODPS SQL能处理大量数据，但受限于SQL的表达能力。因此，PyODPS DataFrame框架提供了一种类似于Pandas DataFrame的API，但是能运用ODPS的海量数据计算能力，对结构化数据来执行查询。DataFrame框架目前将所有操作编译成ODPS SQL来执行，也能在本地使用pandas计算。同时，PyODPS提供了类似scikit-learn类似的接口，通过输入和输出PyODPS DataFrame，能让用户无需学习成本，就能用类似scikit-learn的体验进行机器学习和数据挖掘。"
     preview_en: ""
     slide: #
 
+id_wangchen:
+  name: 王琛
+  city_beijing: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-2940ac5653ac3b98.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
+  intro: "百纳信息科技有限公司人工智能方向负责人，英国爱丁堡大学人工智能专业硕士。曾任职百度基础架构部，负责百度数据仓库的研发和建设。目前从事人工智能领域项目的研发工作，对TensorFlow框架有一些研究和应用经验。"
+  intro_en: ...
+  shanghai_topic:
+    title: "TensorFlow框架剖析及应用"
+    title_en: "..."
+    preview: "人工智能是目前计算机科学界最热门的研究方向之一，AlphaGo战胜李世石，Prisma席卷各大社交网络，都显示着这波浪潮的来临。Google作为人工智能方向的引领者之一，在2015年开源了机器学习框架TensorFlow。一经发布，迅速成为了github上被关注最多的项目之一，同时也成为了机器学习领域的最常用的标准框架。
+        本次演讲希望能与大家分享我们对TensorFlow框架的研究和剖析，并希望通过对框架本身更深的理解，促进更多应用项目能更快更好的落地实践。"
+    preview_en: ...
+    slide: #
+
 
 ####################################################################
 # 深圳
 ####################################################################
+id_heshiyou:
+  name: 何世友
+  city_shenzhen: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro:  "爱范儿（广州爱范儿科技股份有限公司） CTO ，移动互联网新兵，90 年生人，自 09 年开始摸爬滚打。从校园创业到跨国团队技术顾问再到如今，积累了些许不成熟的管理试错。专注于高并发网络、机器学习、移动 app（部分硬件）、团队管理。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "ASGI 草案，Python 终于等到了"
+    title_en: "..."
+    preview: "从 CGI 到 WSGI，一晃十余年。自 10 年以来，HTTP2、WebSocket 等新协议逐渐发展壮大，显然 WSGI 已经力不从心，Python 急需新的 web 框架适应新协议。ASGI，由 Diango 团队发起，提出了一种新的异步网络编程思想，试图用一个框架兼容 HTTP、HTTP2、WebSocket 三种协议，它是怎么做到的呢？让我们一起来揭开它的神秘面纱。"
+    preview_en: ...
+    slide: #
+
+id_panjunyong:
+  name: 潘俊勇
+  city_shenzhen: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro:  "广州润普网络科技有限公司 易度云（easydo.cn）创始人，python社区老兵，珠三角技术沙龙组委，一直在企业应用领域耕耘，专注企业内容管理和企业应用快速开发平台相关产品的研发。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "脚本化和Blockly可视化的应用开发实践"
+    title_en: "..."
+    preview: "技术变化越来越快，应用开发越来越复杂，缺乏持久保障。易开发在企业应用领域，通过建立应用开发平台，隔离技术变迁，实现全栈Python脚本化应用开发，部分逻辑使用Blockly可视化开发，简化应用开发，进而做到可持续的应用开发。演讲将在分析云和大数据时代应用开发之未来趋势，介绍脚本化应用开发平台的架构，以及Blockly可视化语言。"
+    preview_en: ...
+    slide: #
+
+id_chanshi:
+  name: 馋师
+  city_shenzhen: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro:  "互联网公司后端开发。五年Python编程经验。喜欢接触各类语言、平台、框架、工具、方法。开源参与者"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "Python开发辅助软件提升工作效率"
+    title_en: "..."
+    preview: "第一：用Python开发比AutoHotkey更好用的热键软件，并同时支持Windows、Linux、Mac OS三种系统。
+第二：通过Monkey Patching实现运行时调用栈追踪，用于快速研究代码流程（10分钟弄懂一个框架），及实现非侵入式流程测试（不用埋点，不用加测试专用的函数参数）。
+第三：使用逐行注释法明示代码书写意图，成倍提升代码可读性和项目维护效率。"
+    preview_en: ...
+    slide: #
+
+id_zhangqichuan:
+  name: 张其川
+  city_shenzhen: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro:  "广东丰德科技自动化运维工程师"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "自动化运维和工具"
+    title_en: "..."
+    preview: "在大数据、云计算的时代，越来越多的公司开始拓展自己的业务，服务器数量急剧增加。面对如此庞大的服务器集群，普通的运维模式已经不再能满足我们的生产需要。需要自动化运维模式来有效地管理大量的服务器，本演讲介绍了一些自动化运维的开发经验和案例。"
+    preview_en: ...
+    slide: #
+
+id_river:
+  name: river
+  city_shenzhen: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro:  "QPython作者，创业者，前Zynga任高级系统研发工程师，前绿盟科技产品经理，前新浪邮件系统开发工程师"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "深入QSL4A开源项目 - Python with Android"
+    title_en: "..."
+    preview: "如何用Python更好地进行原生安卓开发？这个是每一位AndroidPythoner心中的疑问。QSL4A开源项目就是解决问题的关键。QSLA是SL4A项目的继承，在QPython中是用于连接安卓与Python的桥梁。在这个主题中，我将与你一起深入了解QSL4A库架构，以及教会你如何扩展QSL4A特性。"
+    preview_en: ...
+    slide: #
+
+id_huguotao:
+  name: 胡国涛
+  city_shenzhen: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro:  "优趣工作室 WEGO 项目组高级工程师， QPython产品组工程师，目前主要负责微信相关基础框架、组件的开发"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "WEGO 的开源之旅"
+    title_en: "..."
+    preview: "随着微信的发展，原来越多的公众号入驻微信平台带来了大量的开发需求。现在我们将我们使用的微信开发框架 WEGO 开源，希望能给更多的开发者带来便利。
+WEGO 是一个由 python 编写、方便集成、快速易用、轻便灵活的微信开发框架，自带有 web 管理界面，让开发者专注业务逻辑摆脱微信接口调试的烦恼。
+Github: https://github.com/wegostudio"
+    preview_en: ...
+    slide: #
+
+id_shienming:
+  name: 石恩名
+  city_shenzhen: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro:  "广州优亿科技有限公司高级技术经理，负责大数据平台相关的采集转换和数据挖掘等相关的工作，以Python作为主要开发语言，专注于数据采集、机器学习、技术架构设计。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "一种可视化爬虫技术分享"
+    title_en: "..."
+    preview: "网络爬虫是Python擅长领域，包括Scrapy、Pyspider等大量开源爬虫框架，那么利用现有的框架如何构建一个高性能的可视化网络爬虫的产品？主要分享内容包括：
+1） 一个高性能的网络爬虫框架介绍。
+2） 构建一个可视化网络爬虫所遇到的问题。
+3） 对主要的问题的解决方案。
+4） 产品展示和介绍。"
+    preview_en: ...
+    slide: #
+
+id_lili:
+  name: 李力
+  city_shenzhen: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro:  "腾讯云调度管理系统研发负责人，腾讯云布道师，主要负责腾讯公有云/私有云后台框架的设计、实现及运营，在KVM虚拟化、sdn/vpc、linux container上有多年的实践经验。 "
+  intro_en: "..."
+  shenzhen_topic:
+    title: "Python用于公有云系统的实践"
+    title_en: "..."
+    preview: "大家都知道Python是云计算的好伙伴，通过Python语言OpenStack建立起了一系列庞大的项目。同样的，腾讯云的后台系统也大量使用了Python，在这里我们会分享Python在腾讯公有云系统中的一些应用实践，阐述在云计算的系统当中我们对Python的一些特性的依赖和喜爱，包括我们在大规模系统中的应用python技术的一些坑，让大家有所收获。"
+    preview_en: ...
+    slide: #
+
+id_tangyingkang:
+  name: 汤英康
+  city_shenzhen: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro:  "Python程序员，就职于广州优亿科技，负责设计和开发大数据监控平台的相关产品。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "大数据监控告警系统"
+    title_en: "..."
+    preview: "随着业务量和数据量的快速增加，对于集群应用的监控和告警显得越发重要。优亿科技结合积累多年的电信行业大数据项目经验，整合了分布式数据采集、OpenTSDB海量数据存储、数据可视化、告警和Docker集群管理技术，最终推出一套完整的大数据监控告警平台产品方案。本主题将介绍该产品的系统架构，分享在设计和开发中积累的一些经验。 "
+    preview_en: ...
+    slide: #
 
 ####################################################################
 # 北京
@@ -217,12 +318,10 @@ id_qinxuye:
 id_hongqiangning:
   name: 洪强宁 
   city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
-  intro:  爱因互动CTO，创业中。前豆瓣首席架构师，前宜信大数据创新中心首席架构师。2002年开始使用Python，中国Python用户组（CPUG）的早期活跃者和创立者之一，有较深厚的大规模网站架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro:  "爱因互动CTO，创业中。前豆瓣首席架构师，前宜信大数据创新中心首席架构师。2002年开始使用Python，中国Python用户组（CPUG）的早期活跃者和创立者之一，有较深厚的大规模网站架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 "
   intro_en: CTO...
-  topic:
+  beijing_topic:
     title: "思考中..."
     title_en: "..."
     preview: "..."
@@ -233,10 +332,8 @@ id_hongqiangning:
 id_tiantaotao:
   name:  田涛涛
   city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
-  intro: 阿里巴巴 阿里云高级技术专家，加入阿里云之前曾任职IBM中国开发中心DB2的管理和监控。目前负责阿里云管控系统和资源编排(ROS)开发。 
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro: "阿里巴巴 阿里云高级技术专家，加入阿里云之前曾任职IBM中国开发中心DB2的管理和监控。目前负责阿里云管控系统和资源编排(ROS)开发。 "
   intro_en: CTO...
   topic:
     title: "Infrastructure as Code In Aliyun"
@@ -249,45 +346,39 @@ id_tiantaotao:
 id_dinglaiqiang:
   name:  丁来强
   city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
-  intro: 盛庞卡(Splunk)上海实验室    从业10+年, Splunk(美国纳斯达克第一家纯大数据的上市公司)在中国实验室的高级技术经理, 负责大数据平台相关的采集转换和数据可视化等相关的工作. 技术兴趣广泛. 擅长C++/Python与JS。曾在PyCon 2015大会上做过关于大数据分析处理可视化以及高效函数式编程的演讲，深受好评。 
+  city_shanghai: 1
+  city_shenzhen: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro: "盛庞卡(Splunk)上海实验室    从业10+年, Splunk(美国纳斯达克第一家纯大数据的上市公司)在中国实验室的高级技术经理, 负责大数据平台相关的采集转换和数据可视化等相关的工作. 技术兴趣广泛. 擅长C++/Python与JS。曾在PyCon 2015大会上做过关于大数据分析处理可视化以及高效函数式编程的演讲，深受好评。 "
   intro_en: ...
-  topic:
+  shanghai_topic:
     title: "使用Python进行高效大数据工作流与任务调度"
     title_en: "..."
     preview: "大数据技术的百花齐放，工作流与任务调度是其中不可或缺的一环，本议题重点介绍了基于纯Python的Apache Airflow与Spotify Luigi方案，覆盖问题调整、原理技术、工具扩展、最佳实践与未来发展等。也涉及了其他非Python的解决方案如Linkedin Azkaban，Mesos下的Marathon和Aurora等。"
     preview_en: ...
     slide: #
-
-
-id_wangchen:
-  name: 王琛
-  city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://upload-images.jianshu.io/upload_images/19928-2940ac5653ac3b98.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 
-  intro: 百纳信息科技有限公司人工智能方向负责人，英国爱丁堡大学人工智能专业硕士。曾任职百度基础架构部，负责百度数据仓库的研发和建设。目前从事人工智能领域项目的研发工作，对TensorFlow框架有一些研究和应用经验。
-  intro_en: ...
-  topic:
-    title: "TensorFlow框架剖析及应用"
-    title_en: "..."
-    preview: "人工智能是目前计算机科学界最热门的研究方向之一，AlphaGo战胜李世石，Prisma席卷各大社交网络，都显示着这波浪潮的来临。Google作为人工智能方向的引领者之一，在2015年开源了机器学习框架TensorFlow。一经发布，迅速成为了github上被关注最多的项目之一，同时也成为了机器学习领域的最常用的标准框架。
-        本次演讲希望能与大家分享我们对TensorFlow框架的研究和剖析，并希望通过对框架本身更深的理解，促进更多应用项目能更快更好的落地实践。"
-    preview_en: ...
+  beijing_topic:
+    title: "Python and Design Pattern"
+    title_en: "Python and Design Pattern"
+    preview: "模式尤其是设计模式一直是一个热门话题，尤其是OOP的语言场景下特别流行GOF的23个模式，这些设计模式在动态语言的Python的应用场景中又如何变化和应用呢？本议题结合常见的设计模式与Python来谈，并从函数式的角度来看Python与设计模式的关系以及应用常见和技术实现的变化，不仅涉及GOF的设计模式，也覆盖常见网络和并发模式。"
+    preview_en: ""
     slide: #
+  shenzhen_topic:
+    title: "Python hooking, patching and injection"
+    title_en: "Python hooking, patching and injection"
+    preview: "Python的强大语言特性和生态系统为其高效开发和数据分析提供了强力的支撑，其灵活的语言设计也为一些hacking技术提供可能，并由其产生了许多强大的神奇的工具和模式。本议题介绍了Python hooking、patching和injection等技术和原理，结合流行框架和库的使用、工具、安全、检测等场景的应用。使得听众可以学习相关技术，并了解在什么样的场景下使用。"
+    preview_en: ""
+    slide: #
+
 
 
 id_zhanghuayi:
   name: 张华翼
   city_beijing: 1
-  city: 北京
-  city_en: Beijing
-  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip 
-  intro: 豆瓣网高级系统工程师
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro: "豆瓣网高级系统工程师"
   intro_en: ...
-  topic:
+  beijing_topic:
     title: "使用 Python 构建服务化架构中的基础设施"
     title_en: "..."
     preview: "1. 分布式追踪系统：服务化架构中调用链可能非常复杂，利用 Python 动态语言的特性可以实现一个简洁透明的分布式追踪系统，帮助收集调用信息，定位系统性能瓶颈。 2. 动态接口查询引擎：在向服务化架构迁移的过程中会遇到性能以及接口设计粒度的问题。利用数据流抽象和 Python 的闭包序列化，实现将多次服务调用打包为一次，或者组合多个已有接口动态生成新接口。"
@@ -295,6 +386,43 @@ id_zhanghuayi:
     slide: #
 
 
-####################################################################
-# 杭州
-####################################################################
+id_lvzhaogang:
+  name: 吕召刚
+  city_beijing: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro: "彪洋科技，12+年的软件研发与架构经验，关心每一行代码，每一个变量和方法的命名，有代码洁癖。曾在大众点评负责搜索引擎研发，任开发经理，从无到有架构和实现了支持日均上亿PV的高可用搜索系统；做过10多个Python应用，大部分用的Django的，为Django的高效和强大所倾倒，现在创业公司负责研发，做Marketing Automation产品。"
+  intro_en: ...
+  beijing_topic:
+    title: "引爆你的生产力-挖出Django的潜能"
+    title_en: "..."
+    preview: "Django自带的Admin非常强大，能高效开发出管理系统；如何还能更高效？比如预期要2周开发完成的系统如何1天内完成。既然数据库里已经有数据的定义，为何要在Model里面再定义一次？这个主题分享如何自动生成代码，与现有系统的数据库集成，如何与现有的账号集成，如何在自带的admin页面增加除增删改查之外的定制功能，如何集成bootstrap，以及集成restapi。建议有兴趣参加这个主题的同学提前装好Django，参会时带上笔记本，以便在分享中得到最大的收获。"
+    preview_en: ...
+    slide: #
+
+
+id_yangshuguang:
+  name: 阳曙光
+  city_beijing: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro: "猎聘网工程师，7年python开发经验，2015年加入猎聘从事大数据相关的python开发工作。深入研究过纯python开发的任务调度工具luigi，airflow的源码。2016年用python开发了用于猎聘网大数研究院的任务调度工具。 "
+  intro_en: ...
+  beijing_topic:
+    title: "数据流水线任务智能调度系统"
+    title_en: "..."
+    preview: "数据流水线上需要运行各种任务，包括执行Hive SQL、MR程序、Python数据处理脚本、导出数据、邮件发送数据等。如何保证这些任务按照依赖关系执行是很大的一个挑战。我们用Python开发的任务调度系统能够自动解决依赖，并且能够按设置优先级来执行任务。同时还能解决了数据恢复及由于上游数据问题需要部分执行的问题。"
+    preview_en: ...
+    slide: #
+
+
+id_moyu:
+  name: 莫瑜
+  city_beijing: 1
+  avatar: http://upload-images.jianshu.io/upload_images/19928-fa7e8230e17962cd.jpg?imageMogr2/auto-orient/strip
+  intro: "海豚浏览器算法开发主管，前微软搜索技术中心工程师，有多年搜索引擎，音乐检索/哼唱搜索，推荐系统算法研发经验。曾业余时间与同事合著《编程之美》。持续关注和实践大规模数据算法性能优化和人工智能技术。"
+  intro_en: ...
+  beijing_topic:
+    title: "来一块二向箔，分析用 - Python高维数据可视化"
+    title_en: "..."
+    preview: "高维数据普遍存在于大数据和人工智能应用场景中，比如，我们需要把文本，图像等数据的语义编码成高维向量。而，理解高维数据对于生存在三维世界的人们来说是极其困难的。如何更好地对高维数据进行可视化，以便于数据分析和优化是一项常见的工作。 看过《三体》的朋友都知道黑科技- 二向箔，高维数据的可视化很大程度上就是，通过降维技术更好地展示高维数据的分布。 这个小分享希望介绍python社区的若干高维数据可视化方法和实践。"
+    preview_en: ...
+    slide: #

@@ -76,8 +76,12 @@ def _sp_printlog(msg):
 def _sp_selectspeakers(speakers, city):
     '''模板函数，选择指定city的speakers'''
     keyname = "city_" + city
-    return [speaker for speaker_id, speaker in speakers.iteritems()
-            if keyname in speaker]
+    from pprint import pprint
+    city_speakers = [speaker for speaker_id, speaker in speakers.iteritems()
+           if keyname in speaker]
+    print(u'城市: %s' % (city, ))
+    [print(speaker['name']) for speaker in city_speakers]
+    return city_speakers
 
 
 def _process_data(data, suffix):

@@ -28,11 +28,9 @@ shanghai:
     - time: "待定"
       topic: "开场"
       topic_en: "Opening"
-    - { time: "待定", speaker: id_hongqiangning }
     - time: "待定"
       topic: 茶歇+抽奖
       topic_en: Intermission
-    - { time: "待定", speaker: id_hongqiangning }
   noon:
     - time: "待定"
       topic: 午餐+合照
