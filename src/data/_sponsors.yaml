@@ -1,12 +1,12 @@
 meta:
-  -
-    level: diamond
-    name: 钻石赞助
-    name_en: Diamond
-  -
-    level: platinum
-    name: 白金赞助
-    name_en: Platinum
+    #  -
+    #    level: diamond
+    #    name: 钻石赞助
+    #    name_en: Diamond
+    #  -
+    #    level: platinum
+    #    name: 白金赞助
+    #    name_en: Platinum
   -
     level: gold
     name: 黄金赞助
