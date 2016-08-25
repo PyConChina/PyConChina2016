@@ -30,6 +30,10 @@
     title_en: Beijing
     url: "beijing.html"
     url_en: "en/beijing.html"
+  - title: 深圳
+    title_en: Shenzhen
+    url: "shenzhen.html"
+    url_en: "en/shenzhen.html"
 - title: 志愿者
   title_en: VOLUNTEERS
   url: "volunteers.html"
