@@ -93,3 +93,4 @@ ENV/
 src/asset/js/
 src/asset/css/
 src/asset/webassets-external/
+.DS_Store
