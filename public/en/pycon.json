@@ -20,8 +20,36 @@
       "address": "No.2 Boyun Road, Pudong, Shanghai", 
       "afternoon": [
         {
-          "time": "\u5f85\u5b9a", 
-          "topic": "Intermission"
+          "time": "13:00-13:45", 
+          "topic": ""
+        }, 
+        {
+          "time": "13:45-14:30", 
+          "topic": ""
+        }, 
+        {
+          "time": "14:30-14:45", 
+          "topic": ""
+        }, 
+        {
+          "time": "14:45-15:30", 
+          "topic": ""
+        }, 
+        {
+          "time": "15:30-16:15", 
+          "topic": ""
+        }, 
+        {
+          "time": "16:15-17:00 ", 
+          "topic": ""
+        }, 
+        {
+          "time": "17:00-17:40", 
+          "topic": ""
+        }, 
+        {
+          "time": "17:40-17:50", 
+          "topic": ""
         }
       ], 
       "cancel_talks": null, 
@@ -31,29 +59,49 @@
       "lightening_talks": [
         {
           "time": "\u5f85\u5b9a", 
-          "topic": "Intermission"
+          "topic": ""
         }
       ], 
       "maplink": "http://f.amap.com/0FFE0i", 
       "morning": [
         {
-          "time": "\u5f85\u5b9a", 
+          "time": "9:00-9:10", 
           "topic": "Check-in"
         }, 
         {
-          "time": "\u5f85\u5b9a", 
-          "topic": "Opening"
+          "time": "9:10-9:55", 
+          "topic": ""
         }, 
         {
-          "time": "\u5f85\u5b9a", 
-          "topic": "Intermission"
+          "time": "9:55-10:40", 
+          "topic": ""
+        }, 
+        {
+          "time": "10:40-10:50", 
+          "topic": ""
+        }, 
+        {
+          "time": "10:50-11:35", 
+          "topic": ""
+        }, 
+        {
+          "time": "11:35-11:45", 
+          "topic": ""
+        }, 
+        {
+          "time": "11:45-11:55", 
+          "topic": ""
+        }, 
+        {
+          "time": "11:55-12:05", 
+          "topic": ""
         }
       ], 
       "name": "Shanghai", 
       "noon": [
         {
-          "time": "\u5f85\u5b9a", 
-          "topic": "Lunch + Photo"
+          "time": "11:55-13:00", 
+          "topic": ""
         }
       ], 
       "notices": "", 

@@ -22,27 +22,63 @@ shanghai:
   date: 2016-09-10 09:00~18:00
   notices: ""
   morning:
-    - time: "待定"
-      topic: "签到 & 开场"
+    - time: "9:00-9:10"
+      topic: "大会开场演讲和日程介绍"
       topic_en: "Check-in"
-    - time: "待定"
-      topic: "开场"
-      topic_en: "Opening"
-    - time: "待定"
-      topic: 茶歇+抽奖
-      topic_en: Intermission
+    - time: "9:10-9:55"
+      topic: "演讲1《使用Python进行高效大数据工作流与任务调度》丁来强，Splunk"
+      topic_en: ""
+    - time: "9:55-10:40"
+      topic: "演讲2《Python高性能Web服务开发实践》诸金良，达达配送API团队负责人"
+      topic_en: ""
+    - time: "10:40-10:50"
+      topic: "茶歇"
+      topic_en: ""
+    - time: "10:50-11:35"
+      topic: "演讲3《聊聊Python和量化投资》陈晓优， 上海均直资产管理有限公司"
+      topic_en: ""
+    - time: "11:35-11:45"
+      topic: "演讲4 《用高魔的姿势调 python 程序》郭浩川，饿了么 Python 框架负责人"
+      topic_en: ""
+    - time: "11:45-11:55"
+      topic: "演讲5 《嵌入式软件自动化测试实践和例子》欧阳敏，卡斯柯信号有限公司自动化测试负责人"
+      topic_en: ""
+    - time: "11:55-12:05"
+      topic: "演讲6 《不容错过的Python小贴士—技巧, 风格和最佳实践》严超，联想上海"
+      topic_en: ""
   noon:
-    - time: "待定"
-      topic: 午餐+合照
-      topic_en: Lunch + Photo
+    - time: "11:55-13:00"
+      topic: "午餐"
+      topic_en: ""
   afternoon:
-    - time: "待定"
-      topic: 茶歇+抽奖
-      topic_en: Intermission
+    - time: "13:00-13:45"
+      topic: "演讲7《Python 数据可视化的应用与价值》Jackon， Seedlink"
+      topic_en: ""
+    - time: "13:45-14:30"
+      topic: "演讲8《双剑合壁——Python和大数据计算平台的结合》秦续业，阿里云的大数据事业部资深研发工程师"
+      topic_en: ""
+    - time: "14:30-14:45"
+      topic: "茶歇"
+      topic_en: ""
+    - time: "14:45-15:30"
+      topic: "演讲9《asyncio在web中的技术栈》李俱顺，杭州云柚科技有限公司"
+      topic_en: ""
+    - time: "15:30-16:15"
+      topic: "演讲10《主题思考中.....》叶俊强，绿岸网络运维总监，曾任360游戏云总监"
+      topic_en: ""
+    - time: "16:15-17:00 "
+      topic: "演讲11 《TensorFlow框架剖析及应用》王琛，海豚浏览器（百纳信息科技有限公司）人工智能方向负责人"
+      topic_en: ""
+    - time: "17:00-17:40"
+      topic: "演讲12 《Odoo与 python》陈帆，自由职业"
+      topic_en: ""
+    - time: "17:40-17:50"
+      topic: "演讲13《程序猿训练师养成计划1.0》许智翔，Python/Golang/C程序员"
+      topic_en: ""
   lightening_talks:
     - time: "待定"
-      topic: 神秘大奖抽取
-      topic_en: Intermission
+      topic: ""
+      topic_en: ""
   cancel_talks:
 
 

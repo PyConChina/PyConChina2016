@@ -20,8 +20,36 @@
       "address": "\u4e0a\u6d77\u5e02\u6d66\u4e1c\u65b0\u533a\u535a\u4e91\u8def2\u53f7", 
       "afternoon": [
         {
-          "time": "\u5f85\u5b9a", 
-          "topic": "\u8336\u6b47+\u62bd\u5956"
+          "time": "13:00-13:45", 
+          "topic": "\u6f14\u8bb27\u300aPython \u6570\u636e\u53ef\u89c6\u5316\u7684\u5e94\u7528\u4e0e\u4ef7\u503c\u300bJackon\uff0c Seedlink"
+        }, 
+        {
+          "time": "13:45-14:30", 
+          "topic": "\u6f14\u8bb28\u300a\u53cc\u5251\u5408\u58c1\u2014\u2014Python\u548c\u5927\u6570\u636e\u8ba1\u7b97\u5e73\u53f0\u7684\u7ed3\u5408\u300b\u79e6\u7eed\u4e1a\uff0c\u963f\u91cc\u4e91\u7684\u5927\u6570\u636e\u4e8b\u4e1a\u90e8\u8d44\u6df1\u7814\u53d1\u5de5\u7a0b\u5e08"
+        }, 
+        {
+          "time": "14:30-14:45", 
+          "topic": "\u8336\u6b47"
+        }, 
+        {
+          "time": "14:45-15:30", 
+          "topic": "\u6f14\u8bb29\u300aasyncio\u5728web\u4e2d\u7684\u6280\u672f\u6808\u300b\u674e\u4ff1\u987a\uff0c\u676d\u5dde\u4e91\u67da\u79d1\u6280\u6709\u9650\u516c\u53f8"
+        }, 
+        {
+          "time": "15:30-16:15", 
+          "topic": "\u6f14\u8bb210\u300a\u4e3b\u9898\u601d\u8003\u4e2d.....\u300b\u53f6\u4fca\u5f3a\uff0c\u7eff\u5cb8\u7f51\u7edc\u8fd0\u7ef4\u603b\u76d1\uff0c\u66fe\u4efb360\u6e38\u620f\u4e91\u603b\u76d1"
+        }, 
+        {
+          "time": "16:15-17:00 ", 
+          "topic": "\u6f14\u8bb211 \u300aTensorFlow\u6846\u67b6\u5256\u6790\u53ca\u5e94\u7528\u300b\u738b\u741b\uff0c\u6d77\u8c5a\u6d4f\u89c8\u5668\uff08\u767e\u7eb3\u4fe1\u606f\u79d1\u6280\u6709\u9650\u516c\u53f8\uff09\u4eba\u5de5\u667a\u80fd\u65b9\u5411\u8d1f\u8d23\u4eba"
+        }, 
+        {
+          "time": "17:00-17:40", 
+          "topic": "\u6f14\u8bb212 \u300aOdoo\u4e0e python\u300b\u9648\u5e06\uff0c\u81ea\u7531\u804c\u4e1a"
+        }, 
+        {
+          "time": "17:40-17:50", 
+          "topic": "\u6f14\u8bb213\u300a\u7a0b\u5e8f\u733f\u8bad\u7ec3\u5e08\u517b\u6210\u8ba1\u52121.0\u300b\u8bb8\u667a\u7fd4\uff0cPython/Golang/C\u7a0b\u5e8f\u5458"
         }
       ], 
       "cancel_talks": null, 
@@ -31,29 +59,49 @@
       "lightening_talks": [
         {
           "time": "\u5f85\u5b9a", 
-          "topic": "\u795e\u79d8\u5927\u5956\u62bd\u53d6"
+          "topic": ""
         }
       ], 
       "maplink": "http://f.amap.com/0FFE0i", 
       "morning": [
         {
-          "time": "\u5f85\u5b9a", 
-          "topic": "\u7b7e\u5230 & \u5f00\u573a"
+          "time": "9:00-9:10", 
+          "topic": "\u5927\u4f1a\u5f00\u573a\u6f14\u8bb2\u548c\u65e5\u7a0b\u4ecb\u7ecd"
         }, 
         {
-          "time": "\u5f85\u5b9a", 
-          "topic": "\u5f00\u573a"
+          "time": "9:10-9:55", 
+          "topic": "\u6f14\u8bb21\u300a\u4f7f\u7528Python\u8fdb\u884c\u9ad8\u6548\u5927\u6570\u636e\u5de5\u4f5c\u6d41\u4e0e\u4efb\u52a1\u8c03\u5ea6\u300b\u4e01\u6765\u5f3a\uff0cSplunk"
         }, 
         {
-          "time": "\u5f85\u5b9a", 
-          "topic": "\u8336\u6b47+\u62bd\u5956"
+          "time": "9:55-10:40", 
+          "topic": "\u6f14\u8bb22\u300aPython\u9ad8\u6027\u80fdWeb\u670d\u52a1\u5f00\u53d1\u5b9e\u8df5\u300b\u8bf8\u91d1\u826f\uff0c\u8fbe\u8fbe\u914d\u9001API\u56e2\u961f\u8d1f\u8d23\u4eba"
+        }, 
+        {
+          "time": "10:40-10:50", 
+          "topic": "\u8336\u6b47"
+        }, 
+        {
+          "time": "10:50-11:35", 
+          "topic": "\u6f14\u8bb23\u300a\u804a\u804aPython\u548c\u91cf\u5316\u6295\u8d44\u300b\u9648\u6653\u4f18\uff0c \u4e0a\u6d77\u5747\u76f4\u8d44\u4ea7\u7ba1\u7406\u6709\u9650\u516c\u53f8"
+        }, 
+        {
+          "time": "11:35-11:45", 
+          "topic": "\u6f14\u8bb24 \u300a\u7528\u9ad8\u9b54\u7684\u59ff\u52bf\u8c03 python \u7a0b\u5e8f\u300b\u90ed\u6d69\u5ddd\uff0c\u997f\u4e86\u4e48 Python \u6846\u67b6\u8d1f\u8d23\u4eba"
+        }, 
+        {
+          "time": "11:45-11:55", 
+          "topic": "\u6f14\u8bb25 \u300a\u5d4c\u5165\u5f0f\u8f6f\u4ef6\u81ea\u52a8\u5316\u6d4b\u8bd5\u5b9e\u8df5\u548c\u4f8b\u5b50\u300b\u6b27\u9633\u654f\uff0c\u5361\u65af\u67ef\u4fe1\u53f7\u6709\u9650\u516c\u53f8\u81ea\u52a8\u5316\u6d4b\u8bd5\u8d1f\u8d23\u4eba"
+        }, 
+        {
+          "time": "11:55-12:05", 
+          "topic": "\u6f14\u8bb26 \u300a\u4e0d\u5bb9\u9519\u8fc7\u7684Python\u5c0f\u8d34\u58eb\u2014\u6280\u5de7, \u98ce\u683c\u548c\u6700\u4f73\u5b9e\u8df5\u300b\u4e25\u8d85\uff0c\u8054\u60f3\u4e0a\u6d77"
         }
       ], 
       "name": "\u4e0a\u6d77", 
       "noon": [
         {
-          "time": "\u5f85\u5b9a", 
-          "topic": "\u5348\u9910+\u5408\u7167"
+          "time": "11:55-13:00", 
+          "topic": "\u5348\u9910"
         }
       ], 
       "notices": "", 
