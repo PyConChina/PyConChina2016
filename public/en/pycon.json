@@ -2,11 +2,79 @@
   "agenda": {
     "beijing": {
       "address": "No.77 MEISHUGUANHOU Street, Dongcheng, Beijing", 
+      "afternoon": [
+        {
+          "speaker": "id_zhanghuayi", 
+          "time": "13:00-13:45"
+        }, 
+        {
+          "speaker": "id_yangshuguang", 
+          "time": "13:45-14:30"
+        }, 
+        {
+          "time": "14:30-14:45", 
+          "topic": ""
+        }, 
+        {
+          "speaker": "id_moyu", 
+          "time": "14:45-15:30"
+        }, 
+        {
+          "speaker": "id_guifei", 
+          "time": "15:30-16:15"
+        }, 
+        {
+          "speaker": "id_lvzhaogang", 
+          "time": "16:15-17:00"
+        }, 
+        {
+          "time": "17:00-17:10", 
+          "topic": ""
+        }
+      ], 
+      "cancel_talks": null, 
       "city": "beijing", 
       "completed": false, 
       "date": "2016-09-17 09:00~18:00", 
+      "lightening_talks": null, 
       "maplink": "http://f.amap.com/0FFE0i", 
+      "morning": [
+        {
+          "time": "9:00-9:10", 
+          "topic": "Check-in"
+        }, 
+        {
+          "speaker": "id_hongqiangning", 
+          "time": "9:10-9:55"
+        }, 
+        {
+          "speaker": "id_dinglaiqiang", 
+          "time": "9:55-10:40"
+        }, 
+        {
+          "time": "10:40-10:50", 
+          "topic": ""
+        }, 
+        {
+          "speaker": "id_tiantaotao", 
+          "time": "10:50-11:35"
+        }, 
+        {
+          "time": "11:35-11:45", 
+          "topic": ""
+        }, 
+        {
+          "time": "11:45-11:55", 
+          "topic": ""
+        }
+      ], 
       "name": "Beijing", 
+      "noon": [
+        {
+          "time": "11:55-13:00", 
+          "topic": ""
+        }
+      ], 
       "notices": "", 
       "traffic": "DAFOSI Stop on Bus 108, 104, 127", 
       "venue": "77 Hall"
@@ -20,48 +88,43 @@
       "address": "No.2 Boyun Road, Pudong, Shanghai", 
       "afternoon": [
         {
-          "time": "13:00-13:45", 
-          "topic": ""
+          "speaker": "id_jackon", 
+          "time": "13:00-13:45"
         }, 
         {
-          "time": "13:45-14:30", 
-          "topic": ""
+          "speaker": "id_qinxuye", 
+          "time": "13:45-14:30"
         }, 
         {
           "time": "14:30-14:45", 
           "topic": ""
         }, 
         {
-          "time": "14:45-15:30", 
-          "topic": ""
+          "speaker": "id_lijushun", 
+          "time": "14:45-15:30"
         }, 
         {
-          "time": "15:30-16:15", 
-          "topic": ""
+          "speaker": "id_yejunqiang", 
+          "time": "15:30-16:15"
         }, 
         {
-          "time": "16:15-17:00 ", 
-          "topic": ""
+          "speaker": "id_wangchen", 
+          "time": "16:15-17:00"
         }, 
         {
-          "time": "17:00-17:40", 
-          "topic": ""
+          "speaker": "id_chenfan", 
+          "time": "17:00-17:40"
         }, 
         {
-          "time": "17:40-17:50", 
-          "topic": ""
+          "speaker": "id_xuzhixiang", 
+          "time": "17:40-17:50"
         }
       ], 
       "cancel_talks": null, 
       "city": "shanghai", 
       "completed": false, 
       "date": "2016-09-10 09:00~18:00", 
-      "lightening_talks": [
-        {
-          "time": "\u5f85\u5b9a", 
-          "topic": ""
-        }
-      ], 
+      "lightening_talks": null, 
       "maplink": "http://f.amap.com/0FFE0i", 
       "morning": [
         {
@@ -69,32 +132,32 @@
           "topic": "Check-in"
         }, 
         {
-          "time": "9:10-9:55", 
-          "topic": ""
+          "speaker": "id_dinglaiqiang", 
+          "time": "9:10-9:55"
         }, 
         {
-          "time": "9:55-10:40", 
-          "topic": ""
+          "speaker": "id_chujinliang", 
+          "time": "9:55-10:40"
         }, 
         {
           "time": "10:40-10:50", 
           "topic": ""
         }, 
         {
-          "time": "10:50-11:35", 
-          "topic": ""
+          "speaker": "id_chenxiaoyou", 
+          "time": "10:50-11:35"
         }, 
         {
-          "time": "11:35-11:45", 
-          "topic": ""
+          "speaker": "id_guohaochuan", 
+          "time": "11:35-11:45"
         }, 
         {
-          "time": "11:45-11:55", 
-          "topic": ""
+          "speaker": "id_ouyangmin", 
+          "time": "11:45-11:55"
         }, 
         {
-          "time": "11:55-12:05", 
-          "topic": ""
+          "speaker": "id_yanchao", 
+          "time": "11:55-12:05"
         }
       ], 
       "name": "Shanghai", 
@@ -110,11 +173,75 @@
     }, 
     "shenzhen": {
       "address": "\u6df1\u5733\u5e02\u5357\u5c71\u533a\u79d1\u53d1\u8def1\u53f7\u5bcc\u5229\u81fb\u5927\u53a63F", 
+      "afternoon": [
+        {
+          "speaker": "id_river", 
+          "time": "13:15-14:00"
+        }, 
+        {
+          "speaker": "id_heshiyou", 
+          "time": "14:00-14:45"
+        }, 
+        {
+          "time": "14:45-15:00", 
+          "topic": ""
+        }, 
+        {
+          "speaker": "id_zhangqichuan", 
+          "time": "15:00-15:45"
+        }, 
+        {
+          "speaker": "id_huguotao", 
+          "time": "15:45-16:30"
+        }, 
+        {
+          "speaker": "id_chanshi", 
+          "time": "16:30-16:40"
+        }, 
+        {
+          "speaker": "id_shienming", 
+          "time": "16:40-16:50"
+        }, 
+        {
+          "speaker": "id_tangyingkang", 
+          "time": "16:50-17:00"
+        }, 
+        {
+          "time": "17:00-17:10", 
+          "topic": ""
+        }
+      ], 
+      "cancel_talks": null, 
       "city": "shenzhen", 
       "completed": false, 
       "date": "2016-09-25 09:00~18:00", 
+      "lightening_talks": null, 
       "maplink": "http://j.map.baidu.com/nc3B8", 
+      "morning": [
+        {
+          "time": "9:50-10:00", 
+          "topic": "Check-in"
+        }, 
+        {
+          "speaker": "id_panjunyong", 
+          "time": "10:00-10:45"
+        }, 
+        {
+          "speaker": "id_dinglaiqiang", 
+          "time": "10:45-11:30"
+        }, 
+        {
+          "speaker": "id_lili", 
+          "time": "11:30-12:15"
+        }
+      ], 
       "name": "Shenzhen", 
+      "noon": [
+        {
+          "time": "12:15-13:15", 
+          "topic": ""
+        }
+      ], 
       "notices": "", 
       "traffic": "", 
       "venue": "\u5bcc\u5229\u81fb\u5927\u53a6"
