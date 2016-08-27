@@ -115,3 +115,37 @@ beijing:
   maplink: 'http://f.amap.com/0FFE0i'
   date: 2016-09-17 09:00~18:00
   notices: ""
+  morning:
+    - time: "9:00-9:10"
+      topic: "大会开场演讲和日程介绍"
+      topic_en: "Check-in"
+    - { time: "9:10-9:55", speaker: id_hongqiangning }
+    - { time: "9:55-10:40", speaker: id_dinglaiqiang }
+    - time: "10:40-10:50"
+      topic: "茶歇"
+      topic_en: ""
+    - { time: "10:50-11:35", speaker: id_tiantaotao }
+    - time: "11:35-11:45"
+      topic: "快速演讲"
+      topic_en: ""
+    - time: "11:45-11:55"
+      topic: "快速演讲"
+      topic_en: ""
+  noon:
+    - time: "11:55-13:00"
+      topic: "午餐"
+      topic_en: ""
+  afternoon:
+    - { time: "13:00-13:45", speaker: id_zhanghuayi }
+    - { time: "13:45-14:30", speaker: id_yangshuguang }
+    - time: "14:30-14:45"
+      topic: "茶歇"
+      topic_en: ""
+    - { time: "14:45-15:30", speaker: id_moyu }
+    - { time: "15:30-16:15", speaker: id_guifei }
+    - { time: "16:15-17:00", speaker: id_lvzhaogang }
+    - time: "17:00-17:10"
+      topic: "抽奖&合影"
+      topic_en: ""
+  lightening_talks:
+  cancel_talks:
