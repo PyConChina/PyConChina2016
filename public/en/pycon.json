@@ -766,7 +766,7 @@
     "conference": null, 
     "organizers": [
       {
-        "avatar": "http://dn-pyconcn.qbox.me/images/volunteer/chenshixin_2013.png?imageView2/2/h/80", 
+        "avatar": "http://dn-pyconcn.qbox.me/images/volunteer/chenshixin_2013.png", 
         "blog": "http://sting.topgeek.org/", 
         "intro": "\u6c38\u6cf0\u7ea2\u78e1\u517b\u8001\u4ea7\u4e1a\u6295\u8d44\u96c6\u56e2\u7684\u4fe1\u606f\u6280\u672f\u603b\u76d1;\u572814\u5e74\u7684\u4e92\u8054\u7f51\u751f\u6daf\u540e,\u6295\u8eab\u5230\u5230\u6c38\u6cf0\u7ea2\u78e1\u517b\u8001\u4ea7\u4e1a\u6295\u8d44\u96c6\u56e2\u505a\u5915\u9633\u4e8b\u4e1a,\u8de8\u754c\u53d1\u5c55. \u4ed6\u662fTopGeek\u6280\u672f\u793e\u533a\u7684\u521b\u529e\u4eba\u4e5f\u662f\u4e0a\u6d77GDG\u7684\u8d1f\u8d23\u4eba,\u5e76\u53c2\u4e0eCPyUG\u793e\u533a\u7684\u7ba1\u7406. \u8fd8\u53d1\u8d77PMCamp\u4ea7\u54c1\u7ecf\u7406\u793e\u533a,\u513f\u7ae5\u793e\u533a\u4e50\u521b\u56ed\u7b49", 
         "name": "StingChen(\u9648\u4e16\u6b23)", 
@@ -775,7 +775,7 @@
         "weibo": "http://weibo.com/stingchen"
       }, 
       {
-        "avatar": "http://dn-pyconcn.qbox.me/images/volunteer/zhouqi.png?imageView2/2/h/80", 
+        "avatar": "http://dn-pyconcn.qbox.me/images/volunteer/zhouqi.png", 
         "blog": "http://zoomquiet.io/", 
         "intro": "One of originator for CPyUG(China Python User Group) / administrator; Enthusiastic python community welfare, well-known community \"DAMA\"; OBP and PythoniCamp project designer / manager; attend and originator all kinds of  online / offline tech evnets, presided compiled \"lovely Python\"; keeping usage Pythonic to reclaim people entering the FLOSS world learning / sharing / innovate! currently work for CMCM.", 
         "name": "Zoom.Quiet (\u5927\u5988)", 
