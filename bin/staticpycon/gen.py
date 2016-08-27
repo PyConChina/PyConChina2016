@@ -7,7 +7,8 @@ import json
 import logging
 from multiprocessing import Process
 from os.path import dirname, realpath, join, getmtime, relpath
-from os import listdir
+from os import listdir, system
+import pipes
 import re
 import shutil
 import yaml
@@ -66,6 +67,9 @@ SITE_DIR = join(PROJECT_ROOT_DIR, 'public')
 # webassets 输出根目录, 要输出到 SITE_SRC_DIR, 以便 staticjinja 监控文件变化
 SITE_ASSET_DIR = join(SITE_SRC_DIR, 'asset')
 REL_SITE_ASSET_DIR = 'asset'
+
+# HACK: 因为站点是靠location来区分历届的, 因此资源目录需要特殊处理
+EN_SITE_DIR = join(SITE_DIR, 'en')
 
 
 def _sp_printlog(msg):
@@ -204,3 +208,9 @@ def create_site(debug=False, use_reloader=False, generate=False):
     # 因此这里只能访问其私有属性进行设置
     site._env.assets_environment = assets_env
     site.render(use_reloader=use_reloader)
+
+    if generate:
+        system('cp -R {} {}'.format(pipes.quote(SITE_ASSET_DIR),
+                                    pipes.quote(EN_SITE_DIR)))
+
+
