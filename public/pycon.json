@@ -492,7 +492,7 @@
       "name": "\u6842\u83f2"
     }, 
     "id_guohaochuan": {
-      "avatar": "http://ocgxshkaw.bkt.clouddn.com/gaohaochuan.jpg", 
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/guohaochuan.jpg", 
       "city_shanghai": 1, 
       "intro": "\u997f\u4e86\u4e48 Python \u6846\u67b6\u8d1f\u8d23\u4eba, \u524d\u8c46\u74e3er. \u63a8\u52a8\u6539\u5584\u4e86\u997f\u4e86\u4e48\u7684 Python \u670d\u52a1\u5316, \u6846\u67b6\u5316. \u73b0\u5728\u8d1f\u8d23\u997f\u4e86\u4e48 python \u6846\u67b6\u7ec4, \u4e3b\u8981\u5173\u6ce8\u670d\u52a1\u6cbb\u7406, redis \u65b9\u6848,\u4e1a\u52a1\u76d1\u63a7\u7b49.", 
       "name": "\u90ed\u6d69\u5ddd", 
@@ -547,7 +547,7 @@
       }
     }, 
     "id_lijushun": {
-      "avatar": "http://ocgxshkaw.bkt.clouddn.com/lijunshun.jpg", 
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/lijunhun.jpg", 
       "city_shanghai": 1, 
       "intro": " \u676d\u5dde\u4e91\u67da\u79d1\u6280\u6709\u9650\u516c\u53f8    \u5148\u540e\u5c31\u804c\u4e8e\u767e\u5ea6\u3001\u652f\u4ed8\u5b9d\u7b49\u516c\u53f8\uff0c\u73b0\u4efb\u676d\u5dde\u4e91\u67da\u79d1\u6280\u8054\u5408\u521b\u59cb\u4eba\uff0c\u8d1f\u8d23\u6280\u672f\u67b6\u6784\u8bbe\u8ba1\u4e0e\u5b9e\u73b0\u3002", 
       "name": "\u674e\u4ff1\u987a", 
