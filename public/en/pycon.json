@@ -288,12 +288,10 @@
     "address": "Address", 
     "afternoon": "Afternoon", 
     "booking_now": "Enroll", 
-    "cancel_talks": "Canceled Talks", 
     "conference": "Conference Volunteers", 
     "date": "Date", 
     "donators": "Personal Sponsorship", 
     "donators_orderby": "(sorted by time of sponsorship)", 
-    "lightening_talks": "Lighting Talks", 
     "map": "Map", 
     "morning": "Morning", 
     "noon": "Noon", 
@@ -325,7 +323,7 @@
   }, 
   "nav": [
     {
-      "title": "PyConChina2015", 
+      "title": "PyConChina2016", 
       "url": "en/index.html"
     }, 
     {
