@@ -140,7 +140,7 @@ beijing:
       topic: "茶歇"
       topic_en: ""
     - { time: "14:45-15:30", speaker: id_moyu }
-    - { time: "15:30-16:15", speaker: id_guifei }
+    - { time: "15:30-16:15", speaker: id_wangyuchi }
     - { time: "16:15-17:00", speaker: id_lvzhaogang }
     - time: "17:00-17:10"
       topic: "抽奖&合影"

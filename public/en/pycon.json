@@ -20,7 +20,7 @@
           "time": "14:45-15:30"
         }, 
         {
-          "speaker": "id_guifei", 
+          "speaker": "id_wangyuchi", 
           "time": "15:30-16:15"
         }, 
         {
@@ -478,17 +478,6 @@
         "title": "Python hooking, patching and injection"
       }
     }, 
-    "id_guifei": {
-      "avatar": "http://ocgxshkaw.bkt.clouddn.com/guifei.jpg", 
-      "beijing_topic": {
-        "preview": "...", 
-        "slide": null, 
-        "title": "..."
-      }, 
-      "city_beijing": 1, 
-      "intro": "...", 
-      "name": "\u6842\u83f2"
-    }, 
     "id_guohaochuan": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/guohaochuan.jpg", 
       "city_shanghai": 1, 
@@ -676,6 +665,17 @@
         "title": "..."
       }
     }, 
+    "id_wangyuchi": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/guifei.jpg", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u738b\u7389\u9a70"
+    }, 
     "id_xuzhixiang": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/xuzhixiang.jpg", 
       "city_shanghai": 1, 
@@ -789,7 +789,7 @@
     ], 
     "technicians": [
       {
-        "avatar": "https://avatars2.githubusercontent.com/u/2672226?v=3&s=460", 
+        "avatar": "http://ocgxshkaw.bkt.clouddn.com/NsLib.png", 
         "blog": "http://blog.csdn.net/MDL13412", 
         "intro": "\u5c0f\u7c73\u7f51DevOPS, \u5168\u6808\u5de5\u7a0b\u5e08. \u66fe\u5c31\u804c\u4e8e\u53bb\u54ea\u513f\u7f51.", 
         "name": "NsLib(\u9a6c\u51ac\u4eae)", 
@@ -798,7 +798,7 @@
         "weibo": "http://weibo.com/hackersdelight"
       }, 
       {
-        "avatar": "https://avatars0.githubusercontent.com/u/3264292?v=3&s=460", 
+        "avatar": "http://ocgxshkaw.bkt.clouddn.com/TaoBeier.png", 
         "blog": "http://moelove.info/", 
         "intro": "\u5168\u6808\u5de5\u7a0b\u5e08, \u73b0\u5c31\u804c\u4e8e\u5317\u4eac\u7f8e\u56fe", 
         "name": "TaoBeier", 

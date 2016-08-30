@@ -20,7 +20,7 @@
           "time": "14:45-15:30"
         }, 
         {
-          "speaker": "id_guifei", 
+          "speaker": "id_wangyuchi", 
           "time": "15:30-16:15"
         }, 
         {
@@ -478,17 +478,6 @@
         "title": "Python hooking, patching and injection"
       }
     }, 
-    "id_guifei": {
-      "avatar": "http://ocgxshkaw.bkt.clouddn.com/guifei.jpg", 
-      "beijing_topic": {
-        "preview": "\u4ecb\u7ecd\u77e5\u4e4e\u4f7f\u7528\u57fa\u4e8e Python \u7684\u5de5\u5177\u5c06\u7cfb\u7edf\u8fd0\u7ef4\u5de5\u4f5c\u4ea7\u54c1\u5316\u7684\u7ecf\u9a8c\u3002 \u4e3b\u8981\u5305\u62ec\uff1a\uff081\uff09\u77e5\u4e4e\u7684\u7cfb\u7edf\u8fd0\u7ef4\u5e73\u53f0\u4ece\u65e0\u5230\u6709\u7684\u6784\u5efa\u8fc7\u7a0b\u3002\u6211\u4eec\u9009\u62e9 Python \u6280\u672f\u6808\u4ee5\u53ca\u4e4b\u540e\u7684\u6280\u672f\u9009\u578b\u7ecf\u5386\u3002\uff082\uff09\u5c06\u5206\u6563\u7684\u81ea\u52a8\u5316\u5de5\u5177\u6bd4\u5982 saltstack\uff0c fabric, pxe \u6574\u5408\u6210\u7edf\u4e00\u5e73\u53f0\u7684\u8fc7\u7a0b\u3002\uff083\uff09\u6211\u4eec\u5728\u8fd9\u4e2a\u8fc7\u7a0b\u4e2d\u7684\u6c89\u6dc0\u4e0b\u6765\u7684\u4e00\u4e9b\u7cfb\u7edf\u8fd0\u7ef4\u5de5\u4f5c\u6307\u5bfc\u539f\u5219\u3002", 
-        "slide": null, 
-        "title": "\u4f7f\u7528 Python \u5c06\u7cfb\u7edf\u8fd0\u7ef4\u4ea7\u54c1\u5316"
-      }, 
-      "city_beijing": 1, 
-      "intro": "\u77e5\u4e4e\u57fa\u7840\u67b6\u6784\u8fd0\u7ef4\u5de5\u7a0b\u5e08\uff0c\u73b0\u5728\u4e3b\u8981\u8d1f\u8d23\u5185\u90e8\u7cfb\u7edf\u8fd0\u7ef4\u4ea7\u54c1\u53ca\u9879\u76ee\u7ba1\u7406", 
-      "name": "\u6842\u83f2"
-    }, 
     "id_guohaochuan": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/guohaochuan.jpg", 
       "city_shanghai": 1, 
@@ -676,6 +665,17 @@
         "title": "TensorFlow\u6846\u67b6\u5256\u6790\u53ca\u5e94\u7528"
       }
     }, 
+    "id_wangyuchi": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/guifei.jpg", 
+      "beijing_topic": {
+        "preview": "\u4ecb\u7ecd\u77e5\u4e4e\u4f7f\u7528\u57fa\u4e8e Python \u7684\u5de5\u5177\u5c06\u7cfb\u7edf\u8fd0\u7ef4\u5de5\u4f5c\u4ea7\u54c1\u5316\u7684\u7ecf\u9a8c\u3002 \u4e3b\u8981\u5305\u62ec\uff1a\uff081\uff09\u77e5\u4e4e\u7684\u7cfb\u7edf\u8fd0\u7ef4\u5e73\u53f0\u4ece\u65e0\u5230\u6709\u7684\u6784\u5efa\u8fc7\u7a0b\u3002\u6211\u4eec\u9009\u62e9 Python \u6280\u672f\u6808\u4ee5\u53ca\u4e4b\u540e\u7684\u6280\u672f\u9009\u578b\u7ecf\u5386\u3002\uff082\uff09\u5c06\u5206\u6563\u7684\u81ea\u52a8\u5316\u5de5\u5177\u6bd4\u5982 saltstack\uff0c fabric, pxe \u6574\u5408\u6210\u7edf\u4e00\u5e73\u53f0\u7684\u8fc7\u7a0b\u3002\uff083\uff09\u6211\u4eec\u5728\u8fd9\u4e2a\u8fc7\u7a0b\u4e2d\u7684\u6c89\u6dc0\u4e0b\u6765\u7684\u4e00\u4e9b\u7cfb\u7edf\u8fd0\u7ef4\u5de5\u4f5c\u6307\u5bfc\u539f\u5219\u3002", 
+        "slide": null, 
+        "title": "\u4f7f\u7528 Python \u5c06\u7cfb\u7edf\u8fd0\u7ef4\u4ea7\u54c1\u5316"
+      }, 
+      "city_beijing": 1, 
+      "intro": "\u77e5\u4e4e\u57fa\u7840\u67b6\u6784\u8fd0\u7ef4\u5de5\u7a0b\u5e08\uff0c\u73b0\u5728\u4e3b\u8981\u8d1f\u8d23\u5185\u90e8\u7cfb\u7edf\u8fd0\u7ef4\u4ea7\u54c1\u53ca\u9879\u76ee\u7ba1\u7406", 
+      "name": "\u738b\u7389\u9a70"
+    }, 
     "id_xuzhixiang": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/xuzhixiang.jpg", 
       "city_shanghai": 1, 
@@ -789,7 +789,7 @@
     ], 
     "technicians": [
       {
-        "avatar": "https://avatars2.githubusercontent.com/u/2672226?v=3&s=460", 
+        "avatar": "http://ocgxshkaw.bkt.clouddn.com/NsLib.png", 
         "blog": "http://blog.csdn.net/MDL13412", 
         "intro": "\u5c0f\u7c73\u7f51DevOPS, \u5168\u6808\u5de5\u7a0b\u5e08. \u66fe\u5c31\u804c\u4e8e\u53bb\u54ea\u513f\u7f51.", 
         "name": "NsLib(\u9a6c\u51ac\u4eae)", 
@@ -798,7 +798,7 @@
         "weibo": "http://weibo.com/hackersdelight"
       }, 
       {
-        "avatar": "https://avatars0.githubusercontent.com/u/3264292?v=3&s=460", 
+        "avatar": "http://ocgxshkaw.bkt.clouddn.com/TaoBeier.png", 
         "blog": "http://moelove.info/", 
         "intro": "\u5168\u6808\u5de5\u7a0b\u5e08, \u73b0\u5c31\u804c\u4e8e\u5317\u4eac\u7f8e\u56fe", 
         "name": "TaoBeier", 
