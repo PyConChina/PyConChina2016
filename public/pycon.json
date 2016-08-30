@@ -629,7 +629,7 @@
       "shenzhen_topic": {
         "preview": "\u5982\u4f55\u7528Python\u66f4\u597d\u5730\u8fdb\u884c\u539f\u751f\u5b89\u5353\u5f00\u53d1\uff1f\u8fd9\u4e2a\u662f\u6bcf\u4e00\u4f4dAndroidPythoner\u5fc3\u4e2d\u7684\u7591\u95ee\u3002QSL4A\u5f00\u6e90\u9879\u76ee\u5c31\u662f\u89e3\u51b3\u95ee\u9898\u7684\u5173\u952e\u3002QSLA\u662fSL4A\u9879\u76ee\u7684\u7ee7\u627f\uff0c\u5728QPython\u4e2d\u662f\u7528\u4e8e\u8fde\u63a5\u5b89\u5353\u4e0ePython\u7684\u6865\u6881\u3002\u5728\u8fd9\u4e2a\u4e3b\u9898\u4e2d\uff0c\u6211\u5c06\u4e0e\u4f60\u4e00\u8d77\u6df1\u5165\u4e86\u89e3QSL4A\u5e93\u67b6\u6784\uff0c\u4ee5\u53ca\u6559\u4f1a\u4f60\u5982\u4f55\u6269\u5c55QSL4A\u7279\u6027\u3002", 
         "slide": null, 
-        "title": "\u6df1\u5165QSL4A\u5f00\u6e90\u9879\u76ee - Python with Android"
+        "title": "Python in Android"
       }
     }, 
     "id_shienming": {
@@ -717,7 +717,7 @@
       "shanghai_topic": {
         "preview": "", 
         "slide": null, 
-        "title": ""
+        "title": "Python Flask\u5b9e\u6218"
       }
     }, 
     "id_zhanghuayi": {
