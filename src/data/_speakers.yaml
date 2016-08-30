@@ -245,12 +245,12 @@ id_river:
   name: river
   city_shenzhen: 1
   avatar: http://ocgxshkaw.bkt.clouddn.com/river.jpg
-  intro:  "QPython作者，创业者，前Zynga任高级系统研发工程师，前绿盟科技产品经理，前新浪邮件系统开发工程师"
+  intro:  "创业者，优趣工作室CTO,  QPython作者，前Zynga高级系统研发工程师，前绿盟科技研发工程师，前新浪邮件工程师"
   intro_en: "..."
   shenzhen_topic:
     title: "Python in Android"
     title_en: "..."
-    preview: "如何用Python更好地进行原生安卓开发？这个是每一位AndroidPythoner心中的疑问。QSL4A开源项目就是解决问题的关键。QSLA是SL4A项目的继承，在QPython中是用于连接安卓与Python的桥梁。在这个主题中，我将与你一起深入了解QSL4A库架构，以及教会你如何扩展QSL4A特性。"
+    preview: "在Android上为什么 以及如何进行安卓开发？相信这是很多安卓Python开发者的疑惑， 在这个主题中，我将给大家分享Python 在 Android中的应用场景。具体内容包括：1 在安卓上进行Python脚本编程；2 如何用Python进行原生App&WebApp开发；3 如何用Python进行游戏应用开发。 "
     preview_en: ...
     slide: #
 
