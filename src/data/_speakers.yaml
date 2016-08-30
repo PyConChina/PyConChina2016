@@ -133,7 +133,7 @@ id_yejunqiang:
   intro: "曾任360游戏云总监，绿岸网络运维总监，从事IT相关工作18年、互联网工作9年、网络游戏运维开发8年；国内《运维自动化平台》第一人，成功实现上千台服务器及相关游戏运营业务平台可视化维护工作；擅长系统架构，熟悉c/c++/python/php/java等主流开发技术，有大型互联网项目应用经验，熟悉Linux平台及Mysql在游戏行业内安全高效稳定运行；曾担任项目的运营管理系统支持峰值30万以上用户同时在线，并安全、高效、稳定运营8年以上。" 
   intro_en: ""
   shanghai_topic:
-    title: ""
+    title: "Python Flask实战"
     title_en: ""
     preview: ""
     preview_en: ""
@@ -248,7 +248,7 @@ id_river:
   intro:  "QPython作者，创业者，前Zynga任高级系统研发工程师，前绿盟科技产品经理，前新浪邮件系统开发工程师"
   intro_en: "..."
   shenzhen_topic:
-    title: "深入QSL4A开源项目 - Python with Android"
+    title: "Python in Android"
     title_en: "..."
     preview: "如何用Python更好地进行原生安卓开发？这个是每一位AndroidPythoner心中的疑问。QSL4A开源项目就是解决问题的关键。QSLA是SL4A项目的继承，在QPython中是用于连接安卓与Python的桥梁。在这个主题中，我将与你一起深入了解QSL4A库架构，以及教会你如何扩展QSL4A特性。"
     preview_en: ...
