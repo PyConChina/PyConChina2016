@@ -30,15 +30,15 @@ technicians:
   role: technician
   role_technician: 1
   intro: 小米网DevOPS, 全栈工程师. 曾就职于去哪儿网.
-  avatar: https://avatars2.githubusercontent.com/u/2672226?v=3&s=460
+  avatar: http://ocgxshkaw.bkt.clouddn.com/NsLib.png
   blog: http://blog.csdn.net/MDL13412
   weibo: http://weibo.com/hackersdelight
 -
   name: TaoBeier
   role: technician
   role_technician: 1
-  intro: 全栈工程师, 现就职于北京美图
-  avatar: https://avatars0.githubusercontent.com/u/3264292?v=3&s=460
+  intro: 全栈工程师, 现就职于美图公司
+  avatar: http://ocgxshkaw.bkt.clouddn.com/TaoBeier.png
   blog: http://moelove.info/
   weibo: http://weibo.com/9020taobeier
 

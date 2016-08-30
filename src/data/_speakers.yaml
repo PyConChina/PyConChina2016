@@ -426,8 +426,8 @@ id_moyu:
     preview_en: ...
     slide: #
 
-id_guifei:
-  name: 桂菲
+id_wangyuchi:
+  name: 王玉驰
   city_beijing: 1
   avatar: http://ocgxshkaw.bkt.clouddn.com/guifei.jpg
   intro: "知乎基础架构运维工程师，现在主要负责内部系统运维产品及项目管理"
