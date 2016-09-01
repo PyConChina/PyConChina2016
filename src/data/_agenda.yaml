@@ -1,8 +1,8 @@
 # 城市列表
 city_list:
  - shanghai
- - beijing
  - shenzhen
+ - beijing
 
 ####################################################################
 # 上海
@@ -111,7 +111,7 @@ beijing:
   traffic: "公交108，104，127路大佛寺站"
   traffic_en: "DAFOSI Stop on Bus 108, 104, 127"
   maplink: 'http://f.amap.com/0FFE0i'
-  date: 2016-09-17 09:00~18:00
+  date: 2016-10-15 09:00~18:00
   notices: ""
   morning:
     - time: "9:00-9:10"
