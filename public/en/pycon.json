@@ -35,7 +35,7 @@
       "cancel_talks": null, 
       "city": "beijing", 
       "completed": false, 
-      "date": "2016-09-17 09:00~18:00", 
+      "date": "2016-10-15 09:00~18:00", 
       "lightening_talks": null, 
       "maplink": "http://f.amap.com/0FFE0i", 
       "morning": [
@@ -81,8 +81,8 @@
     }, 
     "city_list": [
       "shanghai", 
-      "beijing", 
-      "shenzhen"
+      "shenzhen", 
+      "beijing"
     ], 
     "shanghai": {
       "address": "No.2 Boyun Road, Pudong, Shanghai", 
@@ -350,12 +350,12 @@
           "url": "en/shanghai.html"
         }, 
         {
-          "title": "Beijing", 
-          "url": "en/beijing.html"
-        }, 
-        {
           "title": "Shenzhen", 
           "url": "en/shenzhen.html"
+        }, 
+        {
+          "title": "Beijing", 
+          "url": "en/beijing.html"
         }
       ], 
       "title": "SCHEDULE", 
