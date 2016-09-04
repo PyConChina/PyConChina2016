@@ -1,6 +1,19 @@
 ####################################################################
 # 魔都
 ####################################################################
+id_dongliping:
+  name: "董莉萍(主持人)"
+  city_shanghai: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/dongliping.jpg
+  intro: "通讯软件工程师,Scrum master, 公司大学兼职讲师;谷歌开发者社区GDG上海核心成员，社区Material Design讲师；Python学习人，向高阶使用者攀登中～"
+  intro_en: ""
+  shanghai_topic:
+    title: "大会主持人"
+    title_en: ""
+    preview: ""
+    preview_en: ""
+    slide: #
+
 id_chenxiaoyou:
   name: 陈晓优 
   city_shanghai: 1

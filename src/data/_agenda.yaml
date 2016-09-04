@@ -22,6 +22,7 @@ shanghai:
   date: 2016-09-10 09:00~18:00
   notices: ""
   morning:
+    - { time: "", speaker: id_dongliping }
     - time: "9:00-9:10"
       topic: "大会开场演讲和日程介绍"
       topic_en: "Check-in"
