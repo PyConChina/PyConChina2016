@@ -128,6 +128,10 @@
       "maplink": "http://f.amap.com/0FFE0i", 
       "morning": [
         {
+          "speaker": "id_dongliping", 
+          "time": ""
+        }, 
+        {
           "time": "9:00-9:10", 
           "topic": "Check-in"
         }, 
@@ -476,6 +480,17 @@
         "preview": "", 
         "slide": null, 
         "title": "Python hooking, patching and injection"
+      }
+    }, 
+    "id_dongliping": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/dongliping.jpg", 
+      "city_shanghai": 1, 
+      "intro": "", 
+      "name": "\u8463\u8389\u840d(\u4e3b\u6301\u4eba)", 
+      "shanghai_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
       }
     }, 
     "id_guohaochuan": {
