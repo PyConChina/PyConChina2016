@@ -469,3 +469,16 @@ id_yangbaohua:
 演讲将介绍基于 Python 实现的区块链服务平台项目，该项目作为区块链云服务的核心引擎，已经上线运行了半年时间，稳定支持数千条区块链的正常运行。将介绍该平台的核心特性、开发和运营过程中的实践经验，并进行必要的案例展示。"
     preview_en: ...
     slide: #
+
+id_huangxin:
+  name: 黄鑫
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/huangxin.jpg
+  intro:  "FreeWheel资深DevOPS。负责公司内部持续部署，采用 SaltStack 实现配置管理，降低维护成本。并为上层提供易用的接口，用于构建丰富的应用。"
+  intro_en: ...
+  beijing_topic:
+    title: "SaltStack 实践"
+    title_en: "..."
+    preview: "本主题分享了在toB企业内部改造部署系统的实践。介绍采用 SaltStack 带来的便利以及需要注意的几点。介绍 SaltStack 的基本组件和使用方式，配置管理的实现，常见自动化操作的任务编排实现，基于Jinja2模版语言带来的强大表达能力，模块化实现以及插件拓展机制，实践中可以改良的几个地方。"
+    preview_en: ...
+    slide: #

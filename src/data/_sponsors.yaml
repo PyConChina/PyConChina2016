@@ -11,6 +11,10 @@ meta:
     level: gold
     name: 黄金赞助
     name_en: Gold
+  -
+    level: silver
+    name: 白银赞助
+    name_en: Silver
 
 #########################################
 # 钻石级
@@ -41,3 +45,14 @@ gold:
     link: https://www.aliyun.com/
     intro: "阿里云创立于2009年，是中国最大的云计算平台，为全球200多个国家和地区的创新创业企业、政府机构等提供服务。阿里云致力于提供最安全、可靠的计算和数据处理能力，让计算成为普惠科技和公共服务，为万物互联的DT世界，提供源源不断的新能源。阿里云在全球各地部署高效节能的绿色数据中心，利用清洁计算支持不同的互联网应用。目前，阿里云在中国（华北、华东、华南、香港）、新加坡、美西等地域设有数据中心，未来还将在美东、欧洲、中东、俄罗斯、日本等地设立新的数据中心。"
     intro_en: "Established in September2009, AliCloud (intl.aliyun.com), Alibaba Group's cloudcomputing arm, developshighly scalable platforms forcloud computing and datamanagement. It provides acomprehensive suite of cloudcomputing services to supportthe participants of AlibabaGroup's online and mobilecommerce ecosystem, includingsellers, and other third-party customers andbusinesses. AliCloud is abusiness within Alibaba Group."
+
+
+#########################################
+# 白银级赞助
+#########################################
+silver:
+  -
+    logo: http://ocgxshkaw.bkt.clouddn.com/ucloud-logo.png
+    link: https://www.ucloud.cn/
+    intro: "UCloud（上海优刻得云计算技术有限公司）是国内专业的基础云计算服务商，依托全球 10 个数据中心以及全国 11 地线下服务站，UCloud 为近 4 万家企业级用户提供服务。UCloud的业务覆盖了O2O、电商、互联网金融、游戏、在线教育等 19 个互联网行业的细分领域；通过对用户需求的深入分析，UCloud 推出适合行业特性的产品与服务，取得了较为领先的地位。 UCloud  的核心团队主要由国内外知名云计算互联网公司的优秀人才组成，具有丰富的云计算研发和运营经验。UCloud崇尚以客户为先的企业文化，围绕用户的需求持续创新, 具有非常强烈的用户服务意识。 "
+    intro_en: "UCloud is one of the leading cloud-computing service providers in China. By independent research and development, UCloud provide a range of innovative products which include high performance host, key-value database, SDN and hybrid-cloud. Now, more than thirty thousands of enterprises and startups in fin-tech, live apps, E-commerce, Internet-plus, PaaS/SaaS operate on UCloud platform, earning ￥15 billion revenue in total."
