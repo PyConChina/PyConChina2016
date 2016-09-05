@@ -530,6 +530,17 @@
       "intro": "CTO...", 
       "name": "\u6d2a\u5f3a\u5b81"
     }, 
+    "id_huangxin": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/huangxin.jpg", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u9ec4\u946b"
+    }, 
     "id_huguotao": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/huguotao.jpg", 
       "city_shenzhen": 1, 
@@ -786,9 +797,20 @@
       {
         "level": "gold", 
         "name": "Gold"
+      }, 
+      {
+        "level": "silver", 
+        "name": "Silver"
       }
     ], 
-    "platinum": null
+    "platinum": null, 
+    "silver": [
+      {
+        "intro": "UCloud is one of the leading cloud-computing service providers in China. By independent research and development, UCloud provide a range of innovative products which include high performance host, key-value database, SDN and hybrid-cloud. Now, more than thirty thousands of enterprises and startups in fin-tech, live apps, E-commerce, Internet-plus, PaaS/SaaS operate on UCloud platform, earning \uffe515 billion revenue in total.", 
+        "link": "https://www.ucloud.cn/", 
+        "logo": "http://ocgxshkaw.bkt.clouddn.com/ucloud-logo.png"
+      }
+    ]
   }, 
   "volunteers": {
     "conference": null, 
