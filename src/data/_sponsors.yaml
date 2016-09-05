@@ -15,6 +15,10 @@ meta:
     level: silver
     name: 白银赞助
     name_en: Silver
+  -
+    level: bronze
+    name: 青铜赞助
+    name_en: Bronze
 
 #########################################
 # 钻石级
@@ -44,7 +48,9 @@ gold:
     logo: http://ocgxshkaw.bkt.clouddn.com/aliyun.png
     link: https://www.aliyun.com/
     intro: "阿里云创立于2009年，是中国最大的云计算平台，为全球200多个国家和地区的创新创业企业、政府机构等提供服务。阿里云致力于提供最安全、可靠的计算和数据处理能力，让计算成为普惠科技和公共服务，为万物互联的DT世界，提供源源不断的新能源。阿里云在全球各地部署高效节能的绿色数据中心，利用清洁计算支持不同的互联网应用。目前，阿里云在中国（华北、华东、华南、香港）、新加坡、美西等地域设有数据中心，未来还将在美东、欧洲、中东、俄罗斯、日本等地设立新的数据中心。"
-    intro_en: "Established in September2009, AliCloud (intl.aliyun.com), Alibaba Group's cloudcomputing arm, developshighly scalable platforms forcloud computing and datamanagement. It provides acomprehensive suite of cloudcomputing services to supportthe participants of AlibabaGroup's online and mobilecommerce ecosystem, includingsellers, and other third-party customers andbusinesses. AliCloud is abusiness within Alibaba Group."
+    intro_en: "Established in September2009, AliCloud (intl.aliyun.com), Alibaba Group's cloudcomputing arm, developshighly scalable platforms forcloud computing
+        and datamanagement. It provides acomprehensive suite of cloudcomputing services to supportthe participants of AlibabaGroup's online
+        and mobilecommerce ecosystem, includingsellers, and other third-party customers andbusinesses. AliCloud is abusiness within Alibaba Group."
 
 
 #########################################
@@ -56,3 +62,36 @@ silver:
     link: https://www.ucloud.cn/
     intro: "UCloud（上海优刻得云计算技术有限公司）是国内专业的基础云计算服务商，依托全球 10 个数据中心以及全国 11 地线下服务站，UCloud 为近 4 万家企业级用户提供服务。UCloud的业务覆盖了O2O、电商、互联网金融、游戏、在线教育等 19 个互联网行业的细分领域；通过对用户需求的深入分析，UCloud 推出适合行业特性的产品与服务，取得了较为领先的地位。 UCloud  的核心团队主要由国内外知名云计算互联网公司的优秀人才组成，具有丰富的云计算研发和运营经验。UCloud崇尚以客户为先的企业文化，围绕用户的需求持续创新, 具有非常强烈的用户服务意识。 "
     intro_en: "UCloud is one of the leading cloud-computing service providers in China. By independent research and development, UCloud provide a range of innovative products which include high performance host, key-value database, SDN and hybrid-cloud. Now, more than thirty thousands of enterprises and startups in fin-tech, live apps, E-commerce, Internet-plus, PaaS/SaaS operate on UCloud platform, earning ￥15 billion revenue in total."
+
+  -
+    logo: http://ocgxshkaw.bkt.clouddn.com/HuiZhiTEK-logo.png
+    link: 
+    intro: "“汇智TEK”技术交流平台，主要配合浦东软件园的园区企业的新产品、新技术、新模式，进行加强版市场宣传，上海浦东软件园将通过新产品发布会的形式，帮助企业宣传与推广，进一步提升园区企业的品牌影响力。"
+    intro_en: ""
+  -
+    logo: http://ocgxshkaw.bkt.clouddn.com/siwei-logo.png
+    link: http://www.simplywork.cn/
+    intro: "思微SimplyWork由一支85后深二代海归团队创办，是深圳最酷炫、最国际化的众创空间，目前共开辟4个根据地合计11600平米联合办公空间，集办公和休闲于一体，定期举办创业课堂等活动，为入驻“微友”提供投融资对接、法律咨询、政府资源、媒体公关等服务，同时以丰富多元的社区活动、热闹逗比的创业氛围以及超高颜值的团队素质，成为创业者及联合办公人士前进路上的最佳伙伴。"
+    intro_en: "Founded by a group of young entrepreneurs,SimplyWork is Shenzhen’s coolest and most international co-working space.Currently we have four spaces (11,600 square meters in total) in the High-TechPark/Shenzhen University area. We provide comfortable collaborative spaces,local and international venture capital resources, professional and thoughtfulentrepreneurial services, unique and inspiring events, and exciting casualatmosphere. SimplyWork can’t wait to be your best buddy along your startupjourney!"
+
+
+
+#########################################
+# 青铜级赞助
+#########################################
+bronze:
+  -
+    logo: http://ocgxshkaw.bkt.clouddn.com/253-logo.jpg
+    link: http://www.253.com/
+    intro: "上海创蓝文化传播有限公司成立于2009年，是短信验证码、短信通知、语音验证码、国际验证码、手机流量营销等产品集一体的云通讯服务PaaS平台！
+        2016年，创蓝品牌更名253，更加多元化的业务发展模式，满足移动互联网企业通信服务的多样需求。
+        至今，团队规模突破500人，深圳、长沙、北京、等全国29家城市合伙人团队相继构建完成。截至目前，累计客户突破20万家"
+    intro_en: "Shanghai ChuanglanCommunication Co. Ltd. was established in 2009, it is a verification code SMS,SMS notification, speech codes, international codes, phone traffic one set ofproduct marketing communications services PaaS cloud platform!
+        2016, Year of the Chuanglan brand changed its name to 253, more diversified business model to meet the
+        diverse mobile Internet business communications services needs.
+        So far, team size exceeded 500 people, Shenzhen, Changsha, Beijing, and other cities nationwide 29 partner teams have been constructed complete. Up to now, a total of 200,000 customers breakthrough."
+  -
+    logo: http://ocgxshkaw.bkt.clouddn.com/turing-logo.png
+    link: http://www.ituring.com.cn/
+    intro: "图灵公司始终以策划出版高质量的科技书籍为核心业务,推出了一系列高质量的畅销科技图书,是国内计算机图书市场最有影响力的出版单位之一. 图灵社区以为读者提供一流的内容为己任,拥有众多资深技术爱好者用户,是国内最专业的IT技术'交流+阅读'社区之一. 图灵社区经过不断升级改造和尝试实践,已迅速成为国内知名科技电子书出版销售平台."
+    intro_en: "Turing Co., Ltd persists in planning publishing high quality books of science and technology as the core business, launched a series of high quality best-selling technology books, it's one of China famous and influential computer books publisher and Professional technical & Reading community. Set up nine years, accumulative total sold more than 500 copies of books and have impress millions of readers. Turing Co., Ltd that provide first-class content is its responsibility. Rapid growth in recent years has been for domestic famous ebook sales platform of science and technology."

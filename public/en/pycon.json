@@ -785,10 +785,22 @@
     }
   }, 
   "sponsors": {
+    "bronze": [
+      {
+        "intro": "Shanghai ChuanglanCommunication Co. Ltd. was established in 2009, it is a verification code SMS,SMS notification, speech codes, international codes, phone traffic one set ofproduct marketing communications services PaaS cloud platform! 2016, Year of the Chuanglan\u00a0brand changed its name to 253, more diversified business model to meet the diverse mobile Internet business communications services needs. So far, team size exceeded\u00a0500 people, Shenzhen, Changsha, Beijing, and other cities nationwide 29 partner\u00a0teams have been constructed complete. Up to now, a total of 200,000 customers\u00a0breakthrough.", 
+        "link": "http://www.253.com/", 
+        "logo": "http://ocgxshkaw.bkt.clouddn.com/253-logo.jpg"
+      }, 
+      {
+        "intro": "Turing Co., Ltd persists in planning publishing high quality books of science and technology as the core business, launched a series of high quality best-selling technology books, it's one of China famous and influential computer books publisher and Professional technical & Reading community. Set up nine years, accumulative total sold more than 500 copies of books and have impress millions of readers. Turing Co., Ltd that provide first-class content is its responsibility. Rapid growth in recent years has been for domestic famous ebook sales platform of science and technology.", 
+        "link": "http://www.ituring.com.cn/", 
+        "logo": "http://ocgxshkaw.bkt.clouddn.com/turing-logo.png"
+      }
+    ], 
     "diamond": null, 
     "gold": [
       {
-        "intro": "Established\u00a0in\u00a0September2009,\u00a0AliCloud\u00a0(intl.aliyun.com),\u00a0Alibaba\u00a0Group's\u00a0cloudcomputing\u00a0arm,\u00a0developshighly\u00a0scalable\u00a0platforms\u00a0forcloud\u00a0computing\u00a0and\u00a0datamanagement.\u00a0It\u00a0provides\u00a0acomprehensive\u00a0suite\u00a0of\u00a0cloudcomputing\u00a0services\u00a0to\u00a0supportthe\u00a0participants\u00a0of\u00a0AlibabaGroup's\u00a0online\u00a0and\u00a0mobilecommerce\u00a0ecosystem,\u00a0includingsellers,\u00a0and\u00a0other\u00a0third-party\u00a0customers\u00a0andbusinesses.\u00a0AliCloud\u00a0is\u00a0abusiness\u00a0within\u00a0Alibaba\u00a0Group.", 
+        "intro": "Established\u00a0in\u00a0September2009,\u00a0AliCloud\u00a0(intl.aliyun.com),\u00a0Alibaba\u00a0Group's\u00a0cloudcomputing\u00a0arm,\u00a0developshighly\u00a0scalable\u00a0platforms\u00a0forcloud\u00a0computing and\u00a0datamanagement. It\u00a0provides\u00a0acomprehensive\u00a0suite\u00a0of\u00a0cloudcomputing\u00a0services\u00a0to\u00a0supportthe\u00a0participants\u00a0of\u00a0AlibabaGroup's\u00a0online and\u00a0mobilecommerce\u00a0ecosystem,\u00a0includingsellers,\u00a0and\u00a0other\u00a0third-party\u00a0customers\u00a0andbusinesses.\u00a0AliCloud\u00a0is\u00a0abusiness\u00a0within\u00a0Alibaba\u00a0Group.", 
         "link": "https://www.aliyun.com/", 
         "logo": "http://ocgxshkaw.bkt.clouddn.com/aliyun.png"
       }
@@ -801,6 +813,10 @@
       {
         "level": "silver", 
         "name": "Silver"
+      }, 
+      {
+        "level": "bronze", 
+        "name": "Bronze"
       }
     ], 
     "platinum": null, 
@@ -809,6 +825,16 @@
         "intro": "UCloud is one of the leading cloud-computing service providers in China. By independent research and development, UCloud provide a range of innovative products which include high performance host, key-value database, SDN and hybrid-cloud. Now, more than thirty thousands of enterprises and startups in fin-tech, live apps, E-commerce, Internet-plus, PaaS/SaaS operate on UCloud platform, earning \uffe515 billion revenue in total.", 
         "link": "https://www.ucloud.cn/", 
         "logo": "http://ocgxshkaw.bkt.clouddn.com/ucloud-logo.png"
+      }, 
+      {
+        "intro": "", 
+        "link": null, 
+        "logo": "http://ocgxshkaw.bkt.clouddn.com/HuiZhiTEK-logo.png"
+      }, 
+      {
+        "intro": "Founded by a group of young entrepreneurs,SimplyWork is Shenzhen\u2019s coolest and most international co-working space.Currently we have four spaces (11,600 square meters in total) in the High-TechPark/Shenzhen University area. We provide comfortable collaborative spaces,local and international venture capital resources, professional and thoughtfulentrepreneurial services, unique and inspiring events, and exciting casualatmosphere. SimplyWork can\u2019t wait to be your best buddy along your startupjourney!", 
+        "link": "http://www.simplywork.cn/", 
+        "logo": "http://ocgxshkaw.bkt.clouddn.com/siwei-logo.png"
       }
     ]
   }, 
