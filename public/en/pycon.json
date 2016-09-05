@@ -1,7 +1,7 @@
 {
   "agenda": {
     "beijing": {
-      "address": "No.77 MEISHUGUANHOU Street, Dongcheng, Beijing", 
+      "address": "Hopson Fortune Plaza No. 23 Beijing West Road Chaoyang District 2 floor", 
       "afternoon": [
         {
           "speaker": "id_zhanghuayi", 
@@ -41,7 +41,7 @@
       "completed": false, 
       "date": "2016-10-15 09:00~18:00", 
       "lightening_talks": null, 
-      "maplink": "http://f.amap.com/0FFE0i", 
+      "maplink": "", 
       "morning": [
         {
           "time": "9:00-9:10", 
@@ -80,8 +80,8 @@
         }
       ], 
       "notices": "", 
-      "traffic": "DAFOSI Stop on Bus 108, 104, 127", 
-      "venue": "77 Hall"
+      "traffic": "", 
+      "venue": "Hopson Fortune Plaza 2 floor"
     }, 
     "city_list": [
       "shanghai", 

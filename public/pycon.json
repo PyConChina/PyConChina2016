@@ -1,7 +1,7 @@
 {
   "agenda": {
     "beijing": {
-      "address": "\u5317\u4eac\u5e02\u4e1c\u57ce\u533a\u7f8e\u672f\u9986\u540e\u885777\u53f7", 
+      "address": "\u5317\u4eac\u5e02\u671d\u9633\u533a\u897f\u5927\u671b\u8def23\u53f7\u5408\u751f\u8d22\u5bcc\u5e7f\u573a2\u697c", 
       "afternoon": [
         {
           "speaker": "id_zhanghuayi", 
@@ -41,7 +41,7 @@
       "completed": false, 
       "date": "2016-10-15 09:00~18:00", 
       "lightening_talks": null, 
-      "maplink": "http://f.amap.com/0FFE0i", 
+      "maplink": "", 
       "morning": [
         {
           "time": "9:00-9:10", 
@@ -80,8 +80,8 @@
         }
       ], 
       "notices": "", 
-      "traffic": "\u516c\u4ea4108\uff0c104\uff0c127\u8def\u5927\u4f5b\u5bfa\u7ad9", 
-      "venue": "77\u5267\u573a"
+      "traffic": "", 
+      "venue": "\u5408\u751f\u8d22\u5bcc\u5e7f\u573a2\u697c"
     }, 
     "city_list": [
       "shanghai", 
