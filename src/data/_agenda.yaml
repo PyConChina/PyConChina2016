@@ -105,13 +105,13 @@ beijing:
   name: 北京
   name_en: Beijing
   completed: false
-  address: "北京市东城区美术馆后街77号"
-  address_en: "No.77 MEISHUGUANHOU Street, Dongcheng, Beijing"
-  venue: 77剧场
-  venue_en: '77 Hall'
-  traffic: "公交108，104，127路大佛寺站"
-  traffic_en: "DAFOSI Stop on Bus 108, 104, 127"
-  maplink: 'http://f.amap.com/0FFE0i'
+  address: "北京市朝阳区西大望路23号合生财富广场2楼"
+  address_en: "Hopson Fortune Plaza No. 23 Beijing West Road Chaoyang District 2 floor"
+  venue: 合生财富广场2楼
+  venue_en: 'Hopson Fortune Plaza 2 floor'
+  traffic: ""
+  traffic_en: ""
+  maplink: ''
   date: 2016-10-15 09:00~18:00
   notices: ""
   morning:
@@ -141,9 +141,10 @@ beijing:
       topic: "茶歇"
       topic_en: ""
     - { time: "14:45-15:30", speaker: id_moyu }
-    - { time: "15:30-16:15", speaker: id_wangyuchi }
-    - { time: "16:15-17:00", speaker: id_lvzhaogang }
-    - time: "17:00-17:10"
+    - { time: "15:30-16:15", speaker: id_yangbaohua }
+    - { time: "16:15-17:00", speaker: id_wangyuchi }
+    - { time: "17:00-17:45", speaker: id_lvzhaogang }
+    - time: "17:45-17:55"
       topic: "抽奖&合影"
       topic_en: ""
   lightening_talks:
