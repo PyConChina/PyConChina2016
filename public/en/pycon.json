@@ -20,15 +20,19 @@
           "time": "14:45-15:30"
         }, 
         {
-          "speaker": "id_wangyuchi", 
+          "speaker": "id_yangbaohua", 
           "time": "15:30-16:15"
         }, 
         {
-          "speaker": "id_lvzhaogang", 
+          "speaker": "id_wangyuchi", 
           "time": "16:15-17:00"
         }, 
         {
-          "time": "17:00-17:10", 
+          "speaker": "id_lvzhaogang", 
+          "time": "17:00-17:45"
+        }, 
+        {
+          "time": "17:45-17:55", 
           "topic": ""
         }
       ], 
@@ -712,6 +716,17 @@
         "slide": null, 
         "title": ""
       }
+    }, 
+    "id_yangbaohua": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/yangbaohua.jpg", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u6768\u4fdd\u534e"
     }, 
     "id_yangshuguang": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/yangshuguang.jpg", 
