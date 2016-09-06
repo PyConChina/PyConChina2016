@@ -86,8 +86,68 @@
     "city_list": [
       "shanghai", 
       "shenzhen", 
-      "beijing"
+      "beijing", 
+      "hangzhou"
     ], 
+    "hangzhou": {
+      "address": "\u676d\u5dde\u5e02\u8bfa\u57fa\u4e9a\u529e\u516c\u5ba4", 
+      "afternoon": [
+        {
+          "time": "13:00-17:00", 
+          "topic": "Python\u6280\u672f\u5f00\u53d1\u5de5\u4f5c\u574a"
+        }, 
+        {
+          "time": "17:00-17:10", 
+          "topic": "\u62bd\u5956&\u5408\u5f71"
+        }
+      ], 
+      "cancel_talks": null, 
+      "city": "hangzhou", 
+      "completed": false, 
+      "date": "2016-10-15 09:00~18:00", 
+      "lightening_talks": null, 
+      "maplink": "", 
+      "morning": [
+        {
+          "time": "9:00-9:10", 
+          "topic": "\u5927\u4f1a\u5f00\u573a\u6f14\u8bb2\u548c\u65e5\u7a0b\u4ecb\u7ecd"
+        }, 
+        {
+          "time": "9:10-9:55", 
+          "topic": "\u6f14\u8bb21"
+        }, 
+        {
+          "time": "9:55-10:40", 
+          "topic": "\u6f14\u8bb22"
+        }, 
+        {
+          "time": "10:40-10:50", 
+          "topic": "\u8336\u6b47"
+        }, 
+        {
+          "speaker": "id_zhanghaibo", 
+          "time": "10:50-11:35"
+        }, 
+        {
+          "speaker": "id_maiweiqi", 
+          "time": "11:35-11:45"
+        }, 
+        {
+          "time": "11:45-11:55", 
+          "topic": "\u5feb\u901f\u6f14\u8bb2"
+        }
+      ], 
+      "name": "\u676d\u5dde", 
+      "noon": [
+        {
+          "time": "11:55-13:00", 
+          "topic": "\u5348\u9910"
+        }
+      ], 
+      "notices": "", 
+      "traffic": "", 
+      "venue": "\u8bfa\u57fa\u4e9a\u529e\u516c\u5ba4"
+    }, 
     "shanghai": {
       "address": "\u4e0a\u6d77\u5e02\u6d66\u4e1c\u65b0\u533a\u535a\u4e91\u8def2\u53f7", 
       "afternoon": [
@@ -364,6 +424,10 @@
         {
           "title": "\u5317\u4eac", 
           "url": "beijing.html"
+        }, 
+        {
+          "title": "\u676d\u5dde", 
+          "url": "hangzhou.html"
         }
       ], 
       "title": "\u65e5\u7a0b", 
@@ -596,6 +660,17 @@
       "intro": "\u5f6a\u6d0b\u79d1\u6280\uff0c12+\u5e74\u7684\u8f6f\u4ef6\u7814\u53d1\u4e0e\u67b6\u6784\u7ecf\u9a8c\uff0c\u5173\u5fc3\u6bcf\u4e00\u884c\u4ee3\u7801\uff0c\u6bcf\u4e00\u4e2a\u53d8\u91cf\u548c\u65b9\u6cd5\u7684\u547d\u540d\uff0c\u6709\u4ee3\u7801\u6d01\u7656\u3002\u66fe\u5728\u5927\u4f17\u70b9\u8bc4\u8d1f\u8d23\u641c\u7d22\u5f15\u64ce\u7814\u53d1\uff0c\u4efb\u5f00\u53d1\u7ecf\u7406\uff0c\u4ece\u65e0\u5230\u6709\u67b6\u6784\u548c\u5b9e\u73b0\u4e86\u652f\u6301\u65e5\u5747\u4e0a\u4ebfPV\u7684\u9ad8\u53ef\u7528\u641c\u7d22\u7cfb\u7edf\uff1b\u505a\u8fc710\u591a\u4e2aPython\u5e94\u7528\uff0c\u5927\u90e8\u5206\u7528\u7684Django\u7684\uff0c\u4e3aDjango\u7684\u9ad8\u6548\u548c\u5f3a\u5927\u6240\u503e\u5012\uff0c\u73b0\u5728\u521b\u4e1a\u516c\u53f8\u8d1f\u8d23\u7814\u53d1\uff0c\u505aMarketing Automation\u4ea7\u54c1\u3002", 
       "name": "\u5415\u53ec\u521a"
     }, 
+    "id_maiweiqi": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/maiweiqi.jpg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "\u968f\u7740\u9700\u6c42\u53d8\u5316\u6108\u53d1\u7684\u6fc0\u70c8\uff0c\u5bf9\u8fed\u4ee3\u901f\u5ea6\u7684\u8981\u6c42\u4e5f\u8d8a\u6765\u8d8a\u9ad8\u3002Graphene\u662fGraphQL\u7684Python\u5b9e\u73b0\uff0c\u80fd\u5e2e\u52a9web\u5f00\u53d1\u8005\u5f00\u53d1\u51fa\u80fd\u6301\u7eed\u5feb\u901f\u8fed\u4ee3\u7684\u5e94\u7528\u3002\u6f14\u8bb2\u4f1a\u4ecb\u7ecdGraphQL\u7684\u57fa\u672c\u539f\u7406\uff0c\u5305\u62ec\u7406\u5ff5\u548c\u57fa\u672c\u5b9a\u4e49\uff1bGraphQL\u4e0eREST\u7684\u5bf9\u6bd4\uff1bGraphene\u7684\u57fa\u672c\u7528\u6cd5\uff0c\u5e76\u7528demo\u5c55\u793a\u5982\u4f55\u8ba9Web\u5e94\u7528\u7684\u8fed\u4ee3\u901f\u5ea6\u52a0\u5feb\u3002", 
+        "slide": null, 
+        "title": "Graphene\u8ba9Web\u5e94\u7528\u8fed\u4ee3\u52a0\u901f"
+      }, 
+      "intro": "\u676d\u5dde\u4e91\u67da\u79d1\u6280\u6709\u9650\u516c\u53f8\uff0c\u66fe\u662f\u91cd\u5e86\u65b9\u7269\u79d1\u6280\u6709\u9650\u516c\u53f8\u8054\u5408\u521b\u59cb\u4eba\uff0c\u4f5c\u4e3a\u6280\u672f\u8d1f\u8d23\u4eba\u3002", 
+      "name": "\u9ea6\u4f1f\u797a"
+    }, 
     "id_moyu": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/moyu.jpg", 
       "beijing_topic": {
@@ -760,6 +835,17 @@
         "slide": null, 
         "title": "Python Flask\u5b9e\u6218"
       }
+    }, 
+    "id_zhanghaibo": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/zhanghaibo.jpg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "\u57fa\u4e8edjango restful \u6846\u67b6\u505a\u5feb\u901f API\u5f00\u53d1, \u5927\u73af\u5883,\u5fae\u670d\u52a1\u76db\u884c\u7684\u60c5\u51b5\u4e0b API \u91cd\u8981, \u5feb\u901f\u6784\u5efa API \u7684\u65b9\u6cd5\u80fd\u6781\u5927\u63d0\u9ad8\u4f01\u4e1a\u751f\u4ea7\u529b,\u5feb\u901f\u5e94\u5bf9\u9700\u6c42\u548c\u8fed\u4ee3\u53d8\u5316, \u4e3b\u8981\u8bb2\u89e3\u4e0b \u5982\u4f55 \u8bbe\u8ba1 restful \u4ee5\u53ca\u5982\u4f55\u5feb\u901f\u5f00\u53d1\u4e00\u4e2a restful \u7684 api...  \u4ee5\u53ca\u4e00\u4e9b\u548c API \u76f8\u5173\u7684\u884d\u751f", 
+        "slide": null, 
+        "title": "django REST \u5feb\u901f\u5f00\u53d1"
+      }, 
+      "intro": "\u963f\u91cc\u5df4\u5df4\u6280\u672f\u4e13\u5bb6. \u591a\u5e74 python \u4e3b\u8981\u8bed\u8a00\u5f00\u53d1\u7ecf\u9a8c,\u66fe\u7ecf\u5c31\u804c\u4e8e\u7231\u5947\u827a, \u4e50\u89c6\u7f51, \u8292\u679c TV, \u76f4\u63a5\u4e3b\u8981\u7528 python \u89e3\u51b3\u6d77\u91cf\u6570\u636e\u5206\u6790\u548c\u8ba1\u7b97\u95ee\u9898. \u76ee\u524d\u5c31\u804c\u4e8e\u963f\u91cc\u4e2d\u95f4\u4ef6\uff0c\u81f4\u529b\u4e8e\u89e3\u51b3\u5feb\u901f\u5f00\u53d1\u3002 ", 
+      "name": "\u5f20\u6d77\u6ce2"
     }, 
     "id_zhanghuayi": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/zhanghuayi.jpg", 

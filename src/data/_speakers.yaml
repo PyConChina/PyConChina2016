@@ -482,3 +482,34 @@ id_huangxin:
     preview: "本主题分享了在toB企业内部改造部署系统的实践。介绍采用 SaltStack 带来的便利以及需要注意的几点。介绍 SaltStack 的基本组件和使用方式，配置管理的实现，常见自动化操作的任务编排实现，基于Jinja2模版语言带来的强大表达能力，模块化实现以及插件拓展机制，实践中可以改良的几个地方。"
     preview_en: ...
     slide: #
+
+####################################################################
+# 杭州
+####################################################################
+id_zhanghaibo:
+  name: 张海波
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/zhanghaibo.jpg
+  intro: "阿里巴巴技术专家. 多年 python 主要语言开发经验,曾经就职于爱奇艺, 乐视网, 芒果 TV, 直接主要用 python 解决海量数据分析和计算问题. 目前就职于阿里中间件，致力于解决快速开发。 "
+  intro_en: ""
+  hangzhou_topic:
+    title: "django REST 快速开发"
+    title_en: ""
+    preview: "基于django restful 框架做快速 API开发,
+        大环境,微服务盛行的情况下 API 重要, 快速构建 API 的方法能极大提高企业生产力,快速应对需求和迭代变化,
+        主要讲解下 如何 设计 restful 以及如何快速开发一个 restful 的 api...  以及一些和 API 相关的衍生"
+    preview_en: ""
+    slide: #
+
+id_maiweiqi:
+  name: 麦伟祺
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/maiweiqi.jpg
+  intro: "杭州云柚科技有限公司，曾是重庆方物科技有限公司联合创始人，作为技术负责人。"
+  intro_en: ""
+  hangzhou_topic:
+    title: "Graphene让Web应用迭代加速"
+    title_en: ""
+    preview: "随着需求变化愈发的激烈，对迭代速度的要求也越来越高。Graphene是GraphQL的Python实现，能帮助web开发者开发出能持续快速迭代的应用。演讲会介绍GraphQL的基本原理，包括理念和基本定义；GraphQL与REST的对比；Graphene的基本用法，并用demo展示如何让Web应用的迭代速度加快。"
+    preview_en: ""
+    slide: #

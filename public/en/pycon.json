@@ -86,8 +86,68 @@
     "city_list": [
       "shanghai", 
       "shenzhen", 
-      "beijing"
+      "beijing", 
+      "hangzhou"
     ], 
+    "hangzhou": {
+      "address": "Hangzhou Nokia office", 
+      "afternoon": [
+        {
+          "time": "13:00-17:00", 
+          "topic": ""
+        }, 
+        {
+          "time": "17:00-17:10", 
+          "topic": ""
+        }
+      ], 
+      "cancel_talks": null, 
+      "city": "hangzhou", 
+      "completed": false, 
+      "date": "2016-10-15 09:00~18:00", 
+      "lightening_talks": null, 
+      "maplink": "", 
+      "morning": [
+        {
+          "time": "9:00-9:10", 
+          "topic": "Check-in"
+        }, 
+        {
+          "time": "9:10-9:55", 
+          "topic": ""
+        }, 
+        {
+          "time": "9:55-10:40", 
+          "topic": ""
+        }, 
+        {
+          "time": "10:40-10:50", 
+          "topic": ""
+        }, 
+        {
+          "speaker": "id_zhanghaibo", 
+          "time": "10:50-11:35"
+        }, 
+        {
+          "speaker": "id_maiweiqi", 
+          "time": "11:35-11:45"
+        }, 
+        {
+          "time": "11:45-11:55", 
+          "topic": ""
+        }
+      ], 
+      "name": "Hangzhou", 
+      "noon": [
+        {
+          "time": "11:55-13:00", 
+          "topic": ""
+        }
+      ], 
+      "notices": "", 
+      "traffic": "", 
+      "venue": "Nokia office"
+    }, 
     "shanghai": {
       "address": "No.2 Boyun Road, Pudong, Shanghai", 
       "afternoon": [
@@ -364,6 +424,10 @@
         {
           "title": "Beijing", 
           "url": "en/beijing.html"
+        }, 
+        {
+          "title": "Hangzhou", 
+          "url": "en/hangzhou.html"
         }
       ], 
       "title": "SCHEDULE", 
@@ -596,6 +660,17 @@
       "intro": "...", 
       "name": "\u5415\u53ec\u521a"
     }, 
+    "id_maiweiqi": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/maiweiqi.jpg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }, 
+      "intro": "", 
+      "name": "\u9ea6\u4f1f\u797a"
+    }, 
     "id_moyu": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/moyu.jpg", 
       "beijing_topic": {
@@ -760,6 +835,17 @@
         "slide": null, 
         "title": ""
       }
+    }, 
+    "id_zhanghaibo": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/zhanghaibo.jpg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }, 
+      "intro": "", 
+      "name": "\u5f20\u6d77\u6ce2"
     }, 
     "id_zhanghuayi": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/zhanghuayi.jpg", 
