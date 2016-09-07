@@ -3,6 +3,7 @@ city_list:
  - shanghai
  - shenzhen
  - beijing
+ - hangzhou
 
 ####################################################################
 # 上海
@@ -145,6 +146,55 @@ beijing:
     - { time: "16:15-17:00", speaker: id_wangyuchi }
     - { time: "17:00-17:45", speaker: id_lvzhaogang }
     - time: "17:45-17:55"
+      topic: "抽奖&合影"
+      topic_en: ""
+  lightening_talks:
+  cancel_talks:
+
+####################################################################
+# 杭州
+####################################################################
+hangzhou:
+  city: hangzhou
+  name: 杭州
+  name_en: Hangzhou
+  completed: false
+  address: "杭州市诺基亚办公室"
+  address_en: "Hangzhou Nokia office"
+  venue: "诺基亚办公室"
+  venue_en: "Nokia office"
+  traffic: ""
+  traffic_en: ""
+  maplink: ''
+  date: 2016-10-15 09:00~18:00
+  notices: ""
+  morning:
+    - time: "9:00-9:10"
+      topic: "大会开场演讲和日程介绍"
+      topic_en: "Check-in"
+    - time: "9:10-9:55"
+      topic: "演讲1"
+      topic_en: ""
+    - time: "9:55-10:40"
+      topic: "演讲2"
+      topic_en: ""
+    - time: "10:40-10:50"
+      topic: "茶歇"
+      topic_en: ""
+    - { time: "10:50-11:35", speaker: id_zhanghaibo }
+    - { time: "11:35-11:45", speaker: id_maiweiqi }
+    - time: "11:45-11:55"
+      topic: "快速演讲"
+      topic_en: ""
+  noon:
+    - time: "11:55-13:00"
+      topic: "午餐"
+      topic_en: ""
+  afternoon:
+    - time: "13:00-17:00"
+      topic: "Python技术开发工作坊"
+      topic_en: ""
+    - time: "17:00-17:10"
       topic: "抽奖&合影"
       topic_en: ""
   lightening_talks:

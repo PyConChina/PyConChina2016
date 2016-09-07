@@ -34,6 +34,10 @@
     title_en: Beijing
     url: "beijing.html"
     url_en: "en/beijing.html"
+  - title: 杭州
+    title_en: Hangzhou
+    url: "hangzhou.html"
+    url_en: "en/hangzhou.html"
 - title: 志愿者
   title_en: VOLUNTEERS
   url: "volunteers.html"
