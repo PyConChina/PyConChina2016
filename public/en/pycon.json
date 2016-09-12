@@ -656,6 +656,17 @@
         "title": "..."
       }
     }, 
+    "id_liyiwei": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/liyiwei.jpg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }, 
+      "intro": "", 
+      "name": "\u674e\u6bc5\u4e3a"
+    }, 
     "id_lvzhaogang": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/lvzhaogang.jpg", 
       "beijing_topic": {
@@ -875,6 +886,17 @@
         "slide": null, 
         "title": "..."
       }
+    }, 
+    "id_zhuxiadong": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/zhuxiadong.jpg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }, 
+      "intro": "", 
+      "name": "\u7afa\u590f\u680b"
     }
   }, 
   "sponsors": {
