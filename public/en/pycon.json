@@ -887,6 +887,17 @@
         "title": "..."
       }
     }, 
+    "id_zhongjinwei": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/zhongjinwei.jpg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }, 
+      "intro": "", 
+      "name": "\u949f\u9526\u5a01"
+    }, 
     "id_zhuxiadong": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/zhuxiadong.jpg", 
       "city_hangzhou": 1, 
