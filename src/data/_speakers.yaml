@@ -541,3 +541,16 @@ id_zhuxiadong:
     preview: "主题介绍了作者是如何在短时间内利用Python的一些运行时特性作为分析手段迅速掌握SaltStack这款自动化运维框架背后的运行原理与架构。希望通过本主题，与会嘉宾不仅能够了解到SaltStack的体系架构设计，更重要的，是如何去剖析一款框架的方法。因此，本主题会被设计成非运维开发领域的Python爱好者也感兴趣、能有所收获的大纲形式。"
     preview_en: ""
     slide: #
+
+id_zhongjinwei:
+  name: 钟锦威
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/zhongjinwei.jpg
+  intro: "特维轮网络科技(杭州)有限公司Python 程序员，喜欢 Python 和 瞎哔哔。曾在抽象科技负责项目开发与运维工作。"
+  intro_en: ""
+  hangzhou_topic:
+    title: "Python技术创业小记"
+    title_en: ""
+    preview: "作者在过去三年的创业经历中，是如何倚靠Python生态摸着石头过河，从无到有，逐步实现前后端分离、REST API、TDD、ATDD、自动部署等，追求用出Django、Flask等Web框架的最佳实践，同时通过实践检验了这些框架的优缺点。在这里与大家分享下，这一路走来，遇到了哪些坑，解决了哪些问题，最后总结Python语言在创业团队中应用的优劣。"
+    preview_en: ""
+    slide: #
