@@ -554,3 +554,16 @@ id_zhongjinwei:
     preview: "作者在过去三年的创业经历中，是如何倚靠Python生态摸着石头过河，从无到有，逐步实现前后端分离、REST API、TDD、ATDD、自动部署等，追求用出Django、Flask等Web框架的最佳实践，同时通过实践检验了这些框架的优缺点。在这里与大家分享下，这一路走来，遇到了哪些坑，解决了哪些问题，最后总结Python语言在创业团队中应用的优劣。"
     preview_en: ""
     slide: #
+
+id_dengjingzhi:
+  name: 邓静芝
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/dengjingzhi.jpg
+  intro: "杭州模世科技创始人/CEO"
+  intro_en: ""
+  hangzhou_topic:
+    title: "MatrixData在气象数据开放大赛的获奖作品分享"
+    title_en: ""
+    preview: "国信优易数据杯2016全国开放大数据创新创意大赛，暨国家气象信息中心首届气象数据开放大赛，MatrixData团队经过长达3个月的初赛、复赛，最终在总决赛中获奖。队长dengjingzhiData就此次参赛做主题分享，介绍参赛历程，详细解读MatrixData获奖项目《气象数据在药品供应链优化中的应用》，内容涉及Pandas数据处理、Scikit-learn机器学习等Python工具链的运用。"
+    preview_en: ""
+    slide: #
