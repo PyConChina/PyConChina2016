@@ -30,8 +30,8 @@ organizers:
   avatar: http://ocgxshkaw.bkt.clouddn.com/spawnris.jpg
   intro: Python爱好者/GDG珠海组织者/和小伙伴曾共同翻译/往年的PyCon志愿者，今年从幕后走到台前/将Pythonic进行到底
   intro_en: Python爱好者/GDG珠海组织者/和小伙伴曾共同翻译/往年的PyCon志愿者，今年从幕后走到台前/将Pythonic进行到底 
-  blog: None
-  weibo: None
+  blog:
+  weibo:
 
 technicians:
 

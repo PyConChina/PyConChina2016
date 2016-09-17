@@ -998,12 +998,12 @@
       }, 
       {
         "avatar": "http://ocgxshkaw.bkt.clouddn.com/spawnris.jpg", 
-        "blog": "None", 
+        "blog": null, 
         "intro": "Python\u7231\u597d\u8005/GDG\u73e0\u6d77\u7ec4\u7ec7\u8005/\u548c\u5c0f\u4f19\u4f34\u66fe\u5171\u540c\u7ffb\u8bd1/\u5f80\u5e74\u7684PyCon\u5fd7\u613f\u8005\uff0c\u4eca\u5e74\u4ece\u5e55\u540e\u8d70\u5230\u53f0\u524d/\u5c06Pythonic\u8fdb\u884c\u5230\u5e95", 
         "name": "Spawnris\uff08\u8001\u9ad8)", 
         "role": "organizer", 
         "role_organizer": 1, 
-        "weibo": "None"
+        "weibo": null
       }
     ], 
     "role_list": [
