@@ -22,6 +22,16 @@ organizers:
   intro_en: One of originator for CPyUG(China Python User Group) / administrator; Enthusiastic python community welfare, well-known community "DAMA"; OBP and PythoniCamp project designer / manager; attend and originator all kinds of  online / offline tech evnets, presided compiled "lovely Python"; keeping usage Pythonic to reclaim people entering the FLOSS world learning / sharing / innovate! currently work for CMCM.
   blog: http://zoomquiet.io/
   weibo: http://weibo.com/zoomquiet
+-
+  name: Spawnris（老高)
+  name_en: Spawnris（老高)
+  role: organizer
+  role_organizer: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/spawnris.jpg
+  intro: Python爱好者/GDG珠海组织者/和小伙伴曾共同翻译/往年的PyCon志愿者，今年从幕后走到台前/将Pythonic进行到底
+  intro_en: Python爱好者/GDG珠海组织者/和小伙伴曾共同翻译/往年的PyCon志愿者，今年从幕后走到台前/将Pythonic进行到底 
+  blog:
+  weibo:
 
 technicians:
 
