@@ -159,43 +159,33 @@ hangzhou:
   name: 杭州
   name_en: Hangzhou
   completed: false
-  address: "杭州市诺基亚办公室"
+  address: "杭州市滨江区信诚路567号会场诺基亚通信杭州全球研发中心"
   address_en: "Hangzhou Nokia office"
-  venue: "诺基亚办公室"
+  venue: "苏黎世会议室"
   venue_en: "Nokia office"
-  traffic: ""
+  traffic: "横街埠/ B支6,B支3路 - 江南大道环兴路口:294路(社区通勤高峰线),B支5路,352, 225(夜间线),113,315 - 信诚路江南大道口:107路"
   traffic_en: ""
   maplink: ''
-  date: 2016-10-15 09:00~18:00
+  date: 2016-10-15 10:00~18:00
   notices: ""
   morning:
-    - time: "9:00-9:10"
+    - time: "10:00-10:10"
       topic: "大会开场演讲和日程介绍"
       topic_en: "Check-in"
-    - time: "9:10-9:55"
-      topic: "演讲1"
-      topic_en: ""
-    - time: "9:55-10:40"
-      topic: "演讲2"
-      topic_en: ""
-    - time: "10:40-10:50"
-      topic: "茶歇"
-      topic_en: ""
-    - { time: "10:50-11:35", speaker: id_zhanghaibo }
-    - { time: "11:35-11:45", speaker: id_maiweiqi }
-    - time: "11:45-11:55"
-      topic: "快速演讲"
-      topic_en: ""
+    - { time: "10:10-10:55", speaker: id_zhanghaibo }
+    - { time: "10:55-11:40", speaker: id_liyiwei }
+    - { time: "11:40-11:50", speaker: id_maiweiqi }
   noon:
-    - time: "11:55-13:00"
-      topic: "午餐"
+    - time: "11:50-13:00"
+      topic: "午餐和交流"
       topic_en: ""
   afternoon:
-    - time: "13:00-17:00"
-      topic: "Python技术开发工作坊"
+    - { time: "13:00-13:45", speaker: id_dengjingzhi }
+    - { time: "13:45-14:30", speaker: id_zhuxiadong }
+    - { time: "14:30-15:15", speaker: id_zhongjinwei }
+    - time: "15:15-15:30"
+      topic: "茶歇&抽奖&合影"
       topic_en: ""
-    - time: "17:00-17:10"
-      topic: "抽奖&合影"
-      topic_en: ""
+    - { time: "15:30-17:30", speaker: id_zhangliaoyuan }
   lightening_talks:
   cancel_talks:
