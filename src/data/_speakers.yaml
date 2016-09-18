@@ -567,3 +567,17 @@ id_dengjingzhi:
     preview: "国信优易数据杯2016全国开放大数据创新创意大赛，暨国家气象信息中心首届气象数据开放大赛，MatrixData团队经过长达3个月的初赛、复赛，最终在总决赛中获奖。队长dengjingzhiData就此次参赛做主题分享，介绍参赛历程，详细解读MatrixData获奖项目《气象数据在药品供应链优化中的应用》，内容涉及Pandas数据处理、Scikit-learn机器学习等Python工具链的运用。"
     preview_en: ""
     slide: #
+
+
+id_zhangliaoyuan:
+  name: 张燎原
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/zhangliaoyuan.jpg
+  intro: "诺基亚Hangzhou TC Chief Coach，软件匠艺践行者，热衷编写代码和开源。一直致力于通过有效的工程实践来帮助团队高质量的产品交付，涉及测试驱动开发、代码重构、遗留代码的维护和持续交付。平时利用闲暇做一些图书的翻译工作，生活在杭州。作为资深码农，喜欢读书，及天马行空的思辩。同时是杭州谷歌开发者社区、PyCon杭州社区、杭州敏捷社区的组织者。"
+  intro_en: ""
+  hangzhou_topic:
+    title: "《Python代码道场》"
+    title_en: ""
+    preview: "Python代码道场是让一群程序员聚在一起编程解决一些挑战；通过这种有趣的刻意的练习来提高技能。一边编程，一边互相学习。 每个人可以从Coding Dojo中学到：解决问题的思路、编程技巧、面向对象设计、演进式设计、结对编程、测试驱动开发、持续集成等等。其实即使从别人犯的错误中，我们也能够学到很多。"
+    preview_en: ""
+    slide: #

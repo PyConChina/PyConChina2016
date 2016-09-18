@@ -93,54 +93,54 @@
       "address": "Hangzhou Nokia office", 
       "afternoon": [
         {
-          "time": "13:00-17:00", 
+          "speaker": "id_dengjingzhi", 
+          "time": "13:00-13:45"
+        }, 
+        {
+          "speaker": "id_zhuxiadong", 
+          "time": "13:45-14:30"
+        }, 
+        {
+          "speaker": "id_zhongjinwei", 
+          "time": "14:30-15:15"
+        }, 
+        {
+          "time": "15:15-15:30", 
           "topic": ""
         }, 
         {
-          "time": "17:00-17:10", 
-          "topic": ""
+          "speaker": "id_zhangliaoyuan", 
+          "time": "15:30-17:30"
         }
       ], 
       "cancel_talks": null, 
       "city": "hangzhou", 
       "completed": false, 
-      "date": "2016-10-15 09:00~18:00", 
+      "date": "2016-10-15 10:00~18:00", 
       "lightening_talks": null, 
       "maplink": "", 
       "morning": [
         {
-          "time": "9:00-9:10", 
+          "time": "10:00-10:10", 
           "topic": "Check-in"
         }, 
         {
-          "time": "9:10-9:55", 
-          "topic": ""
-        }, 
-        {
-          "time": "9:55-10:40", 
-          "topic": ""
-        }, 
-        {
-          "time": "10:40-10:50", 
-          "topic": ""
-        }, 
-        {
           "speaker": "id_zhanghaibo", 
-          "time": "10:50-11:35"
+          "time": "10:10-10:55"
+        }, 
+        {
+          "speaker": "id_liyiwei", 
+          "time": "10:55-11:40"
         }, 
         {
           "speaker": "id_maiweiqi", 
-          "time": "11:35-11:45"
-        }, 
-        {
-          "time": "11:45-11:55", 
-          "topic": ""
+          "time": "11:40-11:50"
         }
       ], 
       "name": "Hangzhou", 
       "noon": [
         {
-          "time": "11:55-13:00", 
+          "time": "11:50-13:00", 
           "topic": ""
         }
       ], 
@@ -354,7 +354,21 @@
     "\u738b\u5251\u5cf0", 
     "\u9648\u94a7\u96f7", 
     "Nicole Zeng", 
-    "\u5218\u6653\u7167"
+    "\u5218\u6653\u7167", 
+    "\u5468\u78ca", 
+    "\u4e25\u6590\u96c4", 
+    "\u5218\u5176\u5cf0", 
+    "\u7b26\u4f20\u575a", 
+    "\u7eff\u91ce", 
+    "\u674e\u6653\u5149", 
+    "\u5218\u5cf0", 
+    "Myth", 
+    "\u6768\u6770", 
+    "\u4e01\u660e\u4eae", 
+    "\u5f20\u6625\u5efa", 
+    "\u5218\u5bb6\u8d22", 
+    "Sid Cao", 
+    "\u5415\u7965\u948a"
   ], 
   "lang": "en", 
   "lang_dir": "en", 
@@ -886,6 +900,17 @@
       "city_beijing": 1, 
       "intro": "...", 
       "name": "\u5f20\u534e\u7ffc"
+    }, 
+    "id_zhangliaoyuan": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/zhangliaoyuan.jpg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }, 
+      "intro": "", 
+      "name": "\u5f20\u71ce\u539f"
     }, 
     "id_zhangqichuan": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/zhangqichuan.jpg", 
