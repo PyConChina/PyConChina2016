@@ -389,8 +389,8 @@ id_zhanghuayi:
   name: 张华翼
   city_beijing: 1
   avatar: http://ocgxshkaw.bkt.clouddn.com/zhanghuayi.jpg
-  intro: "豆瓣网高级系统工程师"
-  intro_en: ...
+  intro: "豆瓣网高级系统工程师，负责私有云建设，服务化框架研发和全站性能提升。目前关注 Docker，私有云，微服务等领域。"
+  intro_en: ''
   beijing_topic:
     title: "使用 Python 构建服务化架构中的基础设施"
     title_en: "..."
