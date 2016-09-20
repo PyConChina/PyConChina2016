@@ -41,7 +41,7 @@
       "completed": false, 
       "date": "2016-10-15 09:00~18:00", 
       "lightening_talks": null, 
-      "maplink": "", 
+      "maplink": "http://j.map.baidu.com/KVS1F", 
       "morning": [
         {
           "time": "9:00-9:10", 
@@ -80,7 +80,7 @@
         }
       ], 
       "notices": "", 
-      "traffic": "", 
+      "traffic": "\u5730\u94c17\u53f7\u7ebf/14\u53f7\u7ebf\u4e5d\u9f99\u5c71\u7ad9D\u51fa\u53e3\u6b65\u884c700\u7c73", 
       "venue": "\u5408\u751f\u8d22\u5bcc\u5e7f\u573a2\u697c"
     }, 
     "city_list": [
@@ -90,7 +90,7 @@
       "hangzhou"
     ], 
     "hangzhou": {
-      "address": "\u676d\u5dde\u5e02\u6ee8\u6c5f\u533a\u4fe1\u8bda\u8def567\u53f7\u4f1a\u573a\u8bfa\u57fa\u4e9a\u901a\u4fe1\u676d\u5dde\u5168\u7403\u7814\u53d1\u4e2d\u5fc3", 
+      "address": "\u676d\u5dde\u5e02\u6ee8\u6c5f\u533a\u4fe1\u8bda\u8def567\u53f7\u8bfa\u57fa\u4e9a\u901a\u4fe1\u676d\u5dde\u5168\u7403\u7814\u53d1\u4e2d\u5fc3\u82cf\u9ece\u4e16\u4f1a\u8bae\u5ba4", 
       "afternoon": [
         {
           "speaker": "id_dengjingzhi", 
@@ -118,7 +118,7 @@
       "completed": false, 
       "date": "2016-10-15 10:00~18:00", 
       "lightening_talks": null, 
-      "maplink": "", 
+      "maplink": "http://j.map.baidu.com/d0U1F", 
       "morning": [
         {
           "time": "10:00-10:10", 
@@ -282,7 +282,7 @@
       "cancel_talks": null, 
       "city": "shenzhen", 
       "completed": false, 
-      "date": "2016-09-25 09:00~18:00", 
+      "date": "2016-09-25 10:00~18:00", 
       "lightening_talks": null, 
       "maplink": "http://j.map.baidu.com/nc3B8", 
       "morning": [
@@ -311,7 +311,7 @@
         }
       ], 
       "notices": "", 
-      "traffic": "", 
+      "traffic": "\u5730\u94c11\u53f7\u7ebf\u9ad8\u65b0\u56ed\u7ad9B\u51fa\u53e3\u6b65\u884c800\u7c73", 
       "venue": "\u5bcc\u5229\u81fb\u5927\u53a6"
     }
   }, 
@@ -989,7 +989,7 @@
         "logo": "http://ocgxshkaw.bkt.clouddn.com/ucloud-logo.png"
       }, 
       {
-        "intro": "\u4f9d\u6258\u6d66\u4e1c\u8f6f\u4ef6\u56ed\u533a\u4ea7\u4e1a\u96c6\u805a\u4f18\u52bf\uff0c\u6253\u9020\u521b\u65b0\u521b\u4e1a\u6280\u672f\u4ea4\u6d41\u5e73\u53f0\uff0c\u5206\u4eab\u201c\u9ad8\u201d\u3001\u201c\u7cbe\u201d\u3001\u201c\u5c16\u201d\u884c\u4e1a\u9886\u57df\u8d8b\u52bf\u4e0e\u6280\u672f\uff0c\u6c47\u805a\u66f4\u591a\u4e13\u4e1a\u6280\u672f\u4eba\u624d\uff0c\u65e8\u5728\u5c06\u201c\u6c47\u667aTEK\u201d\u6253\u9020\u6210\u4e3a\u4e0a\u6d77ICT\u884c\u4e1a\u9ad8\u7aef\u8bba\u575b\uff0c\u6210\u4e3a\u521b\u65b0\u601d\u60f3\u6c47\u96c6\u3001\u78b0\u649e\u7684\u9635\u5730\u3002", 
+        "intro": "\u4f9d\u6258\u4e0a\u6d77\u6d66\u4e1c\u8f6f\u4ef6\u56ed\uff08SPSP\uff09\u8f6f\u4ef6\u548c\u4fe1\u606f\u4ea7\u4e1a\u96c6\u805a\u7684\u4f18\u52bf\uff0c\u6211\u4eec\u521b\u5efa\u201c\u6c47\u667aTEK\u201d\u521b\u65b0\u521b\u4e1a\u6280\u672f\u4ea4\u6d41\u5e73\u53f0\u3002\u901a\u8fc7\u5206\u4eab\u201c\u9ad8\u201d\uff0c\u201c\u7cbe\u201d\uff0c\u201c\u5c16\u201d\u884c\u4e1a\u9886\u57df\u8d8b\u52bf\u4e0e\u6280\u672f\uff0c\u6c47\u667aTEK\u8bba\u575b\u65e8\u5728\u6210\u4e3a\u4e0a\u6d77ICT\u4ea7\u4e1a\u9ad8\u5cf0\u8bba\u575b\u4e4b\u4e00\u3001\u6210\u4e3a\u6d66\u8f6f\u6c47\u805a\u66f4\u591a\u4e13\u4e1a\u6280\u672f\u4eba\u624d\u7684\u9a71\u52a8\u529b\u3002", 
         "link": "http://www.spsp.com.cn/", 
         "logo": "http://ocgxshkaw.bkt.clouddn.com/HuiZhiTEK-logo.png"
       }, 

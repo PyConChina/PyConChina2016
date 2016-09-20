@@ -41,7 +41,7 @@
       "completed": false, 
       "date": "2016-10-15 09:00~18:00", 
       "lightening_talks": null, 
-      "maplink": "", 
+      "maplink": "http://j.map.baidu.com/KVS1F", 
       "morning": [
         {
           "time": "9:00-9:10", 
@@ -118,7 +118,7 @@
       "completed": false, 
       "date": "2016-10-15 10:00~18:00", 
       "lightening_talks": null, 
-      "maplink": "", 
+      "maplink": "http://j.map.baidu.com/d0U1F", 
       "morning": [
         {
           "time": "10:00-10:10", 
@@ -282,7 +282,7 @@
       "cancel_talks": null, 
       "city": "shenzhen", 
       "completed": false, 
-      "date": "2016-09-25 09:00~18:00", 
+      "date": "2016-09-25 10:00~18:00", 
       "lightening_talks": null, 
       "maplink": "http://j.map.baidu.com/nc3B8", 
       "morning": [
@@ -311,7 +311,7 @@
         }
       ], 
       "notices": "", 
-      "traffic": "", 
+      "traffic": "\u5730\u94c11\u53f7\u7ebf\u9ad8\u65b0\u56ed\u7ad9B\u51fa\u53e3\u6b65\u884c800\u7c73", 
       "venue": "\u5bcc\u5229\u81fb\u5927\u53a6"
     }
   }, 
@@ -989,7 +989,7 @@
         "logo": "http://ocgxshkaw.bkt.clouddn.com/ucloud-logo.png"
       }, 
       {
-        "intro": "", 
+        "intro": "Relying on the software and information industrial agglomeration advantages of Shanghai Pudong Software Park (SPSP), we set up an innovative and entrepreneurial technology exchange platform named WiseTEK. By sharing  state of the art of IT industry , WiseTEK forum is aimed at being one of Shanghai ICT industry summit forums and the driving force of SPSP for gathering more professional and technical talents.", 
         "link": "http://www.spsp.com.cn/", 
         "logo": "http://ocgxshkaw.bkt.clouddn.com/HuiZhiTEK-logo.png"
       }, 
