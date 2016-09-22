@@ -52,6 +52,8 @@
             <span class="stay">{{ a_speaker.name }}</span>
           </div>
           <div class="description">
+            作者简介: {{ a_speaker.short_intro or a_speaker.intro }}
+            <br />
             {{ topic.preview }}
           </div>
           {% if topic.slide or topic.video %}
