@@ -211,7 +211,7 @@ id_heshiyou:
     title_en: "..."
     preview: "从 CGI 到 WSGI，一晃十余年。自 10 年以来，HTTP2、WebSocket 等新协议逐渐发展壮大，显然 WSGI 已经力不从心，Python 急需新的 web 框架适应新协议。ASGI，由 Diango 团队发起，提出了一种新的异步网络编程思想，试图用一个框架兼容 HTTP、HTTP2、WebSocket 三种协议，它是怎么做到的呢？让我们一起来揭开它的神秘面纱。"
     preview_en: ...
-    slide: #
+    slide: "http://ocgxshkaw.bkt.clouddn.com/5《ASGI 草案，Python 终于等到了》何世友.pdf"
 
 id_panjunyong:
   name: 潘俊勇
@@ -224,7 +224,7 @@ id_panjunyong:
     title_en: "..."
     preview: "技术变化越来越快，应用开发越来越复杂，缺乏持久保障。易开发在企业应用领域，通过建立应用开发平台，隔离技术变迁，实现全栈Python脚本化应用开发，部分逻辑使用Blockly可视化开发，简化应用开发，进而做到可持续的应用开发。演讲将在分析云和大数据时代应用开发之未来趋势，介绍脚本化应用开发平台的架构，以及Blockly可视化语言。"
     preview_en: ...
-    slide: #
+    slide: "http://ocgxshkaw.bkt.clouddn.com/1%20《脚本化和Blockly可视化的应用开发实践》潘俊勇.pdf"
 
 id_chanshi:
   name: 馋师
@@ -239,7 +239,7 @@ id_chanshi:
 第二：通过Monkey Patching实现运行时调用栈追踪，用于快速研究代码流程（10分钟弄懂一个框架），及实现非侵入式流程测试（不用埋点，不用加测试专用的函数参数）。
 第三：使用逐行注释法明示代码书写意图，成倍提升代码可读性和项目维护效率。"
     preview_en: ...
-    slide: #
+    slide: "http://ocgxshkaw.bkt.clouddn.com/8《Python开发辅助软件提升工作效率》馋师.pdf"
 
 id_zhangqichuan:
   name: 张其川
@@ -252,7 +252,7 @@ id_zhangqichuan:
     title_en: "..."
     preview: "在大数据、云计算的时代，越来越多的公司开始拓展自己的业务，服务器数量急剧增加。面对如此庞大的服务器集群，普通的运维模式已经不再能满足我们的生产需要。需要自动化运维模式来有效地管理大量的服务器，本演讲介绍了一些自动化运维的开发经验和案例。"
     preview_en: ...
-    slide: #
+    slide: "http://ocgxshkaw.bkt.clouddn.com/6《自动化运维和工具》张其川.pdf"
 
 id_river:
   name: river
@@ -265,7 +265,7 @@ id_river:
     title_en: "..."
     preview: "在Android上为什么 以及如何进行安卓开发？相信这是很多安卓Python开发者的疑惑， 在这个主题中，我将给大家分享Python 在 Android中的应用场景。具体内容包括：1 在安卓上进行Python脚本编程；2 如何用Python进行原生App&WebApp开发；3 如何用Python进行游戏应用开发。 "
     preview_en: ...
-    slide: #
+    slide: "http://ocgxshkaw.bkt.clouddn.com/4《Python in Android》River.pdf"
 
 id_huguotao:
   name: 胡国涛
@@ -280,7 +280,7 @@ id_huguotao:
 WEGO 是一个由 python 编写、方便集成、快速易用、轻便灵活的微信开发框架，自带有 web 管理界面，让开发者专注业务逻辑摆脱微信接口调试的烦恼。
 Github: https://github.com/wegostudio"
     preview_en: ...
-    slide: #
+    slide: "http://ocgxshkaw.bkt.clouddn.com/7《WEGO 的开源之旅》胡国涛.pdf"
 
 id_shienming:
   name: 石恩名
@@ -297,7 +297,7 @@ id_shienming:
 3） 对主要的问题的解决方案。
 4） 产品展示和介绍。"
     preview_en: ...
-    slide: #
+    slide: "http://ocgxshkaw.bkt.clouddn.com/9《一种可视化爬虫技术分享》石恩名.pdf"
 
 id_lili:
   name: 李力
@@ -310,7 +310,7 @@ id_lili:
     title_en: "..."
     preview: "大家都知道Python是云计算的好伙伴，通过Python语言OpenStack建立起了一系列庞大的项目。同样的，腾讯云的后台系统也大量使用了Python，在这里我们会分享Python在腾讯公有云系统中的一些应用实践，阐述在云计算的系统当中我们对Python的一些特性的依赖和喜爱，包括我们在大规模系统中的应用python技术的一些坑，让大家有所收获。"
     preview_en: ...
-    slide: #
+    slide: "http://ocgxshkaw.bkt.clouddn.com/3《Python用于公有云系统的实践》李力.pdf"
 
 id_tangyingkang:
   name: 汤英康
@@ -323,7 +323,7 @@ id_tangyingkang:
     title_en: "..."
     preview: "随着业务量和数据量的快速增加，对于集群应用的监控和告警显得越发重要。优亿科技结合积累多年的电信行业大数据项目经验，整合了分布式数据采集、OpenTSDB海量数据存储、数据可视化、告警和Docker集群管理技术，最终推出一套完整的大数据监控告警平台产品方案。本主题将介绍该产品的系统架构，分享在设计和开发中积累的一些经验。 "
     preview_en: ...
-    slide: #
+    slide: "http://ocgxshkaw.bkt.clouddn.com/10《大数据监控告警系统》汤英康.pdf"
 
 ####################################################################
 # 北京
@@ -381,7 +381,7 @@ id_dinglaiqiang:
     title_en: "Python hooking, patching and injection"
     preview: "Python的强大语言特性和生态系统为其高效开发和数据分析提供了强力的支撑，其灵活的语言设计也为一些hacking技术提供可能，并由其产生了许多强大的神奇的工具和模式。本议题介绍了Python hooking、patching和injection等技术和原理，结合流行框架和库的使用、工具、安全、检测等场景的应用。使得听众可以学习相关技术，并了解在什么样的场景下使用。"
     preview_en: ""
-    slide: #
+    slide: "http://ocgxshkaw.bkt.clouddn.com/2《Python hooking, patching and injection》丁来强.pdf"
 
 
 
