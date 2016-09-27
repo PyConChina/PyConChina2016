@@ -30,6 +30,16 @@
             {{ schedule.date }}
           </div>
         </div>
+        <div class="item">
+          <i class="video play icon"></i>
+          <div class="content">
+            {% if schedule.video %}
+              <a href="{{ schedule.video }}" target="_blank">现场视频</a>
+            {% else %}
+                暂无视频
+            {% endif %}
+          </div>
+        </div>
       </div>
     </div>
 
