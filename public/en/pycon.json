@@ -511,7 +511,7 @@
       "name": "\u998b\u5e08", 
       "shenzhen_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/8\u300aPython\u5f00\u53d1\u8f85\u52a9\u8f6f\u4ef6\u63d0\u5347\u5de5\u4f5c\u6548\u7387\u300b\u998b\u5e08.pdf", 
         "title": "..."
       }
     }, 
@@ -578,7 +578,7 @@
       }, 
       "shenzhen_topic": {
         "preview": "", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/2\u300aPython hooking, patching and injection\u300b\u4e01\u6765\u5f3a.pdf", 
         "title": "Python hooking, patching and injection"
       }
     }, 
@@ -611,7 +611,7 @@
       "name": "\u4f55\u4e16\u53cb", 
       "shenzhen_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/5\u300aASGI \u8349\u6848\uff0cPython \u7ec8\u4e8e\u7b49\u5230\u4e86\u300b\u4f55\u4e16\u53cb.pdf", 
         "title": "..."
       }
     }, 
@@ -644,7 +644,7 @@
       "name": "\u80e1\u56fd\u6d9b", 
       "shenzhen_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/7\u300aWEGO \u7684\u5f00\u6e90\u4e4b\u65c5\u300b\u80e1\u56fd\u6d9b.pdf", 
         "title": "..."
       }
     }, 
@@ -677,7 +677,7 @@
       "name": "\u674e\u529b", 
       "shenzhen_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/3\u300aPython\u7528\u4e8e\u516c\u6709\u4e91\u7cfb\u7edf\u7684\u5b9e\u8df5\u300b\u674e\u529b.pdf", 
         "title": "..."
       }
     }, 
@@ -743,7 +743,7 @@
       "name": "\u6f58\u4fca\u52c7", 
       "shenzhen_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/1%20\u300a\u811a\u672c\u5316\u548cBlockly\u53ef\u89c6\u5316\u7684\u5e94\u7528\u5f00\u53d1\u5b9e\u8df5\u300b\u6f58\u4fca\u52c7.pdf", 
         "title": "..."
       }
     }, 
@@ -765,7 +765,7 @@
       "name": "river", 
       "shenzhen_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/4\u300aPython in Android\u300bRiver.pdf", 
         "title": "..."
       }
     }, 
@@ -776,7 +776,7 @@
       "name": "\u77f3\u6069\u540d", 
       "shenzhen_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/9\u300a\u4e00\u79cd\u53ef\u89c6\u5316\u722c\u866b\u6280\u672f\u5206\u4eab\u300b\u77f3\u6069\u540d.pdf", 
         "title": "..."
       }
     }, 
@@ -787,7 +787,7 @@
       "name": "\u6c64\u82f1\u5eb7", 
       "shenzhen_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/10\u300a\u5927\u6570\u636e\u76d1\u63a7\u544a\u8b66\u7cfb\u7edf\u300b\u6c64\u82f1\u5eb7.pdf", 
         "title": "..."
       }
     }, 
@@ -919,7 +919,7 @@
       "name": "\u5f20\u5176\u5ddd", 
       "shenzhen_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/6\u300a\u81ea\u52a8\u5316\u8fd0\u7ef4\u548c\u5de5\u5177\u300b\u5f20\u5176\u5ddd.pdf", 
         "title": "..."
       }
     }, 
