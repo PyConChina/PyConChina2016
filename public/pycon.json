@@ -68,8 +68,8 @@
           "topic": "\u5feb\u901f\u6f14\u8bb2"
         }, 
         {
-          "time": "11:45-11:55", 
-          "topic": "\u5feb\u901f\u6f14\u8bb2"
+          "speaker": "id_chenshixin", 
+          "time": "11:45-11:55"
         }
       ], 
       "name": "\u5317\u4eac", 
@@ -98,10 +98,6 @@
         }, 
         {
           "speaker": "id_zhuxiadong", 
-          "time": "13:45-14:30"
-        }, 
-        {
-          "speaker": "id_zhongjinwei", 
           "time": "14:30-15:15"
         }, 
         {
@@ -109,8 +105,12 @@
           "topic": "\u8336\u6b47&\u62bd\u5956&\u5408\u5f71"
         }, 
         {
+          "speaker": "id_zhongjinwei", 
+          "time": "15:30-16:15"
+        }, 
+        {
           "speaker": "id_zhangliaoyuan", 
-          "time": "15:30-17:30"
+          "time": "16:15-17:30"
         }
       ], 
       "cancel_talks": null, 
@@ -505,6 +505,17 @@
     "url": "http://cn.pycon.org/2016/"
   }, 
   "speakers": {
+    "id_bendarnell": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/BenDarnell.jpeg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "Tornado (and Twisted) in the age of asyncio"
+      }, 
+      "intro": "Ben Darnell is the CTO and co-founder of Cockroach Labs where he works on the distributed consensus protocols that underpin its transactional model. He has been the maintainer of the Tornado web framework since 2010. He started his career at Google and then went on to a series of startups including Dropbox, FriendFeed, Brizzly, and Viewfinder. ", 
+      "name": "Ben Darnell"
+    }, 
     "id_chanshi": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/chanshi.jpg", 
       "city_shenzhen": 1, 
@@ -526,6 +537,17 @@
         "slide": "http://ocgxshkaw.bkt.clouddn.com/12%20%E3%80%8AOdoo%E4%B8%8E%20python%E3%80%8B%E9%99%88%E5%B8%86.pdf", 
         "title": "Odoo\u4e0e python"
       }
+    }, 
+    "id_chenshixin": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/chenshixin.jpg", 
+      "beijing_topic": {
+        "preview": "\u4ecb\u7ecd\u4e86\u5728Movoto\u3001\u548c\u5bb6\u7f51\u30012Style4you\u7b49\u516c\u53f8\u4f7f\u7528Python\u8fdb\u884c\u589e\u957f\u9ed1\u5ba2\u7684\u5b9e\u8df5\uff0c\u5e76\u4ecb\u7ecd\u4e86python\u53ef\u80fd\u7528\u4e8e\u589e\u957f\u9ed1\u5ba2\u7684\u5176\u4ed6\u9886\u57df\u3002", 
+        "slide": null, 
+        "title": "\u7528Python\u505a\u589e\u957f\u9ed1\u5ba2\u7684\u5b9e\u8df5"
+      }, 
+      "city_beijing": 1, 
+      "intro": "\u662d\u5408\u6295\u8d44\u5408\u4f19\u4eba\uff0cInnoSpace\u521b\u4e1a\u5bfc\u5e08\uff0c1999\u5e74\u8fdb\u5165\u6613\u8da3\u7f51\uff0c\u4ece\u4e8b\u4e92\u8054\u7f51\u884c\u4e1a\uff0c2001\u5e74\u8d77\u4efb\u5b89\u5bb6\u7f51\u526f\u603b\u7ecf\u7406\uff1b2005\u5e74\u540e\u5206\u522b\u62c5\u4efbMovoto.com\u4e2d\u56fd\u516c\u53f8\u603b\u7ecf\u7406\uff1b\u548c\u5bb6\u7f51CTO\uff1b2Style4You\u516c\u53f8CTO\uff1b\u6c38\u6cf0\u7ea2\u78e1\u517b\u8001\u4ea7\u4e1a\u96c6\u56e2\u6218\u7565\u7814\u7a76\u603b\u76d1\u3001\u521b\u733f\u6295\u8d44\u8463\u4e8b\u5408\u4f19\u4eba\uff1b\u66fe\u4efb\u6c38\u6cf0\u7ea2\u78e1\u3001\u6ce2\u7f57\u871c\u5168\u7403\u8d2d\u3001KIC\u8d6b\u66fc\u5fb7\u3001\u5353\u4f01\u534e\u5c4b\u3001\u4e07\u8000\u4f01\u9f99\u3001\u7279\u6613\u8d44\u8baf\u3001\u534e\u4e00\u623f\u4ea7\u7b49\u4e92\u8054\u7f51\u6218\u7565\u3001\u4ea7\u54c1\u3001\u8fd0\u8425\u3001\u6280\u672f\u987e\u95ee\u3002\u66fe\u4f5c\u4e3a\u5e73\u5b89\u5927\u5b66\u3001\u82cf\u5b81\u5927\u5b66\u3001\u4e2d\u56fd\u94f6\u8054\u3001\u4e2d\u56fd\u7535\u4fe1\u3001\u590d\u65e6\u5927\u5b66MBA\u6559\u7814\u7ec4\u3001\u4f17\u6234\u91d1\u878d\u7b49\u673a\u6784\u5185\u8bad\u8bb2\u5e08\u3002", 
+      "name": "\u9648\u4e16\u6b23"
     }, 
     "id_chenxiaoyou": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/chenxiaoyou.jpg", 

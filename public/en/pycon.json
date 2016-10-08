@@ -68,8 +68,8 @@
           "topic": ""
         }, 
         {
-          "time": "11:45-11:55", 
-          "topic": ""
+          "speaker": "id_chenshixin", 
+          "time": "11:45-11:55"
         }
       ], 
       "name": "Beijing", 
@@ -98,10 +98,6 @@
         }, 
         {
           "speaker": "id_zhuxiadong", 
-          "time": "13:45-14:30"
-        }, 
-        {
-          "speaker": "id_zhongjinwei", 
           "time": "14:30-15:15"
         }, 
         {
@@ -109,8 +105,12 @@
           "topic": ""
         }, 
         {
+          "speaker": "id_zhongjinwei", 
+          "time": "15:30-16:15"
+        }, 
+        {
           "speaker": "id_zhangliaoyuan", 
-          "time": "15:30-17:30"
+          "time": "16:15-17:30"
         }
       ], 
       "cancel_talks": null, 
@@ -505,6 +505,17 @@
     "url": "http://cn.pycon.org/2016/"
   }, 
   "speakers": {
+    "id_bendarnell": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/BenDarnell.jpeg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }, 
+      "intro": "", 
+      "name": "Ben Darnell"
+    }, 
     "id_chanshi": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/chanshi.jpg", 
       "city_shenzhen": 1, 
@@ -526,6 +537,17 @@
         "slide": "http://ocgxshkaw.bkt.clouddn.com/12%20%E3%80%8AOdoo%E4%B8%8E%20python%E3%80%8B%E9%99%88%E5%B8%86.pdf", 
         "title": ""
       }
+    }, 
+    "id_chenshixin": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/chenshixin.jpg", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u9648\u4e16\u6b23"
     }, 
     "id_chenxiaoyou": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/chenxiaoyou.jpg", 
