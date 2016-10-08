@@ -97,6 +97,10 @@
           "time": "13:00-13:45"
         }, 
         {
+          "speaker": "id_bendarnell", 
+          "time": "13:45-14:30"
+        }, 
+        {
           "speaker": "id_zhuxiadong", 
           "time": "14:30-15:15"
         }, 
@@ -511,9 +515,9 @@
       "hangzhou_topic": {
         "preview": "", 
         "slide": null, 
-        "title": ""
+        "title": "Tornado (and Twisted) in the age of asyncio"
       }, 
-      "intro": "", 
+      "intro": "Ben Darnell is the CTO and co-founder of Cockroach Labs where he works on the distributed consensus protocols that underpin its transactional model. He has been the maintainer of the Tornado web framework since 2010. He started his career at Google and then went on to a series of startups including Dropbox, FriendFeed, Brizzly, and Viewfinder. ", 
       "name": "Ben Darnell"
     }, 
     "id_chanshi": {
