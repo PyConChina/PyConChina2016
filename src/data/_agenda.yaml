@@ -129,9 +129,7 @@ beijing:
     - time: "11:35-11:45"
       topic: "快速演讲"
       topic_en: ""
-    - time: "11:45-11:55"
-      topic: "快速演讲"
-      topic_en: ""
+    - { time: "11:45-11:55", speaker: id_chenshixin }
   noon:
     - time: "11:55-13:00"
       topic: "午餐"
@@ -182,11 +180,11 @@ hangzhou:
       topic_en: ""
   afternoon:
     - { time: "13:00-13:45", speaker: id_dengjingzhi }
-    - { time: "13:45-14:30", speaker: id_zhuxiadong }
-    - { time: "14:30-15:15", speaker: id_zhongjinwei }
+    - { time: "14:30-15:15", speaker: id_zhuxiadong }
     - time: "15:15-15:30"
       topic: "茶歇&抽奖&合影"
       topic_en: ""
-    - { time: "15:30-17:30", speaker: id_zhangliaoyuan }
+    - { time: "15:30-16:15", speaker: id_zhongjinwei }
+    - { time: "16:15-17:30", speaker: id_zhangliaoyuan }
   lightening_talks:
   cancel_talks:

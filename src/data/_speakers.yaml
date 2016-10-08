@@ -483,6 +483,19 @@ id_huangxin:
     preview_en: ...
     slide: #
 
+id_chenshixin:
+  name: 陈世欣
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/chenshixin.jpg
+  intro: "昭合投资合伙人，InnoSpace创业导师，1999年进入易趣网，从事互联网行业，2001年起任安家网副总经理；2005年后分别担任Movoto.com中国公司总经理；和家网CTO；2Style4You公司CTO；永泰红磡养老产业集团战略研究总监、创猿投资董事合伙人；曾任永泰红磡、波罗蜜全球购、KIC赫曼德、卓企华屋、万耀企龙、特易资讯、华一房产等互联网战略、产品、运营、技术顾问。曾作为平安大学、苏宁大学、中国银联、中国电信、复旦大学MBA教研组、众戴金融等机构内训讲师。"
+  intro_en: ...
+  beijing_topic:
+    title: "用Python做增长黑客的实践"
+    title_en: "..."
+    preview: "介绍了在Movoto、和家网、2Style4you等公司使用Python进行增长黑客的实践，并介绍了python可能用于增长黑客的其他领域。"
+    preview_en: ...
+    slide: #
+
 ####################################################################
 # 杭州
 ####################################################################
@@ -565,6 +578,19 @@ id_dengjingzhi:
     title: "MatrixData在气象数据开放大赛的获奖作品分享"
     title_en: ""
     preview: "国信优易数据杯2016全国开放大数据创新创意大赛，暨国家气象信息中心首届气象数据开放大赛，MatrixData团队经过长达3个月的初赛、复赛，最终在总决赛中获奖。队长dengjingzhiData就此次参赛做主题分享，介绍参赛历程，详细解读MatrixData获奖项目《气象数据在药品供应链优化中的应用》，内容涉及Pandas数据处理、Scikit-learn机器学习等Python工具链的运用。"
+    preview_en: ""
+    slide: #
+
+id_bendarnell:
+  name: "Ben Darnell"
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/BenDarnell.jpeg
+  intro: "Ben Darnell is the CTO and co-founder of Cockroach Labs where he works on the distributed consensus protocols that underpin its transactional model. He has been the maintainer of the Tornado web framework since 2010. He started his career at Google and then went on to a series of startups including Dropbox, FriendFeed, Brizzly, and Viewfinder. "
+  intro_en: ""
+  hangzhou_topic:
+    title: "Tornado (and Twisted) in the age of asyncio"
+    title_en: ""
+    preview: "..."
     preview_en: ""
     slide: #
 
