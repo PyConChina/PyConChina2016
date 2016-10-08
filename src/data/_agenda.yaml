@@ -180,6 +180,7 @@ hangzhou:
       topic_en: ""
   afternoon:
     - { time: "13:00-13:45", speaker: id_dengjingzhi }
+    - { time: "13:45-14:30", speaker: id_bendarnell }
     - { time: "14:30-15:15", speaker: id_zhuxiadong }
     - time: "15:15-15:30"
       topic: "茶歇&抽奖&合影"
