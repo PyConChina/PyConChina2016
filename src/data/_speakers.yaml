@@ -595,6 +595,20 @@ id_bendarnell:
     slide: #
 
 
+id_chenhaibo:
+  name: 陈海波
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/chenhaibo.jpg
+  intro: "FarBox、MarkEditor、Bitcron、LazyHosts 等不少产品的创造"
+  intro_en: ""
+  hangzhou_topic:
+    title: "工者利其器——Python的工具创作者"
+    title_en: ""
+    preview: "介绍MarkEditor、LazyHosts、Bitcron等工具型相关实际项目中的一些经验和问题的解决思路。涉及桌面端软件、Web 开发的一些小问题、大问题。"
+    preview_en: ""
+    slide: #
+
+
 id_zhangliaoyuan:
   name: 张燎原
   city_hangzhou: 1

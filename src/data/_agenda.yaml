@@ -186,6 +186,6 @@ hangzhou:
       topic: "茶歇&抽奖&合影"
       topic_en: ""
     - { time: "15:30-16:15", speaker: id_zhongjinwei }
-    - { time: "16:15-17:30", speaker: id_zhangliaoyuan }
+    - { time: "16:15-17:30", speaker: id_chenhaibo }
   lightening_talks:
   cancel_talks:
