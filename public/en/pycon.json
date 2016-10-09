@@ -113,7 +113,7 @@
           "time": "15:30-16:15"
         }, 
         {
-          "speaker": "id_zhangliaoyuan", 
+          "speaker": "id_chenhaibo", 
           "time": "16:15-17:30"
         }
       ], 
@@ -541,6 +541,17 @@
         "slide": "http://ocgxshkaw.bkt.clouddn.com/12%20%E3%80%8AOdoo%E4%B8%8E%20python%E3%80%8B%E9%99%88%E5%B8%86.pdf", 
         "title": ""
       }
+    }, 
+    "id_chenhaibo": {
+      "avatar": "http://ocgxshkaw.bkt.clouddn.com/chenhaibo.jpg", 
+      "city_hangzhou": 1, 
+      "hangzhou_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }, 
+      "intro": "", 
+      "name": "\u9648\u6d77\u6ce2"
     }, 
     "id_chenshixin": {
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/chenshixin.jpg", 
