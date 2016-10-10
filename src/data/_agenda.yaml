@@ -138,7 +138,8 @@ beijing:
   afternoon:
     - { time: "13:00-13:45", speaker: id_zhanghuayi }
     - { time: "13:45-14:30", speaker: id_yangshuguang }
-    - time: "14:30-14:45"
+    - { time: "14:30-15:15", speaker: id_moyu }
+    - time: "15:15-15:30"
       topic: "茶歇"
       topic_en: ""
     - { time: "14:45-15:30", speaker: id_moyu }
