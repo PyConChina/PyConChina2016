@@ -573,7 +573,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/chenshixin.jpg", 
       "beijing_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/5\u300a\u7528Python\u505a\u589e\u957f\u9ed1\u5ba2\u7684\u5b9e\u8df5\u300b\u9648\u4e16\u6b23.pdf", 
         "title": "..."
       }, 
       "city_beijing": 1, 
@@ -617,7 +617,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/dinglaiqiang.jpg", 
       "beijing_topic": {
         "preview": "", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/2\u300aPython and Design Pattern\u300b\u4e01\u6765\u5f3a.pdf", 
         "title": "Python and Design Pattern"
       }, 
       "city_beijing": 1, 
@@ -673,7 +673,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/hongqiangning.jpg", 
       "beijing_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/1\u300aPython\u4e0e\u5bf9\u8bdd\u673a\u5668\u4eba\u300b \u6d2a\u5f3a\u5b81.pdf", 
         "title": "..."
       }, 
       "city_beijing": 1, 
@@ -684,7 +684,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/huangxin.jpg", 
       "beijing_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/4\u300aSaltStack \u5b9e\u8df5\u300b\u9ec4\u946b.pdf", 
         "title": "..."
       }, 
       "city_beijing": 1, 
@@ -750,7 +750,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/lvzhaogang.jpg", 
       "beijing_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/11 \u300a\u5f15\u7206\u4f60\u7684\u751f\u4ea7\u529b-\u6316\u51faDjango\u7684\u6f5c\u80fd\u300b\u5415\u53ec\u521a.pdf", 
         "title": "..."
       }, 
       "city_beijing": 1, 
@@ -772,7 +772,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/moyu.jpg", 
       "beijing_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/8 \u300a\u6765\u4e00\u5757\u4e8c\u5411\u7b94\uff0c\u5206\u6790\u7528 - Python\u9ad8\u7ef4\u6570\u636e\u53ef\u89c6\u5316\u300b\u83ab\u745c.pdf", 
         "title": "..."
       }, 
       "city_beijing": 1, 
@@ -852,7 +852,7 @@
       "name": "\u7530\u6d9b\u6d9b", 
       "topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/3\u300aInfrastructure as Code In Aliyun\u300b\u7530\u6d9b\u6d9b.pdf", 
         "title": "Infrastructure as Code In Aliyun"
       }
     }, 
@@ -904,7 +904,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/yangbaohua.jpg", 
       "beijing_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/9 \u300a\u5feb\u901f\u6784\u5efa\u533a\u5757\u94fe\u670d\u52a1\u5e73\u53f0\u300b\u6768\u4fdd\u534e.pdf", 
         "title": "..."
       }, 
       "city_beijing": 1, 
@@ -915,7 +915,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/yangshuguang.jpg", 
       "beijing_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/7\u300a\u7528Python\u5f00\u53d1\u6570\u636e\u6d41\u6c34\u7ebf\u4efb\u52a1\u667a\u80fd\u8c03\u5ea6\u7cfb\u7edf\u300b\u9633\u66d9\u5149.pdf", 
         "title": "..."
       }, 
       "city_beijing": 1, 
@@ -948,7 +948,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/zhanghuayi.jpg", 
       "beijing_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/6\u300a\u4f7f\u7528 Python \u6784\u5efa\u670d\u52a1\u5316\u67b6\u6784\u4e2d\u7684\u57fa\u7840\u8bbe\u65bd\u300b\u5f20\u534e\u7ffc.pdf", 
         "title": "..."
       }, 
       "city_beijing": 1, 
