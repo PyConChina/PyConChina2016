@@ -20,10 +20,6 @@
           "topic": "\u8336\u6b47"
         }, 
         {
-          "speaker": "id_moyu", 
-          "time": "14:45-15:30"
-        }, 
-        {
           "speaker": "id_yangbaohua", 
           "time": "15:30-16:15"
         }, 
@@ -1015,6 +1011,11 @@
         "intro": "\u56fe\u7075\u516c\u53f8\u59cb\u7ec8\u4ee5\u7b56\u5212\u51fa\u7248\u9ad8\u8d28\u91cf\u7684\u79d1\u6280\u4e66\u7c4d\u4e3a\u6838\u5fc3\u4e1a\u52a1,\u63a8\u51fa\u4e86\u4e00\u7cfb\u5217\u9ad8\u8d28\u91cf\u7684\u7545\u9500\u79d1\u6280\u56fe\u4e66,\u662f\u56fd\u5185\u8ba1\u7b97\u673a\u56fe\u4e66\u5e02\u573a\u6700\u6709\u5f71\u54cd\u529b\u7684\u51fa\u7248\u5355\u4f4d\u4e4b\u4e00. \u56fe\u7075\u793e\u533a\u4ee5\u4e3a\u8bfb\u8005\u63d0\u4f9b\u4e00\u6d41\u7684\u5185\u5bb9\u4e3a\u5df1\u4efb,\u62e5\u6709\u4f17\u591a\u8d44\u6df1\u6280\u672f\u7231\u597d\u8005\u7528\u6237,\u662f\u56fd\u5185\u6700\u4e13\u4e1a\u7684IT\u6280\u672f'\u4ea4\u6d41+\u9605\u8bfb'\u793e\u533a\u4e4b\u4e00. \u56fe\u7075\u793e\u533a\u7ecf\u8fc7\u4e0d\u65ad\u5347\u7ea7\u6539\u9020\u548c\u5c1d\u8bd5\u5b9e\u8df5,\u5df2\u8fc5\u901f\u6210\u4e3a\u56fd\u5185\u77e5\u540d\u79d1\u6280\u7535\u5b50\u4e66\u51fa\u7248\u9500\u552e\u5e73\u53f0.", 
         "link": "http://www.ituring.com.cn/", 
         "logo": "http://ocgxshkaw.bkt.clouddn.com/turing-logo.png"
+      }, 
+      {
+        "intro": "", 
+        "link": "http://www.jetbrains.com/", 
+        "logo": "http://ocgxshkaw.bkt.clouddn.com/logo_JetBrains_3.png"
       }
     ], 
     "diamond": null, 
