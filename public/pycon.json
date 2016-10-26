@@ -81,7 +81,8 @@
       ], 
       "notices": "", 
       "traffic": "\u5730\u94c17\u53f7\u7ebf/14\u53f7\u7ebf\u4e5d\u9f99\u5c71\u7ad9D\u51fa\u53e3\u6b65\u884c700\u7c73", 
-      "venue": "\u5408\u751f\u8d22\u5bcc\u5e7f\u573a2\u697c"
+      "venue": "\u5408\u751f\u8d22\u5bcc\u5e7f\u573a2\u697c", 
+      "video": "http://live.busionline.com/home/activity/play/id/378"
     }, 
     "city_list": [
       "shanghai", 
@@ -876,7 +877,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/guifei.jpg", 
       "beijing_topic": {
         "preview": "\u4ecb\u7ecd\u77e5\u4e4e\u4f7f\u7528\u57fa\u4e8e Python \u7684\u5de5\u5177\u5c06\u7cfb\u7edf\u8fd0\u7ef4\u5de5\u4f5c\u4ea7\u54c1\u5316\u7684\u7ecf\u9a8c\u3002 \u4e3b\u8981\u5305\u62ec\uff1a\uff081\uff09\u77e5\u4e4e\u7684\u7cfb\u7edf\u8fd0\u7ef4\u5e73\u53f0\u4ece\u65e0\u5230\u6709\u7684\u6784\u5efa\u8fc7\u7a0b\u3002\u6211\u4eec\u9009\u62e9 Python \u6280\u672f\u6808\u4ee5\u53ca\u4e4b\u540e\u7684\u6280\u672f\u9009\u578b\u7ecf\u5386\u3002\uff082\uff09\u5c06\u5206\u6563\u7684\u81ea\u52a8\u5316\u5de5\u5177\u6bd4\u5982 saltstack\uff0c fabric, pxe \u6574\u5408\u6210\u7edf\u4e00\u5e73\u53f0\u7684\u8fc7\u7a0b\u3002\uff083\uff09\u6211\u4eec\u5728\u8fd9\u4e2a\u8fc7\u7a0b\u4e2d\u7684\u6c89\u6dc0\u4e0b\u6765\u7684\u4e00\u4e9b\u7cfb\u7edf\u8fd0\u7ef4\u5de5\u4f5c\u6307\u5bfc\u539f\u5219\u3002", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/10%E3%80%8A%E7%94%A8Python%E6%8A%80%E6%9C%AF%E6%A0%88%E6%9E%84%E5%BB%BA%E7%9F%A5%E4%B9%8E%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4%E5%B9%B3%E5%8F%B0%E3%80%8B%E7%8E%8B%E7%8E%89%E9%A9%B0.pdf", 
         "title": "\u4f7f\u7528 Python \u5c06\u7cfb\u7edf\u8fd0\u7ef4\u4ea7\u54c1\u5316"
       }, 
       "city_beijing": 1, 

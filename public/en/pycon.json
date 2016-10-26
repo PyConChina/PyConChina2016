@@ -81,7 +81,8 @@
       ], 
       "notices": "", 
       "traffic": "", 
-      "venue": "Hopson Fortune Plaza 2 floor"
+      "venue": "Hopson Fortune Plaza 2 floor", 
+      "video": "http://live.busionline.com/home/activity/play/id/378"
     }, 
     "city_list": [
       "shanghai", 
@@ -876,7 +877,7 @@
       "avatar": "http://ocgxshkaw.bkt.clouddn.com/guifei.jpg", 
       "beijing_topic": {
         "preview": "...", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/10%E3%80%8A%E7%94%A8Python%E6%8A%80%E6%9C%AF%E6%A0%88%E6%9E%84%E5%BB%BA%E7%9F%A5%E4%B9%8E%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4%E5%B9%B3%E5%8F%B0%E3%80%8B%E7%8E%8B%E7%8E%89%E9%A9%B0.pdf", 
         "title": "..."
       }, 
       "city_beijing": 1, 

@@ -115,6 +115,7 @@ beijing:
   traffic: "地铁7号线/14号线九龙山站D出口步行700米"
   traffic_en: ""
   maplink: 'http://j.map.baidu.com/KVS1F'
+  video: 'http://live.busionline.com/home/activity/play/id/378'
   date: 2016-10-15 09:00~18:00
   notices: ""
   morning:
