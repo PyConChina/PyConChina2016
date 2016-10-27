@@ -64,8 +64,8 @@
           "time": "10:50-11:35"
         }, 
         {
-          "time": "11:35-11:45", 
-          "topic": "\u5feb\u901f\u6f14\u8bb2"
+          "speaker": "id_huangxin", 
+          "time": "11:35-11:45"
         }, 
         {
           "speaker": "id_chenshixin", 
@@ -151,7 +151,8 @@
       ], 
       "notices": "", 
       "traffic": "\u6a2a\u8857\u57e0/ B\u652f6,B\u652f3\u8def - \u6c5f\u5357\u5927\u9053\u73af\u5174\u8def\u53e3:294\u8def(\u793e\u533a\u901a\u52e4\u9ad8\u5cf0\u7ebf),B\u652f5\u8def,352, 225(\u591c\u95f4\u7ebf),113,315 - \u4fe1\u8bda\u8def\u6c5f\u5357\u5927\u9053\u53e3:107\u8def", 
-      "venue": "\u82cf\u9ece\u4e16\u4f1a\u8bae\u5ba4"
+      "venue": "\u82cf\u9ece\u4e16\u4f1a\u8bae\u5ba4", 
+      "video": "http://e.vhall.com/799148004"
     }, 
     "shanghai": {
       "address": "\u4e0a\u6d77\u5e02\u6d66\u4e1c\u65b0\u533a\u535a\u4e91\u8def2\u53f7", 
@@ -536,7 +537,7 @@
       "city_hangzhou": 1, 
       "hangzhou_topic": {
         "preview": "", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/5%20%E3%80%8ATornado%20%28and%20Twisted%29%20in%20the%20age%20of%20asyncio%E3%80%8BBen%20Darnell.pdf", 
         "title": "Tornado (and Twisted) in the age of asyncio"
       }, 
       "intro": "Ben Darnell is the CTO and co-founder of Cockroach Labs where he works on the distributed consensus protocols that underpin its transactional model. He has been the maintainer of the Tornado web framework since 2010. He started his career at Google and then went on to a series of startups including Dropbox, FriendFeed, Brizzly, and Viewfinder. ", 
@@ -569,7 +570,7 @@
       "city_hangzhou": 1, 
       "hangzhou_topic": {
         "preview": "\u4ecb\u7ecdMarkEditor\u3001LazyHosts\u3001Bitcron\u7b49\u5de5\u5177\u578b\u76f8\u5173\u5b9e\u9645\u9879\u76ee\u4e2d\u7684\u4e00\u4e9b\u7ecf\u9a8c\u548c\u95ee\u9898\u7684\u89e3\u51b3\u601d\u8def\u3002\u6d89\u53ca\u684c\u9762\u7aef\u8f6f\u4ef6\u3001Web \u5f00\u53d1\u7684\u4e00\u4e9b\u5c0f\u95ee\u9898\u3001\u5927\u95ee\u9898\u3002", 
-        "slide": null, 
+        "slide": "http://zrey.com/pycon", 
         "title": "\u5de5\u8005\u5229\u5176\u5668\u2014\u2014Python\u7684\u5de5\u5177\u521b\u4f5c\u8005"
       }, 
       "intro": "FarBox\u3001MarkEditor\u3001Bitcron\u3001LazyHosts \u7b49\u4e0d\u5c11\u4ea7\u54c1\u7684\u521b\u9020", 
@@ -999,7 +1000,7 @@
       "city_hangzhou": 1, 
       "hangzhou_topic": {
         "preview": "\u4e3b\u9898\u4ecb\u7ecd\u4e86\u4f5c\u8005\u662f\u5982\u4f55\u5728\u77ed\u65f6\u95f4\u5185\u5229\u7528Python\u7684\u4e00\u4e9b\u8fd0\u884c\u65f6\u7279\u6027\u4f5c\u4e3a\u5206\u6790\u624b\u6bb5\u8fc5\u901f\u638c\u63e1SaltStack\u8fd9\u6b3e\u81ea\u52a8\u5316\u8fd0\u7ef4\u6846\u67b6\u80cc\u540e\u7684\u8fd0\u884c\u539f\u7406\u4e0e\u67b6\u6784\u3002\u5e0c\u671b\u901a\u8fc7\u672c\u4e3b\u9898\uff0c\u4e0e\u4f1a\u5609\u5bbe\u4e0d\u4ec5\u80fd\u591f\u4e86\u89e3\u5230SaltStack\u7684\u4f53\u7cfb\u67b6\u6784\u8bbe\u8ba1\uff0c\u66f4\u91cd\u8981\u7684\uff0c\u662f\u5982\u4f55\u53bb\u5256\u6790\u4e00\u6b3e\u6846\u67b6\u7684\u65b9\u6cd5\u3002\u56e0\u6b64\uff0c\u672c\u4e3b\u9898\u4f1a\u88ab\u8bbe\u8ba1\u6210\u975e\u8fd0\u7ef4\u5f00\u53d1\u9886\u57df\u7684Python\u7231\u597d\u8005\u4e5f\u611f\u5174\u8da3\u3001\u80fd\u6709\u6240\u6536\u83b7\u7684\u5927\u7eb2\u5f62\u5f0f\u3002", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/6%20%E3%80%8AHead%20First%20SaltStack%E3%80%8B%E7%AB%BA%E5%A4%8F%E6%A0%8B.pdf", 
         "title": "Head First SaltStack"
       }, 
       "intro": "\u73b0\u4efb\u804c\u201c\u4f18\u4e91\u8f6f\u4ef6\u201d\u8fd0\u7ef4\u81ea\u52a8\u5316\u4ea7\u54c1\u67b6\u6784\u5e08\uff0c\u540c\u65f6\u8d1f\u8d23\u201c\u4f18\u4e91\u8f6f\u4ef6\u201dPython\u5f00\u53d1\u4eba\u5458\u7684\u56e2\u961f\u5efa\u8bbe\u3002\u8fc7\u53bb\u4e09\u5e74\u6709\u4e00\u6bb5\u4e0d\u6210\u529f\u7684\u521b\u4e1a\u7ecf\u5386...", 

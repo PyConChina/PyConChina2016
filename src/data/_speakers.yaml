@@ -553,7 +553,7 @@ id_zhuxiadong:
     title_en: ""
     preview: "主题介绍了作者是如何在短时间内利用Python的一些运行时特性作为分析手段迅速掌握SaltStack这款自动化运维框架背后的运行原理与架构。希望通过本主题，与会嘉宾不仅能够了解到SaltStack的体系架构设计，更重要的，是如何去剖析一款框架的方法。因此，本主题会被设计成非运维开发领域的Python爱好者也感兴趣、能有所收获的大纲形式。"
     preview_en: ""
-    slide: #
+    slide: http://ocgxshkaw.bkt.clouddn.com/6%20%E3%80%8AHead%20First%20SaltStack%E3%80%8B%E7%AB%BA%E5%A4%8F%E6%A0%8B.pdf
 
 id_zhongjinwei:
   name: 钟锦威
@@ -592,7 +592,7 @@ id_bendarnell:
     title_en: "Tornado (and Twisted) in the age of asyncio"
     preview: ""
     preview_en: ""
-    slide: #
+    slide: http://ocgxshkaw.bkt.clouddn.com/5%20%E3%80%8ATornado%20%28and%20Twisted%29%20in%20the%20age%20of%20asyncio%E3%80%8BBen%20Darnell.pdf
 
 
 id_chenhaibo:
@@ -606,7 +606,7 @@ id_chenhaibo:
     title_en: ""
     preview: "介绍MarkEditor、LazyHosts、Bitcron等工具型相关实际项目中的一些经验和问题的解决思路。涉及桌面端软件、Web 开发的一些小问题、大问题。"
     preview_en: ""
-    slide: #
+    slide: http://zrey.com/pycon
 
 
 id_zhangliaoyuan:

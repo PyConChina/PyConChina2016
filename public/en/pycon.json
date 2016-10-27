@@ -64,8 +64,8 @@
           "time": "10:50-11:35"
         }, 
         {
-          "time": "11:35-11:45", 
-          "topic": ""
+          "speaker": "id_huangxin", 
+          "time": "11:35-11:45"
         }, 
         {
           "speaker": "id_chenshixin", 
@@ -151,7 +151,8 @@
       ], 
       "notices": "", 
       "traffic": "", 
-      "venue": "Nokia office"
+      "venue": "Nokia office", 
+      "video": "http://e.vhall.com/799148004"
     }, 
     "shanghai": {
       "address": "No.2 Boyun Road, Pudong, Shanghai", 
@@ -536,7 +537,7 @@
       "city_hangzhou": 1, 
       "hangzhou_topic": {
         "preview": "", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/5%20%E3%80%8ATornado%20%28and%20Twisted%29%20in%20the%20age%20of%20asyncio%E3%80%8BBen%20Darnell.pdf", 
         "title": "Tornado (and Twisted) in the age of asyncio"
       }, 
       "intro": "Ben Darnell is the CTO and co-founder of Cockroach Labs where he works on the distributed consensus protocols that underpin its transactional model. He has been the maintainer of the Tornado web framework since 2010. He started his career at Google and then went on to a series of startups including Dropbox, FriendFeed, Brizzly, and Viewfinder. ", 
@@ -569,7 +570,7 @@
       "city_hangzhou": 1, 
       "hangzhou_topic": {
         "preview": "", 
-        "slide": null, 
+        "slide": "http://zrey.com/pycon", 
         "title": ""
       }, 
       "intro": "", 
@@ -999,7 +1000,7 @@
       "city_hangzhou": 1, 
       "hangzhou_topic": {
         "preview": "", 
-        "slide": null, 
+        "slide": "http://ocgxshkaw.bkt.clouddn.com/6%20%E3%80%8AHead%20First%20SaltStack%E3%80%8B%E7%AB%BA%E5%A4%8F%E6%A0%8B.pdf", 
         "title": ""
       }, 
       "intro": "", 
