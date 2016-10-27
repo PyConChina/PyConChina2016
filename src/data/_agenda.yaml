@@ -128,9 +128,7 @@ beijing:
       topic: "茶歇"
       topic_en: ""
     - { time: "10:50-11:35", speaker: id_tiantaotao }
-    - time: "11:35-11:45"
-      topic: "快速演讲"
-      topic_en: ""
+    - { time: "11:35-11:45", speaker: id_huangxin }
     - { time: "11:45-11:55", speaker: id_chenshixin }
   noon:
     - time: "11:55-13:00"
