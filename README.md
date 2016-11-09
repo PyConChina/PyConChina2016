@@ -1,9 +1,6 @@
 # PyConChina2016
 The official website of PyCon China 2016, 基于 [https://github.com/PyConChina/staticpycon](https://github.com/PyConChina/staticpycon)
 
-
-你可以在这里预览效果 [http://119.254.110.163:8888/](http://119.254.110.163:8888/)
-
 ## Dev
 
 ```
@@ -20,14 +17,3 @@ pip install -r requirements.txt
 source venv/bin/activate
 ./bin/app.py -s
 ```
-
-## 作者
-
-* NsLib 马冬亮 <mdl2009 at vip.qq.com>
-
-
-
-
-
-
-
